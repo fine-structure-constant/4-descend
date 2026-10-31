@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "local_version": "v7",
+  "tag": "v7",
+  "directory": "upload-v7",
+  "summary": "48 通道、195,517 参数，41,661 个逐列完整 WDL 中盘记谱局面",
+  "description": "采用 48 通道网络，并加入 41,661 个逐列完整 WDL 中盘记谱局面和 14 手 Pons 开局参考；前 12 手走精确动作表。发布源码以 upload-v7/code.zip 为准。",
+  "source": "experiments/exact12_v7（该目录此后已演进为 v8；冻结 v7 源码见 upload-v7/code.zip）",
+  "platform_version": {
+    "number": 5,
+    "id": "65a6ca5f-a365-4f8d-a03a-31e02c33062e",
+    "status": "READY",
+    "note": "v7；48 通道；41,661 条中盘精确记谱"
+  },
+  "artifacts": {
+    "code": {
+      "path": "code.zip",
+      "bytes": 324286,
+      "sha256": "9539999708ec298d32c304b270b17973ad4411843e3b5359405b51628b086656",
+      "tracked_in_git": true
+    },
+    "model": {
+      "path": "model.pt",
+      "bytes": 97503563,
+      "sha256": "2a98dbb2d08d6c6c4b341e3d0746f3c8193541622e422c4ce05293a0228472ec",
+      "tracked_in_git": false
+    }
+  },
+  "records": [
+    "experiments/exact12_v7/runs/release_manifest_v7.json",
+    "experiments/exact12_v7/runs/arena_v5nn2_fixed_vs_v6.json",
+    "experiments/exact12_v7/runs/package_validation.json",
+    "experiments/exact12_v7/runs/flash_probe/platform_version.json",
+    "experiments/exact12_v7/runs/flash_probe/versions_before_upload.json"
+  ],
+  "caveats": [
+    "开发集与 v6 权重对照 40 局 19 胜 21 平 0 负，但双方共用 v7 搜索且复用开发开局，不等于两份完整发布版的独立测试。",
+    "当前 README 称 v7 已指定参赛，但平台快照的 competition_status 为 null；参赛状态需重新查询 GET /competition。"
+  ]
+}
