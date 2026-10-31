@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "local_version": "v1",
+  "tag": "v1",
+  "directory": "upload-v1",
+  "summary": "基础 AlphaZero 流程：小型双层 MLP + 基础 MCTS",
+  "description": "从课程 starter 出发完成搜索与训练循环，导出首个纯 Python 上传包。网络为小型双层 MLP，含策略头与价值头，推理使用基础 MCTS。",
+  "source": "Homework-4-1030/第四次作业-Python脚本版/starter",
+  "platform_version": {
+    "number": null,
+    "id": null,
+    "status": null,
+    "note": "本地未记录成功上传，平台版本映射未确认"
+  },
+  "artifacts": {
+    "code": {
+      "path": "code.zip",
+      "bytes": 6242,
+      "sha256": "2300115403a58a840ed394c557166940334b619b2abbb6c21ba4883a56219d5e",
+      "tracked_in_git": true
+    },
+    "model": {
+      "path": "model.pt",
+      "bytes": 137768,
+      "sha256": "97aedc7f200043a763e0da27990629b607a22a37b5a60257edcb335a1afee050",
+      "tracked_in_git": false
+    }
+  },
+  "records": [
+    "upload-v1/local_validation.json",
+    "upload-v1/manifest.json",
+    "Homework-4-1030/README.md"
+  ],
+  "caveats": [
+    "本地评估为 40 局全胜，只说明该本地对手与配置，不能证明平台棋力。",
+    "目录曾名 upload_v1，2026-10-31 统一为 upload-v1。"
+  ]
+}

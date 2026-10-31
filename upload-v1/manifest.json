@@ -1,0 +1,33 @@
+{
+  "version": "format_v1",
+  "source_directory": "/home/stu2026/stu2400011444/homework4/Homework-4-1030/第四次作业-Python脚本版/starter",
+  "training": {
+    "seed": 2026,
+    "iterations": 12,
+    "games_per_iteration": 20,
+    "simulations": 64,
+    "batch_size": 128,
+    "train_steps_per_iteration": 60,
+    "memory_size": 20000,
+    "learning_rate": 0.001,
+    "device": "cpu",
+    "threads": 1
+  },
+  "inference_simulations": 64,
+  "evaluation": {
+    "before": {
+      "win": 39,
+      "draw": 0,
+      "loss": 1
+    },
+    "after": {
+      "win": 40,
+      "draw": 0,
+      "loss": 0
+    }
+  },
+  "sha256": {
+    "code.zip": "2300115403a58a840ed394c557166940334b619b2abbb6c21ba4883a56219d5e",
+    "model.pt": "97aedc7f200043a763e0da27990629b607a22a37b5a60257edcb335a1afee050"
+  }
+}
