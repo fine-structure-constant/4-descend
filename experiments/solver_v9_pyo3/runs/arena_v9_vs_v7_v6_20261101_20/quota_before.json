@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-01",
+  "daily_limit": 100,
+  "used": 2,
+  "reserved": 0,
+  "remaining": 98,
+  "storage_used": 732393762,
+  "storage_reserved": 0,
+  "storage_limit": 1073741824
+}

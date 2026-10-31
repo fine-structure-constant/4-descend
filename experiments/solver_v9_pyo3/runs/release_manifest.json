@@ -1,0 +1,36 @@
+{
+  "output": "/home/stu2026/stu2400011444/homework4/upload-v9-rust-native",
+  "artifacts": {
+    "code.zip": {
+      "bytes": 226809,
+      "sha256": "98bed4329df38599081e974c8bd86f6ba0ac654eed762fb6290040193a9232ad"
+    },
+    "model.pt": {
+      "bytes": 89769902,
+      "sha256": "f258d43368bf7055577f927d79832f5f8e535d2946a3ecd908045cf060d1e345"
+    }
+  },
+  "learned_parameters": 0,
+  "book_tensors": [
+    "deepbook",
+    "midbook_count",
+    "midbook_mask",
+    "midbook_own",
+    "midbook_wdl",
+    "movebook_data",
+    "movebook_keys"
+  ],
+  "native_budget_ms": 820,
+  "description": "v9 exact books + in-process Rust PyO3 solver; no CNN or MCTS",
+  "native_extension": {
+    "filename": "support/_c4solver_native.py",
+    "sha256": "640d4a4ef445ba0997a92f8d32cb9af787fadeda4812650339664359ba3722ba",
+    "abi": "CPython abi3 >= 3.8",
+    "required": true,
+    "packaging": "ELF Python extension under .py filename; explicitly loaded"
+  },
+  "source_archive": {
+    "bytes": 58040,
+    "sha256": "03cc6d4b32fbe6bfcb64388530bebc99c2c620c8072da36ef51b58b7936704f3"
+  }
+}

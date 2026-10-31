@@ -1,0 +1,42 @@
+{
+  "output": "/tmp/v10_export_test",
+  "artifacts": {
+    "code.zip": {
+      "bytes": 5008,
+      "sha256": "9edf958d54f1bcc16416051444959174385acdabf04c9452a6aea891d4962c5b"
+    },
+    "model.pt": {
+      "bytes": 31954402,
+      "sha256": "ca73ed0964e714b2f485554d708db6504ddb563d2cd63fd8b0e0d81418c97fa2"
+    }
+  },
+  "learned_parameters": 7989402,
+  "config": {
+    "channels": 192,
+    "blocks": 12
+  },
+  "simulations": 64,
+  "fold_max_error": 9.5367431640625e-07,
+  "cpu_probe": {
+    "worst_seconds": 0.79,
+    "cases": [
+      {
+        "action": 2,
+        "cpu_seconds": 0.79
+      },
+      {
+        "action": 3,
+        "cpu_seconds": 0.6287
+      },
+      {
+        "action": 2,
+        "cpu_seconds": 0.5261
+      },
+      {
+        "action": 3,
+        "cpu_seconds": 0.0082
+      }
+    ]
+  },
+  "code_format": "Python-only package; pure CNN with no tables, solver or network access"
+}

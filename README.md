@@ -50,7 +50,7 @@ python check.py
 python export.py ../../upload-v7/model.pt --out ../../upload-v8-new
 
 # 对官方模型评估（需本地认证环境）
-python evaluate_api.py ../../upload-v8/model.pt --opponent strong \\
+python evaluate_api.py ../../upload-v8/model.pt --opponent strong \
   --games 8 --simulations 128 --output runs/strong_v8_new.json
 ```
 

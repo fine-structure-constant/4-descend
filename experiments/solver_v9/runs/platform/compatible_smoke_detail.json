@@ -1,0 +1,54 @@
+{
+  "id": "8ca925ff-cf92-4498-9a96-ffa14d77b9f8",
+  "evaluation": "23efe581-ca33-48e1-8c96-e793d3d54e88",
+  "competition": null,
+  "rated_series": null,
+  "game": "connect4",
+  "rules_version": "connect4-v1",
+  "board_size": 7,
+  "board_rows": 6,
+  "board_cols": 7,
+  "action_count": 7,
+  "pass_action": null,
+  "komi": 0,
+  "sequence": 1,
+  "owner": "2400011444",
+  "owner_id": 74,
+  "cancel_requested": false,
+  "black": {
+    "id": "7b42e634-b80f-45d2-aeb9-93fe3e2458f6",
+    "name": "v9 \u7eaf\u6c42\u89e3\u5668 Baseline",
+    "number": 3,
+    "is_system": false
+  },
+  "white": {
+    "id": "7b42e634-b80f-45d2-aeb9-93fe3e2458f6",
+    "name": "v9 \u7eaf\u6c42\u89e3\u5668 Baseline",
+    "number": 3,
+    "is_system": false
+  },
+  "black_slot": "a",
+  "black_seed": 669760698,
+  "white_seed": 412198199,
+  "opening_pairs": 1,
+  "opening_seed": 1077865498,
+  "opening_actions": [
+    4,
+    2
+  ],
+  "phase": "COMPLETED",
+  "step": 42,
+  "end_reason": "NORMAL",
+  "winner": 0,
+  "scores": {
+    "black": 0,
+    "white": 0
+  },
+  "error": {},
+  "replay_available": true,
+  "can_view_logs": true,
+  "revision": 47,
+  "started_at": "2026-10-31T23:50:21.576253+08:00",
+  "finished_at": "2026-10-31T23:50:41.407315+08:00",
+  "created_at": "2026-10-31T23:50:20.548385+08:00"
+}

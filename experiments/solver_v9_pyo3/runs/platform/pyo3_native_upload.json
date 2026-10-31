@@ -1,0 +1,108 @@
+{
+  "session": {
+    "id": "9d2eff05-3299-42c1-9262-9598fb4f8e8a",
+    "bot": "67d71173-f14c-4e66-b971-ac85acd1fee9",
+    "state": "OPEN",
+    "code_size": 226809,
+    "models_size": 0,
+    "base_version": "7b42e634-b80f-45d2-aeb9-93fe3e2458f6",
+    "remove_models": false,
+    "receipts": {},
+    "expires_at": "2026-11-02T00:04:05.707681+08:00",
+    "version": null,
+    "revision": 1
+  },
+  "receipts": {
+    "code": {
+      "id": "c0127f54-5a23-45ec-a78c-ff30d255ec3a",
+      "filename": "code.zip",
+      "size": 226809,
+      "sha256": "98bed4329df38599081e974c8bd86f6ba0ac654eed762fb6290040193a9232ad",
+      "download_url": "/api/v1/files/c0127f54-5a23-45ec-a78c-ff30d255ec3a",
+      "files": [
+        {
+          "path": "AGPL-3.0.txt",
+          "size": 34520,
+          "sha256": "76a97c878c9c7a8321bb395c2b44d3fe2f8d81314d219b20138ed0e2dddd5182",
+          "previewable": true
+        },
+        {
+          "path": "REFERENCES.md",
+          "size": 946,
+          "sha256": "51412338fe0b072ab56440acecaf7f16bf5946d1b77ee7044166a491623dcff1",
+          "previewable": true
+        },
+        {
+          "path": "THIRD_PARTY_LICENSES.txt",
+          "size": 204803,
+          "sha256": "cdac1bd934f7d3fa8c725812449589857bdf116583be593191b334a858579ae1",
+          "previewable": true
+        },
+        {
+          "path": "strategy.py",
+          "size": 28,
+          "sha256": "7b9525db5e1d0a8e31476cecd075148a726c8210cbb0ba7c1bf5a30406ffc16d",
+          "previewable": true
+        },
+        {
+          "path": "support/__init__.py",
+          "size": 49,
+          "sha256": "6ca68b0bf2d60f8805a692b94790a0f020ef18550df0943394a6e46aaed22d37",
+          "previewable": true
+        },
+        {
+          "path": "support/_c4solver_native.py",
+          "size": 385192,
+          "sha256": "640d4a4ef445ba0997a92f8d32cb9af787fadeda4812650339664359ba3722ba",
+          "previewable": true
+        },
+        {
+          "path": "support/bot.py",
+          "size": 14126,
+          "sha256": "0fbf002a26fb366123c066d53bd7571e2159f5518c2d7cdc1a845e5e271d6850",
+          "previewable": true
+        },
+        {
+          "path": "support/endgame.py",
+          "size": 10624,
+          "sha256": "358087be42cba52de9e72641891bc5e9877b55bfb6fc186c57399068ccaba1dd",
+          "previewable": true
+        },
+        {
+          "path": "support/midbook.py",
+          "size": 2663,
+          "sha256": "c6e21731b1093e832838b4439ffecabfea85a35ff1b743ee71389ca4e85440a6",
+          "previewable": true
+        },
+        {
+          "path": "support/movebook.py",
+          "size": 3698,
+          "sha256": "273b1d2b78784235d86d7f40961ff8bb24662512e63688e7ff80cdfc327e68b8",
+          "previewable": true
+        },
+        {
+          "path": "support/native.py",
+          "size": 2333,
+          "sha256": "4f42e9c23b9bd4b307ca41c2fa87f239149559ba3b037071ce2bc1619cf8136c",
+          "previewable": true
+        },
+        {
+          "path": "support/pons_book.py",
+          "size": 2663,
+          "sha256": "a6d9fcc6ffbda7293e45b4645adf1d936d777e59a8d834a0eb69bcaa74308cb7",
+          "previewable": true
+        },
+        {
+          "path": "support/tactics.py",
+          "size": 7475,
+          "sha256": "114856ee1059702e4ec089ed21c360f738d218ca44b787d7747d56a1cbe25b83",
+          "previewable": true
+        }
+      ]
+    }
+  },
+  "commit": {
+    "id": "414ab6a5-a6c3-45dd-a48c-74ed152469c7",
+    "url": "/api/v1/versions/414ab6a5-a6c3-45dd-a48c-74ed152469c7"
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "passed": true,
+  "model_decisions": 40,
+  "all_wdl_optimal": true,
+  "winner": 0,
+  "max_cpu_ms": 882.76,
+  "max_wall_ms": 904.08,
+  "development_opening": true,
+  "note": "Compatibility regression; opening also present in offline book development, not an independent strength claim.",
+  "rows": [
+    {
+      "step": 3,
+      "action": 2,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        0,
+        -1,
+        0,
+        -1,
+        -1
+      ],
+      "cpu_ms": 803.08,
+      "wall_ms": 822.24
+    },
+    {
+      "step": 4,
+      "action": 2,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "cpu_ms": 626.41,
+      "wall_ms": 647.27
+    },
+    {
+      "step": 5,
+      "action": 2,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        0,
+        -1,
+        0,
+        -1,
+        -1
+      ],
+      "cpu_ms": 802.02,
+      "wall_ms": 823.24
+    },
+    {
+      "step": 6,
+      "action": 4,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1
+      ],
+      "cpu_ms": 801.62,
+      "wall_ms": 821.6
+    },
+    {
+      "step": 7,
+      "action": 4,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1
+      ],
+      "cpu_ms": 801.37,
+      "wall_ms": 822.06
+    },
+    {
+      "step": 8,
+      "action": 4,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1
+      ],
+      "cpu_ms": 801.83,
+      "wall_ms": 824.93
+    },
+    {
+      "step": 9,
+      "action": 3,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "cpu_ms": 802.03,
+      "wall_ms": 823.17
+    },
+    {
+      "step": 10,
+      "action": 6,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0
+      ],
+      "cpu_ms": 749.09,
+      "wall_ms": 774.54
+    },
+    {
+      "step": 11,
+      "action": 3,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "cpu_ms": 167.34,
+      "wall_ms": 191.49
+    },
+    {
+      "step": 12,
+      "action": 3,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "cpu_ms": 0.88,
+      "wall_ms": 21.13
+    },
+    {
+      "step": 13,
+      "action": 3,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "cpu_ms": 0.94,
+      "wall_ms": 24.64
+    },
+    {
+      "step": 14,
+      "action": 3,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "cpu_ms": 0.59,
+      "wall_ms": 22.01
+    },
+    {
+      "step": 15,
+      "action": 3,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "cpu_ms": 0.61,
+      "wall_ms": 21.45
+    },
+    {
+      "step": 16,
+      "action": 2,
+      "optimal": true,
+      "wdl": [
+        0,
+        0,
+        0,
+        -1000,
+        0,
+        0,
+        0
+      ],
+      "cpu_ms": 710.99,
+      "wall_ms": 731.72
+    },
+    {
+      "step": 17,
+      "action": 2,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1,
+        0,
+        -1000,
+        0,
+        -1,
+        0
+      ],
+      "cpu_ms": 882.76,
+      "wall_ms": 904.08
+    },
+    {
+      "step": 18,
+      "action": 4,
+      "optimal": true,
+      "wdl": [
+        0,
+        0,
+        -1000,
+        -1000,
+        0,
+        0,
+        0
+      ],
+      "cpu_ms": 1.96,
+      "wall_ms": 21.16
+    },
+    {
+      "step": 19,
+      "action": 0,
+      "optimal": true,
+      "wdl": [
+        0,
+        -1,
+        -1000,
+        -1000,
+        -1,
+        -1,
+        0
+      ],
+      "cpu_ms": 105.19,
+      "wall_ms": 128.67
+    },
+    {
+      "step": 20,
+      "action": 4,
+      "optimal": true,
+      "wdl": [
+        0,
+        0,
+        -1000,
+        -1000,
+        0,
+        0,
+        0
+      ],
+      "cpu_ms": 5.23,
+      "wall_ms": 20.87
+    },
+    {
+      "step": 21,
+      "action": 5,
+      "optimal": true,
+      "wdl": [
+        0,
+        -1,
+        -1000,
+        -1000,
+        -1000,
+        0,
+        0
+      ],
+      "cpu_ms": 60.52,
+      "wall_ms": 79.47
+    },
+    {
+      "step": 22,
+      "action": 1,
+      "optimal": true,
+      "wdl": [
+        0,
+        0,
+        -1000,
+        -1000,
+        -1000,
+        0,
+        0
+      ],
+      "cpu_ms": 3.95,
+      "wall_ms": 25.91
+    },
+    {
+      "step": 23,
+      "action": 1,
+      "optimal": true,
+      "wdl": [
+        -1,
+        0,
+        -1000,
+        -1000,
+        -1000,
+        0,
+        0
+      ],
+      "cpu_ms": 0.94,
+      "wall_ms": 18.4
+    },
+    {
+      "step": 24,
+      "action": 0,
+      "optimal": true,
+      "wdl": [
+        0,
+        -1,
+        -1000,
+        -1000,
+        -1000,
+        -1,
+        -1
+      ],
+      "cpu_ms": 0.62,
+      "wall_ms": 20.43
+    },
+    {
+      "step": 25,
+      "action": 5,
+      "optimal": true,
+      "wdl": [
+        0,
+        -1,
+        -1000,
+        -1000,
+        -1000,
+        0,
+        0
+      ],
+      "cpu_ms": 1.07,
+      "wall_ms": 21.25
+    },
+    {
+      "step": 26,
+      "action": 1,
+      "optimal": true,
+      "wdl": [
+        0,
+        0,
+        -1000,
+        -1000,
+        -1000,
+        0,
+        0
+      ],
+      "cpu_ms": 19.69,
+      "wall_ms": 39.43
+    },
+    {
+      "step": 27,
+      "action": 0,
+      "optimal": true,
+      "wdl": [
+        0,
+        -1,
+        -1000,
+        -1000,
+        -1000,
+        -1,
+        -1
+      ],
+      "cpu_ms": 0.6,
+      "wall_ms": 27.31
+    },
+    {
+      "step": 28,
+      "action": 1,
+      "optimal": true,
+      "wdl": [
+        0,
+        0,
+        -1000,
+        -1000,
+        -1000,
+        0,
+        0
+      ],
+      "cpu_ms": 0.66,
+      "wall_ms": 14.62
+    },
+    {
+      "step": 29,
+      "action": 1,
+      "optimal": true,
+      "wdl": [
+        -1,
+        0,
+        -1000,
+        -1000,
+        -1000,
+        -1,
+        -1
+      ],
+      "cpu_ms": 0.64,
+      "wall_ms": 17.5
+    },
+    {
+      "step": 30,
+      "action": 1,
+      "optimal": true,
+      "wdl": [
+        0,
+        0,
+        -1000,
+        -1000,
+        -1000,
+        0,
+        0
+      ],
+      "cpu_ms": 1.51,
+      "wall_ms": 21.3
+    },
+    {
+      "step": 31,
+      "action": 5,
+      "optimal": true,
+      "wdl": [
+        0,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        0,
+        0
+      ],
+      "cpu_ms": 2.77,
+      "wall_ms": 61.27
+    },
+    {
+      "step": 32,
+      "action": 5,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        0,
+        -1
+      ],
+      "cpu_ms": 0.31,
+      "wall_ms": 22.57
+    },
+    {
+      "step": 33,
+      "action": 5,
+      "optimal": true,
+      "wdl": [
+        -1,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        0,
+        -1
+      ],
+      "cpu_ms": 0.6,
+      "wall_ms": 20.96
+    },
+    {
+      "step": 34,
+      "action": 5,
+      "optimal": true,
+      "wdl": [
+        0,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        0,
+        0
+      ],
+      "cpu_ms": 2.21,
+      "wall_ms": 20.74
+    },
+    {
+      "step": 35,
+      "action": 0,
+      "optimal": true,
+      "wdl": [
+        0,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        0
+      ],
+      "cpu_ms": 1.09,
+      "wall_ms": 22.31
+    },
+    {
+      "step": 36,
+      "action": 0,
+      "optimal": true,
+      "wdl": [
+        0,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        0
+      ],
+      "cpu_ms": 0.77,
+      "wall_ms": 21.61
+    },
+    {
+      "step": 37,
+      "action": 0,
+      "optimal": true,
+      "wdl": [
+        0,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        0
+      ],
+      "cpu_ms": 0.99,
+      "wall_ms": 20.97
+    },
+    {
+      "step": 38,
+      "action": 6,
+      "optimal": true,
+      "wdl": [
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        0
+      ],
+      "cpu_ms": 0.56,
+      "wall_ms": 24.93
+    },
+    {
+      "step": 39,
+      "action": 6,
+      "optimal": true,
+      "wdl": [
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        0
+      ],
+      "cpu_ms": 0.84,
+      "wall_ms": 23.26
+    },
+    {
+      "step": 40,
+      "action": 6,
+      "optimal": true,
+      "wdl": [
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        0
+      ],
+      "cpu_ms": 0.68,
+      "wall_ms": 21.23
+    },
+    {
+      "step": 41,
+      "action": 6,
+      "optimal": true,
+      "wdl": [
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        0
+      ],
+      "cpu_ms": 0.55,
+      "wall_ms": 19.52
+    },
+    {
+      "step": 42,
+      "action": 6,
+      "optimal": true,
+      "wdl": [
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        0
+      ],
+      "cpu_ms": 0.65,
+      "wall_ms": 20.58
+    }
+  ]
+}

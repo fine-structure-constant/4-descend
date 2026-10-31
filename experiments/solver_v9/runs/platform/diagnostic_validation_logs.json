@@ -1,0 +1,3 @@
+{
+  "text": "[\u6267\u7ea2\u68c0\u67e5]\n{\"baseline\": \"v9\", \"native_ready\": false, \"native_error\": \"RuntimeError(\\\"no usable solver location: [Errno 30] Read-only file system: '/submission/.c4core-o2y0gx68'\\\")\", \"initial_ponder\": []}\n\n[\u6267\u9ec4\u68c0\u67e5]\n{\"baseline\": \"v9\", \"native_ready\": false, \"native_error\": \"RuntimeError(\\\"no usable solver location: [Errno 30] Read-only file system: '/submission/.c4core-re_gtcsm'\\\")\", \"initial_ponder\": []}\n"
+}

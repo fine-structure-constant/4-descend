@@ -1,0 +1,21 @@
+[package]
+name = "c4core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pyo3 = { version = "=0.24.2", optional = true, features = ["extension-module", "abi3-py38"] }
+
+[lib]
+name = "_c4solver"
+crate-type = ["cdylib"]
+
+[features]
+python-extension = ["dep:pyo3"]
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = "symbols"

@@ -1,7 +1,49 @@
 # Connect4 项目交接
 
 记录日期：2026-10-31。工作根目录：`/home/stu2026/stu2400011444/homework4`。
-本文根据本地源码、发布包及保存的平台响应整理；本次编写未联网查询、上传、发起比赛或变更参赛版本。平台状态均为历史快照，需要时重新查询。
+第 1–9 节保留最初交接快照；后续已联网查询、上传和测试，最新结果见第 0 节。平台状态仍需按最新记录核实。
+
+## 0. v9 纯求解器 Baseline（后续实测更新）
+
+### 最新：Rust Python 扩展版已在平台成功运行
+
+以下更新优先于后面的 Python 回退版快照。用户明确确认已问过助教，允许 baseline
+将 Rust 编译扩展作为 `.py` 条目打包；无需再次询问该授权。
+
+- 当前最新源码：`experiments/solver_v9_pyo3/`；发布包：`upload-v9-rust-native/`。旧 `solver_v9` 和 `upload-v9` 保留。
+- 同一独立 Bot `67d71173-f14c-4e66-b971-ac85acd1fee9`，最新默认为平台 **number 4**，版本 ID `414ab6a5-a6c3-45dd-a48c-74ed152469c7`，READY / can_play。正式参赛接口未调用。
+- PyO3 0.24.2、CPython abi3 >=3.8、Linux x86-64。扩展从提交目录直接加载，进程内调用 Rust，并保留约 64 MiB 置换表；无子进程、临时可执行文件或运行时编译。初始化强制要求扩展可用，失败即报错。
+- 直接上传 `.so` 会收到 HTTP 400 INVALID_PACKAGE；实际通过的代码条目为 `support/_c4solver_native.py`，内容是 ELF 扩展，不是 Python 源码。`support/native.py` 通过 `ExtensionFileLoader("support._c4solver", path)` 显式加载，不能对该条目直接普通 import / compileall。
+- **平台两方验证日志和整局日志均确认 native_backend=rust-pyo3-abi3、native_ready=true。** 先前“临时目录不能执行独立 Rust 程序”的结论不代表进程内 Python 扩展不可用。
+- 平台自对弈 `65786554-4ec6-4451-84fa-6ea10984c69a`，随机预置 `[2,4]`（0-based），42 手正常和棋；40 次自主落子均与独立 C++ 教师最优 WDL 一致。每手最高 CPU **142.55 ms**，墙钟 **165.89 ms**。
+- 本地实际解包通过 32 个独立残局、30 个 C++ 对拍和 4 局完整自对弈。另将 subprocess 禁用后测试 Rust 调用，27 个中盘冷启动全部在 820 ms 内解出，最慢约 0.391 s；总节点数冷态 18,887,145、热态 73,600。人工小样本不能当作全局完美证明。
+- 数据仍为 7 个棋谱张量、零学习参数，41,863 条精确中盘局面。棋谱文件 SHA 与上一版 v9 相同。主求解器最多约 820 ms；未完成证明仍是未知。
+- `code.zip` **226,809** 字节，SHA `98bed4329df38599081e974c8bd86f6ba0ac654eed762fb6290040193a9232ad`。
+- `model.pt` **89,769,902** 字节，SHA `f258d43368bf7055577f927d79832f5f8e535d2946a3ecd908045cf060d1e345`。
+- 构建：加载 `/tmp/rust-env.sh` 后，运行 `python native/build_extension.py`；发布：`python export.py ../../upload-v9/model.pt --out <新目录>`。
+- 最终上传状态：`experiments/solver_v9_pyo3/runs/platform/pyo3_native_upload.json`；`pyo3_upload.json` 是直接 `.so` 被拒的会话，已取消释放预留空间。上传脚本支持 `--reuse-models` 并核对基础版本模型 SHA，可避免重复上传相同棋谱。
+- 本次还产生 `upload-v9-rust/`（直接 `.so` 的本地包，平台拒绝）用于保留试验记录，不能误当成可上传的最终包。
+- 证据：新源码 `runs/platform/native_validation_logs.json`、`native_smoke_logs.json`、`native_smoke_oracle_validation.json`、`runs/extension_benchmark.json`。分享说明和最终摘要在最新发布目录的 README.md / release.json。
+
+### 上一发布：Python 回退版快照（平台 number 3）
+
+本节覆盖下文关于“最新交付”“v8 未上传”的旧快照。2026-10-31 后续已实际上传和测试：
+
+- 最新发布为 `upload-v9/`，源码独立放在 `experiments/solver_v9/`，不覆盖 v7/v8。
+- v9 不创建 CNN，不使用 MCTS，学习参数为 0；`model.pt` 只有 7 个固定棋谱张量。完整 ≤12 子动作表、14 子分值表，以及扩展至 **41,863** 个局面的精确中盘表；新增 202 个离线证明局面是开发数据，不算独立棋力测试。
+- 独立 Bot：**v9 纯求解器 Baseline**，ID `67d71173-f14c-4e66-b971-ac85acd1fee9`。
+- 最新平台版本是该 Bot 的 **number 3**，ID `7b42e634-b80f-45d2-aeb9-93fe3e2458f6`，已 READY、can_play，已设为该 Bot 默认，供同学挑战；未调用正式参赛指定接口。number 1/2 是早期发布/诊断版，不应再当作最终 v9。
+- **平台原生执行确实失败**：`/tmp`、`/dev/shm` 执行返回 EACCES，`/submission` 为只读。静态链接不解决执行权限限制。平台实际运行优化后的 Python 精确求解/有时限搜索；本地允许执行时可使用 Rust。证据在 `runs/platform/compatible_validation_logs.json`。
+- 初始化及背谱回合都会预算 13+ 子局面，精确动作、置换表、已知胜负下界跨回合保留。Rust 单次最多约 820 ms；总决策目标 900 ms，背谱阶段预算最多约 800 ms。当前平台限制：每手 CPU 1 s / 墙钟 2 s；初始化 CPU 15 s / 墙钟 30 s。
+- 主精确搜索没有固定截断深度，搜索到终局；时限未完成保留未知，必要时用纯启发式搜索。**不能宣称全局完美，也不能把可保和下界当成精确胜负值。**
+- 本地正常路径和强制禁用原生路径，均通过 32 个独立残局穷举、30 个 C++ 对拍和 4 局完整自对弈。Python 路径最慢一手约 0.804 s。另有原生不同预算 81 次核验，以及禁用棋谱的 Python 内核上下界对拍。报告在 `experiments/solver_v9/runs/`。
+- 最终兼容版平台自对弈 `8ca925ff-cf92-4498-9a96-ffa14d77b9f8` 正常结束，42 手和棋；最大 CPU 882.76 ms / 墙钟 904.08 ms。这是兼容性回归，不是独立棋力证明。分享说明和最终 ID 另见 `upload-v9/README.md`、`release.json`。
+- 用户指出的败局 `d80ca7fb-9bc7-43e6-b11f-dadc34d6644e`：flash 执黑，v9 number 2 执白；随机预置 `[5,1]`（0-based）后黑方已必胜。后续 35 手独立 C++ 复核均保持最优 WDL，不能据此认定 v9 把可和局面下输了。报告 `runs/platform/flash_loss_oracle.json`。
+- v8 曾上传 READY，ID `36082cc2-9689-4b59-8f84-6cf86d4b5699`；后续实时查询为 404，主 Bot 版本列表不含它，原因未查明。不要把历史 READY 当作当前仍可用。主 Bot v7 在本次列表快照中为 SELECTED。
+
+上传/复现资料：`experiments/solver_v9/README.md`、`runs/release_manifest.json`。
+最终上传状态文件为 `runs/platform/compatible_upload.json`，不要误用早期的 `final_upload_v9.json`。
+分享 `upload-v9/code.zip`、`upload-v9/model.pt` 和 `upload-v9/source.zip`，源码包不含重复棋谱。
 
 ## 1. 接手先读
 

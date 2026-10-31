@@ -1,0 +1,4 @@
+{
+  "accepted": false,
+  "error": "HTTP 409: {\"type\":\"urn:bot-arena:problem:match_in_progress\",\"title\":\"你有一局尚未结束的对战\",\"detail\":\"你有一局尚未结束的对战\",\"status\":409,\"code\":\"MATCH_IN_PROGRESS\",\"request_id\":\"b860fe187a3f4dd78362ee2e1efb89c1\",\"fields\":{\"match\":\"eccb5734-6df0-4ade-af81-960d58748566\"}}"
+}

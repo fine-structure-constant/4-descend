@@ -1,0 +1,11 @@
+{
+  "move_wall_seconds": 2,
+  "move_cpu_seconds": 1,
+  "initialization_wall_seconds": 30,
+  "initialization_cpu_seconds": 15,
+  "total_move_cpu_seconds": 60,
+  "memory_mib": 2048,
+  "cpu_cores": 1,
+  "gpu": false,
+  "initialization_clock": "\u521d\u59cb\u5316\u5899\u949f\u65f6\u95f4\u4ece\u53d1\u9001\u521d\u59cb\u5316\u8bf7\u6c42\u5f00\u59cb\uff1bCPU \u65f6\u95f4\u5305\u542b\u8fdb\u7a0b\u542f\u52a8\u3001\u5bfc\u5165\u548c\u6a21\u578b\u52a0\u8f7d\u3002\u521d\u59cb\u5316\u4e0d\u5360\u5355\u6b65\u6216\u7d2f\u8ba1\u51b3\u7b56 CPU \u989d\u5ea6\u3002"
+}

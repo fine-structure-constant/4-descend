@@ -1,0 +1,51 @@
+{
+  "id": "eccb5734-6df0-4ade-af81-960d58748566",
+  "evaluation": "ea1b70c4-1ddb-49a8-9230-8aca79cf5afa",
+  "competition": null,
+  "rated_series": null,
+  "game": "connect4",
+  "rules_version": "connect4-v1",
+  "board_size": 7,
+  "board_rows": 6,
+  "board_cols": 7,
+  "action_count": 7,
+  "pass_action": null,
+  "komi": 0,
+  "sequence": 1,
+  "owner": "2400011444",
+  "owner_id": 74,
+  "cancel_requested": false,
+  "black": {
+    "id": "414ab6a5-a6c3-45dd-a48c-74ed152469c7",
+    "name": "v9 纯求解器 Baseline",
+    "number": 4,
+    "is_system": false
+  },
+  "white": {
+    "id": "65a6ca5f-a365-4f8d-a03a-31e02c33062e",
+    "name": "姜小萍（满血版）",
+    "number": 5,
+    "is_system": false
+  },
+  "black_slot": "a",
+  "black_seed": 1580281136,
+  "white_seed": 1391569755,
+  "opening_pairs": 1,
+  "opening_seed": 1777997120,
+  "opening_actions": [
+    1,
+    5
+  ],
+  "phase": "PREPARING",
+  "step": 2,
+  "end_reason": "",
+  "winner": null,
+  "scores": {},
+  "error": {},
+  "replay_available": false,
+  "can_view_logs": true,
+  "revision": 5,
+  "started_at": "2026-11-01T00:17:14.491980+08:00",
+  "finished_at": null,
+  "created_at": "2026-11-01T00:16:47.607033+08:00"
+}

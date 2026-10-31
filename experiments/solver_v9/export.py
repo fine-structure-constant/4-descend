@@ -1,0 +1,55 @@
+"""Export v9 with book tensors only; never overwrite an existing release."""
+import argparse
+import hashlib
+import json
+import zipfile
+from pathlib import Path
+
+import torch
+
+ROOT = Path(__file__).resolve().parent
+BOOK_NAMES = {"movebook_keys", "movebook_data", "deepbook", "midbook_count",
+              "midbook_own", "midbook_mask", "midbook_wdl"}
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("books_from")
+    parser.add_argument("--out", required=True)
+    args = parser.parse_args()
+    out = Path(args.out).resolve()
+    if out.exists():
+        parser.error("Choose a new output directory")
+    state = torch.load(args.books_from, map_location="cpu", weights_only=True)
+    books = {k: state[k].detach().cpu().clone() for k in sorted(BOOK_NAMES)}
+    out.mkdir(parents=True)
+    torch.save(books, out / "model.pt")
+    with zipfile.ZipFile(out / "code.zip", "x", zipfile.ZIP_DEFLATED) as archive:
+        archive.writestr("strategy.py", "from support.bot import Bot\n")
+        for path in sorted((ROOT / "support").glob("*.py")):
+            archive.write(path, str(path.relative_to(ROOT)))
+        for name in ("REFERENCES.md", "AGPL-3.0.txt"):
+            archive.write(ROOT / name, name)
+    artifacts = {name: {"bytes": (out / name).stat().st_size,
+                        "sha256": hashlib.sha256((out / name).read_bytes()).hexdigest()}
+                 for name in ("code.zip", "model.pt")}
+    assert artifacts["code.zip"]["bytes"] < 5_000_000
+    assert artifacts["model.pt"]["bytes"] < 100_000_000
+    report = {"output": str(out), "artifacts": artifacts, "learned_parameters": 0,
+              "book_tensors": sorted(books), "native_budget_ms": 820,
+              "description": "v9 exact books + bounded Rust/Python solver; no CNN or MCTS"}
+    with zipfile.ZipFile(out / "source.zip", "x", zipfile.ZIP_DEFLATED) as archive:
+        for path in sorted(ROOT.rglob("*")):
+            relative = path.relative_to(ROOT)
+            if not path.is_file() or any(p in {"runs", "target", "__pycache__"} for p in relative.parts):
+                continue
+            if path.suffix in {".py", ".rs", ".toml", ".lock", ".md", ".txt"}:
+                archive.write(path, str(Path("solver_v9") / relative))
+    report["source_archive"] = {"bytes": (out / "source.zip").stat().st_size,
+                                "sha256": hashlib.sha256((out / "source.zip").read_bytes()).hexdigest()}
+    (ROOT / "runs/release_manifest.json").write_text(json.dumps(report, indent=2))
+    print(json.dumps(report, indent=2))
+
+
+if __name__ == "__main__":
+    main()

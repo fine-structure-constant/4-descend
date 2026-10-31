@@ -1,0 +1,13 @@
+{
+  "id": "67d71173-f14c-4e66-b971-ac85acd1fee9",
+  "name": "v9 纯求解器 Baseline",
+  "description": "精确背谱 + 静态 Rust 终局求解器；无 CNN / MCTS / 学习参数。初始化及背谱回合提前求解中盘，限时未解完则纯搜索回退。供同学对照测试。",
+  "game": "connect4",
+  "is_system": false,
+  "default_version": "414ab6a5-a6c3-45dd-a48c-74ed152469c7",
+  "default_number": 4,
+  "version_count": 4,
+  "revision": 8,
+  "created_at": "2026-10-31T23:37:08.792454+08:00",
+  "updated_at": "2026-11-01T00:05:15.570355+08:00"
+}

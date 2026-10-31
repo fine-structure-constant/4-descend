@@ -1,0 +1,117 @@
+{
+  "session": {
+    "id": "456c1032-892b-4997-9938-7c8140969910",
+    "bot": "67d71173-f14c-4e66-b971-ac85acd1fee9",
+    "state": "OPEN",
+    "code_size": 553601,
+    "models_size": 89769902,
+    "base_version": null,
+    "remove_models": false,
+    "receipts": {},
+    "expires_at": "2026-11-01T23:37:16.130392+08:00",
+    "version": null,
+    "revision": 1
+  },
+  "receipts": {
+    "code": {
+      "id": "6545e6c3-bb8d-445a-ab4a-7d803aeb43f9",
+      "filename": "code.zip",
+      "size": 553601,
+      "sha256": "c4598cdb664d339ec8414b3b77342a134d0c481d5f45ab0f832ed88f4f2506da",
+      "download_url": "/api/v1/files/6545e6c3-bb8d-445a-ab4a-7d803aeb43f9",
+      "files": [
+        {
+          "path": "AGPL-3.0.txt",
+          "size": 34520,
+          "sha256": "76a97c878c9c7a8321bb395c2b44d3fe2f8d81314d219b20138ed0e2dddd5182",
+          "previewable": true
+        },
+        {
+          "path": "REFERENCES.md",
+          "size": 1179,
+          "sha256": "7bd8cdab9797f36bc5db30b6c93c17ae8f8a100dfafe15a6fe4520e115da4e06",
+          "previewable": true
+        },
+        {
+          "path": "strategy.py",
+          "size": 28,
+          "sha256": "7b9525db5e1d0a8e31476cecd075148a726c8210cbb0ba7c1bf5a30406ffc16d",
+          "previewable": true
+        },
+        {
+          "path": "support/__init__.py",
+          "size": 49,
+          "sha256": "6ca68b0bf2d60f8805a692b94790a0f020ef18550df0943394a6e46aaed22d37",
+          "previewable": true
+        },
+        {
+          "path": "support/bot.py",
+          "size": 11203,
+          "sha256": "7cf91520286d46392a600b199bba484854ba6ec291e18e60c5667bf3c7c47309",
+          "previewable": true
+        },
+        {
+          "path": "support/endgame.py",
+          "size": 10245,
+          "sha256": "fd4d1d72613e812656f77fac81b9f342b48a2b96e7fa831f2ce20a7233a06544",
+          "previewable": true
+        },
+        {
+          "path": "support/midbook.py",
+          "size": 2663,
+          "sha256": "c6e21731b1093e832838b4439ffecabfea85a35ff1b743ee71389ca4e85440a6",
+          "previewable": true
+        },
+        {
+          "path": "support/movebook.py",
+          "size": 3698,
+          "sha256": "273b1d2b78784235d86d7f40961ff8bb24662512e63688e7ff80cdfc327e68b8",
+          "previewable": true
+        },
+        {
+          "path": "support/native.py",
+          "size": 6400,
+          "sha256": "35a2f2e72db0e74b79ffb07e8f58dedea8e2011750ee40f0032b5b4b01212ed7",
+          "previewable": true
+        },
+        {
+          "path": "support/native_payload.py",
+          "size": 695113,
+          "sha256": "a65d00facee45445765f93565f7a308e71e4f7e1969709cc75a91215fcde0cbc",
+          "previewable": true
+        },
+        {
+          "path": "support/pons_book.py",
+          "size": 2663,
+          "sha256": "a6d9fcc6ffbda7293e45b4645adf1d936d777e59a8d834a0eb69bcaa74308cb7",
+          "previewable": true
+        },
+        {
+          "path": "support/tactics.py",
+          "size": 7475,
+          "sha256": "114856ee1059702e4ec089ed21c360f738d218ca44b787d7747d56a1cbe25b83",
+          "previewable": true
+        }
+      ]
+    },
+    "models": {
+      "id": "c096b511-e44a-446a-9d7c-2a05afe9e904",
+      "filename": "model.pt",
+      "size": 89769902,
+      "sha256": "698e24f971e85e1bf076bd658b43a99b88e22346c141e10f804d6a57761addf5",
+      "download_url": "/api/v1/files/c096b511-e44a-446a-9d7c-2a05afe9e904",
+      "files": [
+        {
+          "path": "model.pt",
+          "size": 89769902,
+          "sha256": "698e24f971e85e1bf076bd658b43a99b88e22346c141e10f804d6a57761addf5",
+          "previewable": false
+        }
+      ]
+    }
+  },
+  "commit": {
+    "id": "9d9ad2d9-2634-4b13-8857-e0340de02b9b",
+    "url": "/api/v1/versions/9d9ad2d9-2634-4b13-8857-e0340de02b9b"
+  }
+}

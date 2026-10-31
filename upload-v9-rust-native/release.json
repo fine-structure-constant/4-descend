@@ -1,0 +1,44 @@
+{
+  "release": "v9 Rust Python extension baseline",
+  "bot": "67d71173-f14c-4e66-b971-ac85acd1fee9",
+  "name": "v9 纯求解器 Baseline",
+  "version": "414ab6a5-a6c3-45dd-a48c-74ed152469c7",
+  "platform_number": 4,
+  "status": "READY",
+  "native_backend": "rust-pyo3-abi3",
+  "platform_native_ready": true,
+  "learned_parameters": 0,
+  "artifacts": {
+    "code.zip": {
+      "bytes": 226809,
+      "sha256": "98bed4329df38599081e974c8bd86f6ba0ac654eed762fb6290040193a9232ad"
+    },
+    "model.pt": {
+      "bytes": 89769902,
+      "sha256": "f258d43368bf7055577f927d79832f5f8e535d2946a3ecd908045cf060d1e345"
+    }
+  },
+  "native_extension": {
+    "filename": "support/_c4solver_native.py",
+    "sha256": "640d4a4ef445ba0997a92f8d32cb9af787fadeda4812650339664359ba3722ba",
+    "abi": "CPython abi3 >= 3.8",
+    "required": true,
+    "packaging": "ELF Python extension under .py filename; explicitly loaded"
+  },
+  "source_archive": {
+    "bytes": 58040,
+    "sha256": "03cc6d4b32fbe6bfcb64388530bebc99c2c620c8072da36ef51b58b7936704f3"
+  },
+  "local_validation": true,
+  "cold_positions_solved": 27,
+  "cold_positions": 27,
+  "cold_max_wall_seconds": 0.39087880682200193,
+  "platform_smoke": {
+    "match": "65786554-4ec6-4451-84fa-6ea10984c69a",
+    "plies": 42,
+    "winner": 0,
+    "all_wdl_optimal": true,
+    "max_cpu_ms": 142.55,
+    "max_wall_ms": 165.89
+  }
+}

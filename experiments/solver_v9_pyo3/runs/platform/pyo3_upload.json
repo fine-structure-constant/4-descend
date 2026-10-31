@@ -1,0 +1,15 @@
+{
+  "session": {
+    "id": "bdb59ac4-333f-497a-a4b6-2cd375ee5b8d",
+    "bot": "67d71173-f14c-4e66-b971-ac85acd1fee9",
+    "state": "OPEN",
+    "code_size": 226533,
+    "models_size": 89769902,
+    "base_version": "7b42e634-b80f-45d2-aeb9-93fe3e2458f6",
+    "remove_models": false,
+    "receipts": {},
+    "expires_at": "2026-11-02T00:01:34.369188+08:00",
+    "version": null,
+    "revision": 1
+  }
+}

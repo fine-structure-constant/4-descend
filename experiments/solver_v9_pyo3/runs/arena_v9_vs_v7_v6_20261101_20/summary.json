@@ -1,0 +1,271 @@
+{
+  "completed_games": 4,
+  "opponents": {
+    "v7": {
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "unresolved": 0,
+      "win_rate": 0.5,
+      "score_rate": 0.5,
+      "technical_games": 0,
+      "colors": {
+        "black": 1,
+        "white": 1
+      },
+      "openings_0_based": [
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "max_v9_cpu_ms": 404.65,
+      "max_v9_wall_ms": 426.6,
+      "by_initial_v9_wdl": {
+        "-1": {
+          "loss": 1
+        },
+        "0": {},
+        "1": {
+          "win": 1
+        }
+      }
+    },
+    "v6": {
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "unresolved": 0,
+      "win_rate": 0.5,
+      "score_rate": 0.5,
+      "technical_games": 0,
+      "colors": {
+        "black": 1,
+        "white": 1
+      },
+      "openings_0_based": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "max_v9_cpu_ms": 313.66,
+      "max_v9_wall_ms": 332.87,
+      "by_initial_v9_wdl": {
+        "-1": {
+          "loss": 1
+        },
+        "0": {},
+        "1": {
+          "win": 1
+        }
+      }
+    }
+  },
+  "results": [
+    {
+      "label": "v7_01_black",
+      "opponent": "v7",
+      "match": "4efbfa7f-1830-4790-950a-a7d122bc2307",
+      "phase": "COMPLETED",
+      "end_reason": "NORMAL",
+      "winner": 1,
+      "result": "win",
+      "opening_actions": [
+        5,
+        1
+      ],
+      "opening_seed": 1392816940,
+      "initial_v9_wdl": 1,
+      "v9_color": "black",
+      "history": [
+        5,
+        1,
+        3,
+        4,
+        5,
+        3,
+        3,
+        3,
+        1,
+        5,
+        1,
+        5,
+        1,
+        1,
+        3,
+        5,
+        5,
+        3,
+        2,
+        6,
+        0,
+        4,
+        4,
+        4,
+        4,
+        1,
+        4,
+        6,
+        2,
+        2,
+        2
+      ],
+      "v9_max_cpu_ms": 205.22,
+      "v9_max_wall_ms": 228.64,
+      "native_verified": true,
+      "rules_verified": true
+    },
+    {
+      "label": "v7_01_white",
+      "opponent": "v7",
+      "match": "60bb9eba-1d10-4457-bd3f-1c229233e29f",
+      "phase": "COMPLETED",
+      "end_reason": "NORMAL",
+      "winner": 1,
+      "result": "loss",
+      "opening_actions": [
+        6,
+        0
+      ],
+      "opening_seed": 1126602205,
+      "initial_v9_wdl": -1,
+      "v9_color": "white",
+      "history": [
+        6,
+        0,
+        3,
+        3,
+        3,
+        3,
+        6,
+        3,
+        6,
+        6,
+        4,
+        5,
+        1,
+        1,
+        2
+      ],
+      "v9_max_cpu_ms": 404.65,
+      "v9_max_wall_ms": 426.6,
+      "native_verified": true,
+      "rules_verified": true
+    },
+    {
+      "label": "v6_01_black",
+      "opponent": "v6",
+      "match": "de8907d2-3db8-4b98-b239-6a2e1b049a63",
+      "phase": "COMPLETED",
+      "end_reason": "NORMAL",
+      "winner": 1,
+      "result": "win",
+      "opening_actions": [
+        1,
+        5
+      ],
+      "opening_seed": 628297771,
+      "initial_v9_wdl": 1,
+      "v9_color": "black",
+      "history": [
+        1,
+        5,
+        3,
+        2,
+        1,
+        3,
+        3,
+        3,
+        1,
+        1,
+        5,
+        5,
+        5,
+        3,
+        3,
+        5,
+        4,
+        6,
+        6,
+        4,
+        4,
+        4,
+        4,
+        6,
+        4,
+        5,
+        1,
+        0,
+        1,
+        0,
+        6,
+        0,
+        0,
+        6,
+        2
+      ],
+      "v9_max_cpu_ms": 86.49,
+      "v9_max_wall_ms": 103.49,
+      "native_verified": true,
+      "rules_verified": true
+    },
+    {
+      "label": "v6_01_white",
+      "opponent": "v6",
+      "match": "8a351e13-8528-4a34-a272-8569458ea9b2",
+      "phase": "COMPLETED",
+      "end_reason": "NORMAL",
+      "winner": 1,
+      "result": "loss",
+      "opening_actions": [
+        1,
+        5
+      ],
+      "opening_seed": 978713622,
+      "initial_v9_wdl": -1,
+      "v9_color": "white",
+      "history": [
+        1,
+        5,
+        3,
+        2,
+        1,
+        3,
+        3,
+        3,
+        1,
+        1,
+        5,
+        3,
+        4,
+        3,
+        5,
+        5,
+        1,
+        4,
+        4,
+        4,
+        4,
+        4,
+        1,
+        2,
+        2
+      ],
+      "v9_max_cpu_ms": 313.66,
+      "v9_max_wall_ms": 332.87,
+      "native_verified": true,
+      "rules_verified": true
+    }
+  ]
+}

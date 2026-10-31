@@ -1,0 +1,11 @@
+{
+  "v9": "414ab6a5-a6c3-45dd-a48c-74ed152469c7",
+  "opponents": {
+    "v7": "65a6ca5f-a365-4f8d-a03a-31e02c33062e",
+    "v6": "418cae24-b542-427a-ac9b-1572359f1ae8"
+  },
+  "games_per_opponent": 10,
+  "opening_pairs": 1,
+  "same_opening_color_pairs_controlled": false,
+  "description": "20 independent hosted games; each opponent 5 black/5 white; platform mirrored random opening"
+}

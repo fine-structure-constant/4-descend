@@ -1,0 +1,29 @@
+{
+  "output": "/home/stu2026/stu2400011444/homework4/upload-v9",
+  "artifacts": {
+    "code.zip": {
+      "bytes": 554417,
+      "sha256": "9d805c7804b8f457f4feaa67bbf6251a338ff9e068ee8a1a1dbfb0558cb1dce2"
+    },
+    "model.pt": {
+      "bytes": 89769902,
+      "sha256": "f258d43368bf7055577f927d79832f5f8e535d2946a3ecd908045cf060d1e345"
+    }
+  },
+  "learned_parameters": 0,
+  "book_tensors": [
+    "deepbook",
+    "midbook_count",
+    "midbook_mask",
+    "midbook_own",
+    "midbook_wdl",
+    "movebook_data",
+    "movebook_keys"
+  ],
+  "native_budget_ms": 820,
+  "description": "v9 exact books + bounded Rust/Python solver; no CNN or MCTS",
+  "source_archive": {
+    "bytes": 573559,
+    "sha256": "68c98db4e351358c183557535a34b206bcaca6d81e8b450813b767e1a901082e"
+  }
+}

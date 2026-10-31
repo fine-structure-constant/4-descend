@@ -1,0 +1,29 @@
+{
+  "release": "v9",
+  "bot_id": "67d71173-f14c-4e66-b971-ac85acd1fee9",
+  "name": "v9 纯求解器 Baseline",
+  "version_id": "7b42e634-b80f-45d2-aeb9-93fe3e2458f6",
+  "platform_number": 3,
+  "status": "READY",
+  "learned_parameters": 0,
+  "midbook_positions": 41863,
+  "platform_native_available": false,
+  "platform_engine": "Python exact/bounded search with opening and midgame books; no CNN/MCTS",
+  "artifacts": {
+    "code.zip": {
+      "bytes": 554417,
+      "sha256": "9d805c7804b8f457f4feaa67bbf6251a338ff9e068ee8a1a1dbfb0558cb1dce2"
+    },
+    "model.pt": {
+      "bytes": 89769902,
+      "sha256": "f258d43368bf7055577f927d79832f5f8e535d2946a3ecd908045cf060d1e345"
+    }
+  },
+  "source_archive": {
+    "bytes": 573559,
+    "sha256": "68c98db4e351358c183557535a34b206bcaca6d81e8b450813b767e1a901082e"
+  },
+  "local_native_validation": true,
+  "local_python_validation": true,
+  "platform_smoke_match": "8ca925ff-cf92-4498-9a96-ffa14d77b9f8"
+}
