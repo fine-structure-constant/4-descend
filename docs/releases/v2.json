@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "local_version": "v2",
+  "tag": "v2",
+  "directory": "upload-v2",
+  "summary": "256 宽残差 MLP，专家/strong 数据与战术搜索",
+  "description": "扩大残差网络宽度，使用专家与 strong 对局数据训练，并结合战术搜索；导出为纯 Python 包。",
+  "source": "experiments/standard_v2",
+  "platform_version": {
+    "number": null,
+    "id": null,
+    "status": null,
+    "note": "本地未记录成功上传，平台版本映射未确认"
+  },
+  "artifacts": {
+    "code": {
+      "path": "code.zip",
+      "bytes": 9670,
+      "sha256": "29247f21b89380463c8ac5d6e838bf801878c27f3119ea5ab7b355bb751238cc",
+      "tracked_in_git": true
+    },
+    "model": {
+      "path": "model.pt",
+      "bytes": 733730,
+      "sha256": "4a2f7e8e85ffe0e27aa0b3bab547dddda7b35bd0cb8de108e7efc68fa0047a0d",
+      "tracked_in_git": false
+    }
+  },
+  "records": [
+    "experiments/standard_v2/REFERENCES.md",
+    "experiments/standard_v2/runs/candidate5_standard_holdout.json",
+    "experiments/standard_v2/runs/hybrid_standard.json",
+    "experiments/standard_v2/runs/hybrid_strong.json",
+    "experiments/standard_v2/runs/verified5_strong.json"
+  ],
+  "caveats": [
+    "未记录平台上传与 READY 状态；与其他版本的强度不可直接横比。"
+  ]
+}
