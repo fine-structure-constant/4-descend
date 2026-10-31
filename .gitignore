@@ -1,0 +1,56 @@
+# 本地凭据：绝不提交
+.botlab.env
+.env
+.env.*
+!.env.example
+
+# 模型权重、检查点与归档库：体积大，保留在本地，摘要见 docs/releases/
+*.pt
+*.pth
+*.ckpt
+*.pt.pack
+*.pack
+*.zlib
+*.npz
+*.npy
+experiments/.checkpoint_store/
+
+# 公开或导出的二进制数据：可由 REFERENCES.md 重新获取
+*.bin
+*.book
+*.dat
+*.Z
+experiments/*/data/public/*.data
+*.so
+*.dylib
+*.dll
+*.o
+*.a
+
+# 原生构建输出
+target/
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# 编辑器与系统文件
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# 运行临时文件
+*.pid
+nohup.out

@@ -1,0 +1,12 @@
+{"iteration": 1, "positions": 375, "loss": 2.217087507247925, "seconds": 10.7}
+{"iteration": 2, "positions": 688, "loss": 2.1933584213256836, "seconds": 19.2}
+{"iteration": 3, "positions": 987, "loss": 2.2881641387939453, "seconds": 27.0}
+{"iteration": 4, "positions": 1306, "loss": 2.163186550140381, "seconds": 35.4}
+{"iteration": 5, "positions": 1659, "loss": 2.106937885284424, "seconds": 44.3}
+{"iteration": 6, "positions": 1929, "loss": 2.0709872245788574, "seconds": 51.5}
+{"iteration": 7, "positions": 2219, "loss": 2.0107998847961426, "seconds": 58.9}
+{"iteration": 8, "positions": 2544, "loss": 2.024653434753418, "seconds": 67.6}
+{"iteration": 9, "positions": 2823, "loss": 1.9788312911987305, "seconds": 75.0}
+{"iteration": 10, "positions": 3057, "loss": 1.997075080871582, "seconds": 81.0}
+{"iteration": 11, "positions": 3331, "loss": 1.9696807861328125, "seconds": 88.1}
+{"iteration": 12, "positions": 3630, "loss": 1.9923608303070068, "seconds": 95.8}

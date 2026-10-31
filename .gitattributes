@@ -1,0 +1,31 @@
+* text=auto eol=lf
+
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.tsv text eol=lf
+*.txt text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.rs text eol=lf
+*.toml text eol=lf
+*.js text eol=lf
+Cargo.lock text eol=lf
+
+*.zip binary
+*.pt binary
+*.pth binary
+*.pack binary
+*.npz binary
+*.npy binary
+*.bin binary
+*.book binary
+*.dat binary
+*.Z binary
+*.so binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
