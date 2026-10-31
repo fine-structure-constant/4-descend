@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "local_version": "v6",
+  "tag": "v6",
+  "directory": "upload-v6",
+  "summary": "32 通道，窄残局及顶端备用步完整求解、风险损失、972 条反事实纠错",
+  "description": "对三个主要空列及顶端单格优先完整求解，保留所有实际落点，仅合并已证明不参与四连的节奏步；加入风险损失和 972 条经求解器证明的实战反事实纠错。",
+  "source": "experiments/exact12_v6",
+  "platform_version": {
+    "number": 4,
+    "id": "418cae24-b542-427a-ac9b-1572359f1ae8",
+    "status": "READY",
+    "note": "v6"
+  },
+  "artifacts": {
+    "code": {
+      "path": "code.zip",
+      "bytes": 322414,
+      "sha256": "6d47ad6406690071a39f2991c395b6cace7673cb1a0e93e88e52cd01ce6408bc",
+      "tracked_in_git": true
+    },
+    "model": {
+      "path": "model.pt",
+      "bytes": 96029983,
+      "sha256": "69641c9e5b57950bf5930f491a040d6ae490f879f950c327c91db884944634bb",
+      "tracked_in_git": false
+    }
+  },
+  "records": [
+    "experiments/exact12_v6/README.md",
+    "experiments/exact12_v6/runs/release_manifest.json",
+    "experiments/exact12_v6/runs/constrained_validation.json",
+    "experiments/exact12_v6/runs/final_holdout.json",
+    "experiments/exact12_v6/runs/stability_summary.json",
+    "experiments/exact12_v6/runs/package_validation.json",
+    "experiments/exact12_v6/runs/flash_probe/summary.json"
+  ],
+  "caveats": [
+    "strong 20 组开局换色 40 局 23 胜 12 平 5 负，得分 72.5%，但未通过预设的全部配对稳定性条件。",
+    "flash 8 局 3 胜 3 平 2 负，其中 1 胜为对手超时；正常终局 2 胜 3 平 2 负。"
+  ]
+}
