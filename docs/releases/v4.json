@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "local_version": "v4",
+  "tag": "v4",
+  "directory": "upload-v4-exact12",
+  "summary": "v3 CNN + 完整 ≤12 子精确动作表，纯 Python 推理",
+  "description": "在 v3 CNN 基础上附加完整的前 12 手精确动作表（9,188,816 个对称去重非终局局面）；≤12 手直接取最优集合，之后结合限时精确搜索与 MCTS。发布包为纯 Python 推理。",
+  "source": "experiments/cnn_endgame_v4（model_v4 导出）；记录见 experiments/v4_release",
+  "platform_version": {
+    "number": 2,
+    "id": "95236ab0-16da-4220-89f8-6d4b4bd34daf",
+    "status": "READY",
+    "note": "v4-exact12"
+  },
+  "artifacts": {
+    "code": {
+      "path": "code.zip",
+      "bytes": 294229,
+      "sha256": "20822b942bad07aadfa6d1a65784e5e14a65399d8435d9783ed4bd4adc994769",
+      "tracked_in_git": true
+    },
+    "model": {
+      "path": "model.pt",
+      "bytes": 62438682,
+      "sha256": "9d5f91124bb8849aa71f85e935cec73e903966e2439fe41f3552db3aadfc6fbf",
+      "tracked_in_git": false
+    }
+  },
+  "records": [
+    "experiments/cnn_endgame_v4/ITERATION.md",
+    "experiments/cnn_endgame_v4/runs/release_summary.json",
+    "experiments/v4_release/RELEASE.md",
+    "experiments/v4_release/runs/release_manifest.json",
+    "experiments/v4_release/runs/stability_summary.json",
+    "experiments/v4_release/runs/flash_probe/summary.json"
+  ],
+  "caveats": [
+    "原生 v4 实验（.so + C++）包被平台以 HTTP 400 / INVALID_PACKAGE 拒绝，其 strong 40 局 30 胜 9 平 1 负不能归到这个纯 Python 包。",
+    "flash 实测共 1 胜 1 平 4 负（含用户提供局），未达到稳定获胜证据。"
+  ]
+}
