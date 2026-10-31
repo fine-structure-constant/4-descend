@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "local_version": "v5",
+  "tag": "v5",
+  "directory": "upload-v5",
+  "summary": "精确监督 CNN + 逐列动作价值辅助头，精确数据重分析，Pons 深开局参考",
+  "description": "在 v4 基础上进行精确监督训练，增加逐列动作价值辅助头；混合精确中盘、残局、实战回放和少量开局样本，并增加 Pons 深开局参考。",
+  "source": "experiments/exact12_v5",
+  "platform_version": {
+    "number": 3,
+    "id": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d",
+    "status": "READY",
+    "note": "v5"
+  },
+  "artifacts": {
+    "code": {
+      "path": "code.zip",
+      "bytes": 309807,
+      "sha256": "69a081af66f964939ea157d14f353f31211483df1793c327e40ea49e0f8daed6",
+      "tracked_in_git": true
+    },
+    "model": {
+      "path": "model.pt",
+      "bytes": 96029983,
+      "sha256": "913bb04165cfad3e5e53fd649454f2cfdfb3d2cdad93e6f401d89a543550ae36",
+      "tracked_in_git": false
+    }
+  },
+  "records": [
+    "experiments/exact12_v5/README.md",
+    "experiments/exact12_v5/runs/release_manifest.json",
+    "experiments/exact12_v5/runs/final_holdout.json",
+    "experiments/exact12_v5/runs/package_validation.json",
+    "experiments/exact12_v5/runs/strong_check.json",
+    "experiments/exact12_v5/runs/flash_probe/summary.json"
+  ],
+  "caveats": [
+    "flash 8 局 3 胜 1 平 4 负，strong 8 局 4 胜 1 平 3 负；不能声称稳定战胜 flash 或 strong。",
+    "外部新种子 5,395 局面纯网络正确率由 80.39% 提升至 86.60%。"
+  ]
+}
