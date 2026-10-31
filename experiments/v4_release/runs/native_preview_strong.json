@@ -1,0 +1,6851 @@
+{
+  "model": "/home/stu2026/stu2400011444/homework4/experiments/v4_release/runs/preview_without_full_book.pt",
+  "opponent": "strong",
+  "simulations": 128,
+  "seed": 20261030,
+  "sha256": {
+    "runs/preview_without_full_book.pt": "0e40f6176ea03d54d6f65a1d390a30b74fc30ddefe8901e88cb7f94730ca144c",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/mcts.py": "2fbad94276692f37bb3a6164d77196c5eafcb382365c08d48cc3284eb03aaf7d",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/model.py": "2b567f1c2ea76613ad50f1baf03a21a3b918a7960f1b765b1a08ba53ec4bee28",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/endgame.py": "5bacc298aa03b20a85982f18d54e1e2ab52ce2e82bec2ce9643bbe56ccba9d12",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/tactics.py": "77a7d57e3186524981458ce4103b707600ac27f471f472103d175c6727d884a5",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/opening.py": "334c0699d65706e114691c12b79e375e0fb5656aa840548e0fdfa4c058ecdc8c",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/deep_opening.py": "644dfd64b3d751583b8adedbc51f470fa05e658a8b253f6698d2842c4f04e395",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/movebook.py": "ac6d8b5a480ec3ee8ccebbe1afbabd52679a5e74dbd65ad4b8a279201f1e84f6",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/_endgame_native.abi3.so": "6868fd12b4b164437affa5a06729ea551b4188c7ffcea7d64c851db1e6967cca",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/__init__.py": "6ca68b0bf2d60f8805a692b94790a0f020ef18550df0943394a6e46aaed22d37",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/bot.py": "cff635642e0d04054f0859916f4a952e88ca212c42dbee7258a42dcbd7287285",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/game.py": "7700ca1b103442c3dfbf2253e32712fd80ad2bad0ece5b2cbcdaf47f5a73ea38",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/pons_book.py": "a6d9fcc6ffbda7293e45b4645adf1d936d777e59a8d834a0eb69bcaa74308cb7",
+    "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/runtime.py": "d24e651438d2a83c3c392056f366e562412439a5e53af7cdb19ada9bc6a00e2d"
+  },
+  "total": {
+    "win": 6,
+    "draw": 1,
+    "loss": 1
+  },
+  "seconds": 107.76,
+  "records": [
+    {
+      "game": 1,
+      "side": 1,
+      "opening": [],
+      "result": "win",
+      "winner": 1,
+      "history": [
+        3,
+        4,
+        1,
+        0,
+        1,
+        1,
+        3,
+        3,
+        0,
+        3,
+        1,
+        4,
+        4,
+        3,
+        3,
+        4,
+        4,
+        0,
+        4,
+        5,
+        1,
+        5,
+        1,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        0,
+        0,
+        0,
+        5,
+        5,
+        5,
+        5,
+        2,
+        2,
+        2
+      ],
+      "move_seconds": [
+        0.07852209266275167,
+        0.009101137053221464,
+        0.008908777963370085,
+        0.5156498970463872,
+        0.3605037829838693,
+        0.014282442163676023,
+        0.1029493766836822,
+        0.00859873229637742,
+        0.01611756021156907,
+        0.00849317479878664,
+        0.008396879769861698,
+        0.0084153120405972,
+        0.0083604222163558,
+        0.008614537306129932,
+        0.008409359026700258,
+        0.008153225760906935,
+        0.008089335635304451,
+        0.008078366983681917,
+        0.00802389532327652,
+        0.005470176227390766
+      ],
+      "move_cpu_seconds": [
+        0.078462386,
+        0.009097399000000728,
+        0.008904741000000271,
+        0.5152569759999999,
+        0.3602423889999997,
+        0.014267373000000028,
+        0.10288405200000028,
+        0.008584446999999606,
+        0.01610285499999975,
+        0.008476998999999985,
+        0.008392597999999474,
+        0.008411952999999528,
+        0.008356657999999406,
+        0.008601739000000386,
+        0.00840565900000012,
+        0.008148676999999438,
+        0.008075350999999564,
+        0.008075605000000152,
+        0.008020230000000517,
+        0.005454451999999499
+      ],
+      "search_details": [
+        {
+          "occupied": 0,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.078409
+        },
+        {
+          "occupied": 2,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.009024
+        },
+        {
+          "occupied": 4,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008826
+        },
+        {
+          "occupied": 6,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            1,
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.515157
+        },
+        {
+          "occupied": 8,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.36017
+        },
+        {
+          "occupied": 10,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.014196
+        },
+        {
+          "occupied": 12,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.102811
+        },
+        {
+          "occupied": 14,
+          "initial_allowed": [
+            3
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008515
+        },
+        {
+          "occupied": 16,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ],
+            null,
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.016032
+        },
+        {
+          "occupied": 18,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ],
+            null,
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008409
+        },
+        {
+          "occupied": 20,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            5,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              0
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008326
+        },
+        {
+          "occupied": 22,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            5,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              0
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008343
+        },
+        {
+          "occupied": 24,
+          "initial_allowed": [
+            0,
+            2,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008288
+        },
+        {
+          "occupied": 26,
+          "initial_allowed": [
+            0,
+            2,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008532
+        },
+        {
+          "occupied": 28,
+          "initial_allowed": [
+            0,
+            2,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.00834
+        },
+        {
+          "occupied": 30,
+          "initial_allowed": [
+            0,
+            2,
+            5
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            null,
+            [
+              -1,
+              0
+            ],
+            null,
+            null,
+            [
+              -1,
+              0
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008083
+        },
+        {
+          "occupied": 32,
+          "initial_allowed": [
+            2,
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            [
+              1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008009
+        },
+        {
+          "occupied": 34,
+          "initial_allowed": [
+            2,
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            [
+              1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008012
+        },
+        {
+          "occupied": 36,
+          "initial_allowed": [
+            2
+          ],
+          "allowed": [
+            2
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.007957
+        },
+        {
+          "occupied": 38,
+          "initial_allowed": [
+            2
+          ],
+          "allowed": [
+            2
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.005389
+        }
+      ]
+    },
+    {
+      "game": 2,
+      "side": -1,
+      "opening": [],
+      "result": "win",
+      "winner": -1,
+      "history": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        6,
+        2,
+        3,
+        3,
+        6,
+        0,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        6,
+        6,
+        4,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        6,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        5,
+        5
+      ],
+      "move_seconds": [
+        0.5112174451351166,
+        0.009144137613475323,
+        0.009063358884304762,
+        0.008682677056640387,
+        0.2083321209065616,
+        0.5257197800092399,
+        0.03873829822987318,
+        0.00925689423456788,
+        0.008462350349873304,
+        0.009531157091259956,
+        0.008724717888981104,
+        0.008156564086675644,
+        0.008389343973249197,
+        0.008238540962338448,
+        0.008224195800721645,
+        0.00820110784843564,
+        0.008012713864445686,
+        0.008083811961114407,
+        0.006921336054801941
+      ],
+      "move_cpu_seconds": [
+        0.5108728239999998,
+        0.00912865599999968,
+        0.009049119000000161,
+        0.008668303000000321,
+        0.20819999199999906,
+        0.5253191780000002,
+        0.038707946000000604,
+        0.009240545000000822,
+        0.008459085000000144,
+        0.009527828000001293,
+        0.008711679000001027,
+        0.008153495000000177,
+        0.008385252000000065,
+        0.008227374999998815,
+        0.008220986999999624,
+        0.008197896000000426,
+        0.008009430999999623,
+        0.008080753999999857,
+        0.00691787299999902
+      ],
+      "search_details": [
+        {
+          "occupied": 1,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": -1,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.510803
+        },
+        {
+          "occupied": 3,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.00906
+        },
+        {
+          "occupied": 5,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.00898
+        },
+        {
+          "occupied": 7,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008601
+        },
+        {
+          "occupied": 9,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.208127
+        },
+        {
+          "occupied": 11,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.525214
+        },
+        {
+          "occupied": 13,
+          "initial_allowed": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.03863
+        },
+        {
+          "occupied": 15,
+          "initial_allowed": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.009168
+        },
+        {
+          "occupied": 17,
+          "initial_allowed": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.00839
+        },
+        {
+          "occupied": 19,
+          "initial_allowed": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.009463
+        },
+        {
+          "occupied": 21,
+          "initial_allowed": [
+            0,
+            1,
+            3,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.00865
+        },
+        {
+          "occupied": 23,
+          "initial_allowed": [
+            0
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008089
+        },
+        {
+          "occupied": 25,
+          "initial_allowed": [
+            0,
+            1,
+            3,
+            5,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              0
+            ],
+            null,
+            [
+              -1,
+              0
+            ],
+            null,
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008324
+        },
+        {
+          "occupied": 27,
+          "initial_allowed": [
+            1,
+            3,
+            5
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            [
+              1,
+              1
+            ],
+            null,
+            [
+              -1,
+              0
+            ],
+            null,
+            [
+              -1,
+              0
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008164
+        },
+        {
+          "occupied": 29,
+          "initial_allowed": [
+            1,
+            3,
+            5
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            [
+              1,
+              1
+            ],
+            null,
+            [
+              -1,
+              0
+            ],
+            null,
+            [
+              -1,
+              0
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008162
+        },
+        {
+          "occupied": 31,
+          "initial_allowed": [
+            1,
+            3,
+            5
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            [
+              1,
+              1
+            ],
+            null,
+            [
+              -1,
+              0
+            ],
+            null,
+            [
+              -1,
+              0
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008136
+        },
+        {
+          "occupied": 33,
+          "initial_allowed": [
+            3
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.007948
+        },
+        {
+          "occupied": 35,
+          "initial_allowed": [
+            3
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.00802
+        },
+        {
+          "occupied": 37,
+          "initial_allowed": [
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.006859
+        }
+      ]
+    },
+    {
+      "game": 3,
+      "side": 1,
+      "opening": [
+        3,
+        3
+      ],
+      "result": "win",
+      "winner": 1,
+      "history": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        1,
+        5,
+        4,
+        4,
+        4,
+        4,
+        5,
+        6,
+        5,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        4,
+        5,
+        5,
+        5,
+        4,
+        6,
+        2,
+        6,
+        6,
+        6,
+        6,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "move_seconds": [
+        0.008442459627985954,
+        0.008580745197832584,
+        0.5115258642472327,
+        0.3089946308173239,
+        0.03107071528211236,
+        0.027761354111135006,
+        0.008358448278158903,
+        0.008344597183167934,
+        0.008445445913821459,
+        0.008481566794216633,
+        0.008404291700571775,
+        0.008438442833721638,
+        0.008398361969739199,
+        0.008373205084353685,
+        0.00816985173150897,
+        0.008181842975318432,
+        0.008130630012601614,
+        0.008104034699499607,
+        0.005330436863005161
+      ],
+      "move_cpu_seconds": [
+        0.008429362999999412,
+        0.008577054999999945,
+        0.5111275539999998,
+        0.30877436099999933,
+        0.03102314499999892,
+        0.027742120999999287,
+        0.008354981000000095,
+        0.008340001999998847,
+        0.008430432999999127,
+        0.008477733999999515,
+        0.008400842000000353,
+        0.008434549000000402,
+        0.00839557599999985,
+        0.00835903800000004,
+        0.008166409000001096,
+        0.008178318000000573,
+        0.008115801000000644,
+        0.008100670000001031,
+        0.005316017000000173
+      ],
+      "search_details": [
+        {
+          "occupied": 2,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008376
+        },
+        {
+          "occupied": 4,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008516
+        },
+        {
+          "occupied": 6,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2,
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            null,
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.51106
+        },
+        {
+          "occupied": 8,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.308708
+        },
+        {
+          "occupied": 10,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.030971
+        },
+        {
+          "occupied": 12,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.027676
+        },
+        {
+          "occupied": 14,
+          "initial_allowed": [
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008288
+        },
+        {
+          "occupied": 16,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008279
+        },
+        {
+          "occupied": 18,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008369
+        },
+        {
+          "occupied": 20,
+          "initial_allowed": [
+            2
+          ],
+          "allowed": [
+            2
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008415
+        },
+        {
+          "occupied": 22,
+          "initial_allowed": [
+            2
+          ],
+          "allowed": [
+            2
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008339
+        },
+        {
+          "occupied": 24,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008371
+        },
+        {
+          "occupied": 26,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008331
+        },
+        {
+          "occupied": 28,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008302
+        },
+        {
+          "occupied": 30,
+          "initial_allowed": [
+            0,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            null,
+            null,
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008105
+        },
+        {
+          "occupied": 32,
+          "initial_allowed": [
+            0,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            null,
+            null,
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008117
+        },
+        {
+          "occupied": 34,
+          "initial_allowed": [
+            0
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008056
+        },
+        {
+          "occupied": 36,
+          "initial_allowed": [
+            1
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008039
+        },
+        {
+          "occupied": 38,
+          "initial_allowed": [
+            0
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.005258
+        }
+      ]
+    },
+    {
+      "game": 4,
+      "side": -1,
+      "opening": [
+        3,
+        3
+      ],
+      "result": "loss",
+      "winner": 1,
+      "history": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        5,
+        6,
+        5,
+        5,
+        6,
+        5,
+        4,
+        5,
+        5,
+        1,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        0,
+        0,
+        2,
+        2
+      ],
+      "move_seconds": [
+        0.5153303118422627,
+        0.5113214468583465,
+        0.5101899262517691,
+        0.6229602680541575,
+        0.5403957506641746,
+        0.5693111848086119,
+        0.5108659020625055,
+        0.5160859772004187,
+        0.2640349939465523,
+        0.34760649176314473,
+        0.1980859860777855,
+        0.02615735400468111,
+        0.06221619015559554,
+        0.03748787194490433,
+        0.017182980198413134,
+        0.012399403844028711,
+        0.008659778162837029
+      ],
+      "move_cpu_seconds": [
+        0.5149567600000005,
+        0.5109631929999985,
+        0.5098925059999999,
+        0.6224285950000006,
+        0.5398968049999997,
+        0.5688815470000002,
+        0.5104886230000005,
+        0.5156246429999989,
+        0.26375587100000075,
+        0.34731027099999956,
+        0.1978880630000006,
+        0.026127598999998725,
+        0.062148860999998945,
+        0.037452955999999205,
+        0.01716897600000067,
+        0.012382384999998663,
+        0.008656220999998965
+      ],
+      "search_details": [
+        {
+          "occupied": 3,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": -1,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.514887
+        },
+        {
+          "occupied": 5,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": -1,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.51091
+        },
+        {
+          "occupied": 7,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": -1,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.50984
+        },
+        {
+          "occupied": 9,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": -1,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.622358
+        },
+        {
+          "occupied": 11,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": -1,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.539823
+        },
+        {
+          "occupied": 13,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.568808
+        },
+        {
+          "occupied": 15,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.510418
+        },
+        {
+          "occupied": 17,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.515553
+        },
+        {
+          "occupied": 19,
+          "initial_allowed": [
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.263293
+        },
+        {
+          "occupied": 21,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 14,
+          "simulations": 128,
+          "cpu_seconds": 0.347234
+        },
+        {
+          "occupied": 23,
+          "initial_allowed": [
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.19763
+        },
+        {
+          "occupied": 25,
+          "initial_allowed": [
+            0,
+            4
+          ],
+          "allowed": [
+            0,
+            4
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": [
+            -3,
+            null,
+            -8,
+            null,
+            -3,
+            null,
+            -8
+          ],
+          "guidance_depth": 10,
+          "simulations": 128,
+          "cpu_seconds": 0.026058
+        },
+        {
+          "occupied": 27,
+          "initial_allowed": [
+            0
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.062035
+        },
+        {
+          "occupied": 29,
+          "initial_allowed": [
+            0
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.037366
+        },
+        {
+          "occupied": 31,
+          "initial_allowed": [
+            2
+          ],
+          "allowed": [
+            2
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.017096
+        },
+        {
+          "occupied": 33,
+          "initial_allowed": [
+            0
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.012311
+        },
+        {
+          "occupied": 35,
+          "initial_allowed": [
+            2,
+            6
+          ],
+          "allowed": [
+            2,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": [
+            null,
+            null,
+            -3,
+            null,
+            null,
+            null,
+            -3
+          ],
+          "guidance_depth": 4,
+          "simulations": 128,
+          "cpu_seconds": 0.008594
+        }
+      ]
+    },
+    {
+      "game": 5,
+      "side": 1,
+      "opening": [
+        2,
+        4
+      ],
+      "result": "win",
+      "winner": 1,
+      "history": [
+        2,
+        4,
+        4,
+        4,
+        2,
+        4,
+        2,
+        2,
+        4,
+        0,
+        3,
+        3,
+        3,
+        3,
+        0,
+        3,
+        3,
+        0,
+        0,
+        5,
+        5,
+        5,
+        5,
+        4,
+        0,
+        0,
+        5,
+        6,
+        6,
+        6,
+        5,
+        1,
+        6,
+        6,
+        6,
+        2,
+        2,
+        1,
+        1
+      ],
+      "move_seconds": [
+        0.6335486709140241,
+        0.5108197350054979,
+        0.5621097292751074,
+        0.7069888799451292,
+        0.12127627804875374,
+        0.032568742986768484,
+        0.008434896357357502,
+        0.011407747864723206,
+        0.00857806671410799,
+        0.008514598943293095,
+        0.008524670265614986,
+        0.00855107232928276,
+        0.010849020909518003,
+        0.010700132697820663,
+        0.008443836122751236,
+        0.008179953787475824,
+        0.00823022285476327,
+        0.008110017981380224,
+        0.005191820207983255
+      ],
+      "move_cpu_seconds": [
+        0.6329719699999998,
+        0.5104321239999976,
+        0.5616541469999987,
+        0.7064996659999991,
+        0.12118030399999924,
+        0.03249181800000045,
+        0.008431911999998931,
+        0.011390419999997903,
+        0.008574508000002368,
+        0.008500075000000606,
+        0.008520872999998375,
+        0.008535118000001063,
+        0.010845592999999099,
+        0.010683284999998932,
+        0.008439890999998312,
+        0.008176010999999761,
+        0.008226493999998752,
+        0.008090090999999688,
+        0.00518733300000207
+      ],
+      "search_details": [
+        {
+          "occupied": 2,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2,
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.632771
+        },
+        {
+          "occupied": 4,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2,
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.510359
+        },
+        {
+          "occupied": 6,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2,
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.561571
+        },
+        {
+          "occupied": 8,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3,
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.706402
+        },
+        {
+          "occupied": 10,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.12111
+        },
+        {
+          "occupied": 12,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.032422
+        },
+        {
+          "occupied": 14,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008369
+        },
+        {
+          "occupied": 16,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.011315
+        },
+        {
+          "occupied": 18,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            null,
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008505
+        },
+        {
+          "occupied": 20,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008433
+        },
+        {
+          "occupied": 22,
+          "initial_allowed": [
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008453
+        },
+        {
+          "occupied": 24,
+          "initial_allowed": [
+            0,
+            1,
+            5
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008473
+        },
+        {
+          "occupied": 26,
+          "initial_allowed": [
+            1,
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.01077
+        },
+        {
+          "occupied": 28,
+          "initial_allowed": [
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.01062
+        },
+        {
+          "occupied": 30,
+          "initial_allowed": [
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008374
+        },
+        {
+          "occupied": 32,
+          "initial_allowed": [
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008112
+        },
+        {
+          "occupied": 34,
+          "initial_allowed": [
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008154
+        },
+        {
+          "occupied": 36,
+          "initial_allowed": [
+            2
+          ],
+          "allowed": [
+            2
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008028
+        },
+        {
+          "occupied": 38,
+          "initial_allowed": [
+            1
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.005127
+        }
+      ]
+    },
+    {
+      "game": 6,
+      "side": -1,
+      "opening": [
+        2,
+        4
+      ],
+      "result": "draw",
+      "winner": 0,
+      "history": [
+        2,
+        4,
+        4,
+        4,
+        2,
+        4,
+        2,
+        2,
+        4,
+        3,
+        3,
+        6,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        6,
+        6,
+        6,
+        6,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "move_seconds": [
+        0.00906443689018488,
+        0.00908230384811759,
+        0.009032997768372297,
+        0.6663244948722422,
+        0.5143607589416206,
+        0.2522859903983772,
+        0.555763253942132,
+        0.009550980757921934,
+        0.00880028260871768,
+        0.24890481773763895,
+        0.5084848087280989,
+        0.008620317094027996,
+        0.008673837408423424,
+        0.009302379097789526,
+        0.008358325809240341,
+        0.07805818924680352,
+        0.018036365043371916,
+        0.014704646077007055,
+        0.011925225146114826,
+        0.008215324021875858
+      ],
+      "move_cpu_seconds": [
+        0.009060975999997112,
+        0.00906695400000146,
+        0.009019148000000143,
+        0.6658189950000022,
+        0.5139514390000031,
+        0.2520340489999988,
+        0.5554302729999989,
+        0.009536948000000933,
+        0.008797766000000706,
+        0.24868302699999845,
+        0.5080888609999974,
+        0.008603523000001445,
+        0.008650597999999121,
+        0.009287666000002304,
+        0.008354467000000199,
+        0.057808695999998605,
+        0.01801784299999909,
+        0.0146912900000018,
+        0.011911800000000028,
+        0.008204841000001295
+      ],
+      "search_details": [
+        {
+          "occupied": 3,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008993
+        },
+        {
+          "occupied": 5,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.009003
+        },
+        {
+          "occupied": 7,
+          "initial_allowed": [
+            2
+          ],
+          "allowed": [
+            2
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008954
+        },
+        {
+          "occupied": 9,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            1,
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.665751
+        },
+        {
+          "occupied": 11,
+          "initial_allowed": [
+            0,
+            2,
+            3,
+            4,
+            6
+          ],
+          "allowed": [
+            3,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.513882
+        },
+        {
+          "occupied": 13,
+          "initial_allowed": [
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.251638
+        },
+        {
+          "occupied": 15,
+          "initial_allowed": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.555344
+        },
+        {
+          "occupied": 17,
+          "initial_allowed": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.009469
+        },
+        {
+          "occupied": 19,
+          "initial_allowed": [
+            0,
+            2,
+            3,
+            4,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008729
+        },
+        {
+          "occupied": 21,
+          "initial_allowed": [
+            3
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.248326
+        },
+        {
+          "occupied": 23,
+          "initial_allowed": [
+            0,
+            2,
+            4,
+            6
+          ],
+          "allowed": [
+            0,
+            2,
+            4,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            null,
+            [
+              0,
+              0
+            ],
+            null,
+            [
+              0,
+              0
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 20,
+          "simulations": 128,
+          "cpu_seconds": 0.508032
+        },
+        {
+          "occupied": 25,
+          "initial_allowed": [
+            0,
+            4,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008535
+        },
+        {
+          "occupied": 27,
+          "initial_allowed": [
+            0,
+            4,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008586
+        },
+        {
+          "occupied": 29,
+          "initial_allowed": [
+            0,
+            4,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.009218
+        },
+        {
+          "occupied": 31,
+          "initial_allowed": [
+            4,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              0,
+              0
+            ],
+            null,
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008289
+        },
+        {
+          "occupied": 33,
+          "initial_allowed": [
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.057709
+        },
+        {
+          "occupied": 35,
+          "initial_allowed": [
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.017949
+        },
+        {
+          "occupied": 37,
+          "initial_allowed": [
+            1
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.014624
+        },
+        {
+          "occupied": 39,
+          "initial_allowed": [
+            1
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.011845
+        },
+        {
+          "occupied": 41,
+          "initial_allowed": [
+            1
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008138
+        }
+      ]
+    },
+    {
+      "game": 7,
+      "side": 1,
+      "opening": [
+        4,
+        2
+      ],
+      "result": "win",
+      "winner": 1,
+      "history": [
+        4,
+        2,
+        2,
+        2,
+        4,
+        2,
+        4,
+        4,
+        3,
+        3,
+        6,
+        5,
+        4,
+        2,
+        2,
+        4,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        6,
+        0,
+        6,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        5,
+        5
+      ],
+      "move_seconds": [
+        0.5717208809219301,
+        0.5237095961347222,
+        0.571743386797607,
+        0.7276286259293556,
+        0.5278661879710853,
+        0.13255540607497096,
+        0.3186438549309969,
+        0.012251909356564283,
+        0.00826383801177144,
+        0.008175898808985949,
+        0.008561098016798496,
+        0.008212021086364985,
+        0.007988212164491415,
+        0.008159866090863943,
+        0.00819240789860487,
+        0.008128222078084946,
+        0.008288206998258829,
+        0.008201141376048326,
+        0.005290639586746693
+      ],
+      "move_cpu_seconds": [
+        0.563279184999999,
+        0.511366111000001,
+        0.5633852630000007,
+        0.7071568940000006,
+        0.5113956170000016,
+        0.12036910100000142,
+        0.27048652999999945,
+        0.012241136000000097,
+        0.008253740000000676,
+        0.008165672000000512,
+        0.00854919200000026,
+        0.008200852000001646,
+        0.007985026000000062,
+        0.008148560999998722,
+        0.008188914999998076,
+        0.008115462999999323,
+        0.008278012999998197,
+        0.008190481999999832,
+        0.0052869910000019615
+      ],
+      "search_details": [
+        {
+          "occupied": 2,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2,
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.563096
+        },
+        {
+          "occupied": 4,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2,
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.511295
+        },
+        {
+          "occupied": 6,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3,
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.563298
+        },
+        {
+          "occupied": 8,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.707036
+        },
+        {
+          "occupied": 10,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2,
+            4,
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.511326
+        },
+        {
+          "occupied": 12,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.120302
+        },
+        {
+          "occupied": 14,
+          "initial_allowed": [
+            2
+          ],
+          "allowed": [
+            2
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.269959
+        },
+        {
+          "occupied": 16,
+          "initial_allowed": [
+            0,
+            1,
+            3,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.012176
+        },
+        {
+          "occupied": 18,
+          "initial_allowed": [
+            0,
+            1,
+            3,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.00819
+        },
+        {
+          "occupied": 20,
+          "initial_allowed": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008104
+        },
+        {
+          "occupied": 22,
+          "initial_allowed": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008487
+        },
+        {
+          "occupied": 24,
+          "initial_allowed": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008136
+        },
+        {
+          "occupied": 26,
+          "initial_allowed": [
+            0,
+            1,
+            5
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.007922
+        },
+        {
+          "occupied": 28,
+          "initial_allowed": [
+            0,
+            5
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008086
+        },
+        {
+          "occupied": 30,
+          "initial_allowed": [
+            0,
+            5
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008124
+        },
+        {
+          "occupied": 32,
+          "initial_allowed": [
+            1
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008052
+        },
+        {
+          "occupied": 34,
+          "initial_allowed": [
+            0,
+            1,
+            5
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008217
+        },
+        {
+          "occupied": 36,
+          "initial_allowed": [
+            0,
+            5
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            null,
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008127
+        },
+        {
+          "occupied": 38,
+          "initial_allowed": [
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.005227
+        }
+      ]
+    },
+    {
+      "game": 8,
+      "side": -1,
+      "opening": [
+        4,
+        2
+      ],
+      "result": "win",
+      "winner": -1,
+      "history": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        3,
+        6,
+        2,
+        6,
+        3,
+        6,
+        6,
+        4,
+        3,
+        3,
+        3,
+        2,
+        3,
+        6,
+        4,
+        5,
+        6,
+        5,
+        0,
+        0,
+        0,
+        0,
+        5,
+        5,
+        0,
+        0,
+        1,
+        1
+      ],
+      "move_seconds": [
+        0.009007668122649193,
+        0.008987333159893751,
+        0.009028039872646332,
+        0.2580144149251282,
+        0.008530281949788332,
+        0.03345575509592891,
+        0.011649563908576965,
+        0.00849673105403781,
+        0.008620374836027622,
+        0.010916911996901035,
+        0.011827575042843819,
+        0.010580328293144703,
+        0.00803655432537198,
+        0.007992465980350971,
+        0.008194319903850555,
+        0.01075683906674385,
+        0.009161320049315691
+      ],
+      "move_cpu_seconds": [
+        0.008992882999997676,
+        0.008983084999997004,
+        0.009016738999999774,
+        0.2418494630000012,
+        0.00851983200000106,
+        0.029439479000000546,
+        0.011638451999999688,
+        0.008486294999997313,
+        0.008610150999999178,
+        0.010907376999998775,
+        0.010845763999999036,
+        0.010570016999999154,
+        0.008033082000000746,
+        0.007982122999997898,
+        0.00818301800000043,
+        0.010583545999999444,
+        0.009146428000001094
+      ],
+      "search_details": [
+        {
+          "occupied": 3,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008929
+        },
+        {
+          "occupied": 5,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008917
+        },
+        {
+          "occupied": 7,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008948
+        },
+        {
+          "occupied": 9,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.241778
+        },
+        {
+          "occupied": 11,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008452
+        },
+        {
+          "occupied": 13,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.02937
+        },
+        {
+          "occupied": 15,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.011569
+        },
+        {
+          "occupied": 17,
+          "initial_allowed": [
+            3
+          ],
+          "allowed": [
+            3
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008417
+        },
+        {
+          "occupied": 19,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.008542
+        },
+        {
+          "occupied": 21,
+          "initial_allowed": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.01084
+        },
+        {
+          "occupied": 23,
+          "initial_allowed": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.010779
+        },
+        {
+          "occupied": 25,
+          "initial_allowed": [
+            0,
+            1,
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.010504
+        },
+        {
+          "occupied": 27,
+          "initial_allowed": [
+            0,
+            1,
+            5
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.007972
+        },
+        {
+          "occupied": 29,
+          "initial_allowed": [
+            0,
+            1,
+            5
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.007921
+        },
+        {
+          "occupied": 31,
+          "initial_allowed": [
+            0,
+            1,
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.00812
+        },
+        {
+          "occupied": 33,
+          "initial_allowed": [
+            0,
+            1
+          ],
+          "allowed": [
+            0
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.010517
+        },
+        {
+          "occupied": 35,
+          "initial_allowed": [
+            1
+          ],
+          "allowed": [
+            1
+          ],
+          "native_proofs": true,
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.009082
+        }
+      ]
+    }
+  ]
+}

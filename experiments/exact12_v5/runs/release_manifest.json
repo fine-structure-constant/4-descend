@@ -1,0 +1,109 @@
+{
+  "output": "/home/stu2026/stu2400011444/homework4/upload-v5",
+  "artifacts": {
+    "code.zip": {
+      "bytes": 309807,
+      "sha256": "69a081af66f964939ea157d14f353f31211483df1793c327e40ea49e0f8daed6"
+    },
+    "model.pt": {
+      "bytes": 96029983,
+      "sha256": "913bb04165cfad3e5e53fd649454f2cfdfb3d2cdad93e6f401d89a543550ae36"
+    }
+  },
+  "learned_parameters": 97549,
+  "code_format": "Python and text only; no compiled extension, compiler, or network required at inference",
+  "platform_version": {
+    "id": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d",
+    "number": 3,
+    "status": "READY"
+  },
+  "training": {
+    "proof_positions": 29965,
+    "internal_validation": 3053,
+    "selfplay_games": 48,
+    "reanalysed_selfplay_positions": 912,
+    "selected": {
+      "stage": "proofs",
+      "round": 0,
+      "step": 4000,
+      "loss": 0.799286425113678,
+      "validation": {
+        "policy_optimal_rate": 0.890271863740583,
+        "value_mse": 0.4707073532789213,
+        "winning_position_blunder_rate": 0.14070642733063116,
+        "positions": 3053
+      },
+      "seconds": 452.6
+    },
+    "lookup_buffers_unchanged": true
+  },
+  "external_holdout": {
+    "baseline": {
+      "all": {
+        "policy_optimal_rate": 0.8038924930491196,
+        "value_mse": 0.6662293300681693,
+        "winning_position_blunder_rate": 0.2678741658722593,
+        "positions": 5395
+      },
+      "middle": {
+        "policy_optimal_rate": 0.8064876957494407,
+        "value_mse": 0.6317726066981919,
+        "winning_position_blunder_rate": 0.26563234602726843,
+        "positions": 3576
+      },
+      "ending": {
+        "policy_optimal_rate": 0.7942955920484011,
+        "value_mse": 0.9103385773628254,
+        "winning_position_blunder_rate": 0.28929765886287623,
+        "positions": 1157
+      }
+    },
+    "candidate": {
+      "all": {
+        "policy_optimal_rate": 0.8659870250231696,
+        "value_mse": 0.5826804768276833,
+        "winning_position_blunder_rate": 0.17890054019701304,
+        "positions": 5395
+      },
+      "middle": {
+        "policy_optimal_rate": 0.8733221476510067,
+        "value_mse": 0.5366545768925541,
+        "winning_position_blunder_rate": 0.16972261401034322,
+        "positions": 3576
+      },
+      "ending": {
+        "policy_optimal_rate": 0.8375108038029386,
+        "value_mse": 0.8249563152870435,
+        "winning_position_blunder_rate": 0.22073578595317725,
+        "positions": 1157
+      }
+    }
+  },
+  "flash": {
+    "games": 8,
+    "total": {
+      "win": 3,
+      "draw": 1,
+      "loss": 4,
+      "invalid": 0
+    },
+    "max_cpu_seconds": 0.80269,
+    "winning_replays": [
+      "https://botlab.aiphys.cn/matches/353bb800-c228-4f93-969f-5ef3f60e5275",
+      "https://botlab.aiphys.cn/matches/86a87102-1c6a-449e-adb6-bb2456c44453",
+      "https://botlab.aiphys.cn/matches/831b94ef-534c-4faf-8ebd-f0c9dac47d20"
+    ],
+    "stable_win_claim": false
+  },
+  "strong_regression": {
+    "games": 8,
+    "total": {
+      "win": 4,
+      "draw": 1,
+      "loss": 3
+    },
+    "stable_win_claim": false
+  },
+  "package_validation": "runs/package_validation.json",
+  "replays": "runs/flash_probe/summary.json"
+}

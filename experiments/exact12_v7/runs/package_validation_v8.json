@@ -1,0 +1,91 @@
+{
+  "release": "/home/stu2026/stu2400011444/homework4/upload-v8",
+  "artifacts": {
+    "code.zip": {
+      "bytes": 852203,
+      "sha256": "d5ff1abcfb19859d707fcb5ab59de1ca9605591094ad3521806cac1284482380"
+    },
+    "model.pt": {
+      "bytes": 97503563,
+      "sha256": "2a98dbb2d08d6c6c4b341e3d0746f3c8193541622e422c4ce05293a0228472ec"
+    }
+  },
+  "model_unchanged_from_v7": true,
+  "archive": {
+    "files": 20,
+    "unsupported_suffixes": [],
+    "entries": [
+      "AGPL-3.0.txt",
+      "REFERENCES.md",
+      "mcts.py",
+      "model.py",
+      "strategy.py",
+      "support/__init__.py",
+      "support/bot.py",
+      "support/constrained.py",
+      "support/corrections.py",
+      "support/deep_opening.py",
+      "support/endgame.py",
+      "support/game.py",
+      "support/midbook.py",
+      "support/movebook.py",
+      "support/native.py",
+      "support/native_payload.py",
+      "support/opening.py",
+      "support/pons_book.py",
+      "support/runtime.py",
+      "support/tactics.py"
+    ]
+  },
+  "native_binary": {
+    "bytes": 1217096,
+    "sha256": "eed8fa14a1a3da28dcbd69248c926b9d122b9c7fe213a67e035f55197d78fea1",
+    "static": true
+  },
+  "native_oracle_check": {
+    "positions": 24,
+    "solved": 24,
+    "compared": 24,
+    "errors": 0,
+    "script": "native/validate_vs_cpp.py",
+    "note": "14-24 disc random positions; move and per-column WDL matched C++ solver with 7x6 book"
+  },
+  "budget_check_ms": {
+    "requested": [
+      50,
+      200,
+      450
+    ],
+    "wall": [
+      50.4,
+      200.4,
+      450.4
+    ]
+  },
+  "unpacked_smoke": {
+    "init_seconds": 0.254,
+    "opening_move": 3,
+    "opening_visits": 128,
+    "deep_move": 5,
+    "deep_phase": "native_exact",
+    "deep_seconds": 0.044
+  },
+  "unpacked_selfplay": {
+    "winner": 1,
+    "plies": 27,
+    "history": "444445555721222247577257733",
+    "max_wall": 0.8028,
+    "native_phases": 8,
+    "book_moves": 13
+  },
+  "limits": {
+    "code_zip_bytes": 852203,
+    "code_limit": 5000000,
+    "model_bytes": 97503563,
+    "model_limit": 100000000
+  },
+  "notes": [
+    "competition declaration is not changed by the upload helper",
+    "native search is disabled when add_noise=True and for positions below 15 discs"
+  ]
+}

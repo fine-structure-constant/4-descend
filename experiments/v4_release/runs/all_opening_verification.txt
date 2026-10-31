@@ -1,0 +1,13 @@
+ply 1: 1 verified
+ply 2: 4 verified
+ply 3: 25 verified
+ply 4: 121 verified
+ply 5: 568 verified
+ply 6: 2144 verified
+ply 7: 8231 verified
+ply 8: 27109 verified
+ply 9: 91295 verified
+ply 10: 269531 verified
+ply 11: 809464 verified
+ply 12: 2148087 verified
+PASS: 3356580 positions, complete first-twelve-ply coverage; every recorded action is WDL-optimal.

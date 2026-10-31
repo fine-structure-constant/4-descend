@@ -1,0 +1,123 @@
+[enumerate] 2.3s
+[enumerate] depth  0:         1
+[enumerate] depth  1:         4
+[enumerate] depth  2:        25
+[enumerate] depth  3:       121
+[enumerate] depth  4:       568
+[enumerate] depth  5:      2144
+[enumerate] depth  6:      8231
+[enumerate] depth  7:     27109
+[enumerate] depth  8:     91295
+[enumerate] depth  9:    269531
+[enumerate] depth 10:    809464
+[enumerate] depth 11:   2148087
+[enumerate] depth 12:   5832236
+[enumerate] total 9188816 non-terminal positions <= 12 discs
+[enumerate] keys unique across depths
+Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. done
+Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. Loading opening book from file: /tmp/7x6.book. done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+donedone
+done
+done
+done
+done
+done
+done
+done
+
+done
+done
+done
+done
+done
+done
+done
+done
+done
+[analyze] 100000 / 5832236  57.7s  eta 3307s
+[analyze] 200000 / 5832236  109.7s  eta 3089s
+[analyze] 300000 / 5832236  151.7s  eta 2797s
+[analyze] 400000 / 5832236  202.5s  eta 2750s
+[analyze] 500000 / 5832236  252.3s  eta 2691s
+[analyze] 600000 / 5832236  307.0s  eta 2677s
+[analyze] 700000 / 5832236  356.5s  eta 2613s
+[analyze] 800000 / 5832236  402.7s  eta 2533s
+[analyze] 900000 / 5832236  452.2s  eta 2478s
+[analyze] 1000000 / 5832236  484.2s  eta 2340s
+[analyze] 1100000 / 5832236  537.9s  eta 2314s
+[analyze] 1200000 / 5832236  592.6s  eta 2287s
+[analyze] 1300000 / 5832236  635.4s  eta 2215s
+[analyze] 1400000 / 5832236  669.4s  eta 2119s
+[analyze] 1500000 / 5832236  734.3s  eta 2121s
+[analyze] 1600000 / 5832236  792.2s  eta 2095s
+[analyze] 1700000 / 5832236  846.7s  eta 2058s
+[analyze] 1800000 / 5832236  900.7s  eta 2018s
+[analyze] 1900000 / 5832236  963.3s  eta 1994s
+[analyze] 2000000 / 5832236  1011.9s  eta 1939s
+[analyze] 2100000 / 5832236  1072.3s  eta 1906s
+[analyze] 2200000 / 5832236  1133.2s  eta 1871s
+[analyze] 2300000 / 5832236  1180.3s  eta 1813s
+[analyze] 2400000 / 5832236  1229.7s  eta 1759s
+[analyze] 2500000 / 5832236  1281.8s  eta 1708s
+[analyze] 2600000 / 5832236  1343.8s  eta 1671s
+[analyze] 2700000 / 5832236  1406.9s  eta 1632s
+[analyze] 2800000 / 5832236  1463.2s  eta 1585s
+[analyze] 2900000 / 5832236  1520.0s  eta 1537s
+[analyze] 3000000 / 5832236  1562.8s  eta 1475s
+[analyze] 3100000 / 5832236  1617.8s  eta 1426s
+[analyze] 3200000 / 5832236  1669.7s  eta 1373s
+[analyze] 3300000 / 5832236  1726.0s  eta 1324s
+[analyze] 3400000 / 5832236  1776.8s  eta 1271s
+[analyze] 3500000 / 5832236  1826.4s  eta 1217s
+[analyze] 3600000 / 5832236  1879.9s  eta 1166s
+[analyze] 3700000 / 5832236  1953.6s  eta 1126s
+[analyze] 3800000 / 5832236  2011.8s  eta 1076s
+[analyze] 3900000 / 5832236  2084.7s  eta 1033s
+[analyze] 4000000 / 5832236  2141.5s  eta 981s
+[analyze] 4100000 / 5832236  2190.3s  eta 925s
+[analyze] 4200000 / 5832236  2256.4s  eta 877s
+[analyze] 4300000 / 5832236  2281.6s  eta 813s
+[analyze] 4400000 / 5832236  2343.7s  eta 763s
+[analyze] 4500000 / 5832236  2462.8s  eta 729s
+[analyze] 4600000 / 5832236  2573.4s  eta 689s
+[analyze] 4700000 / 5832236  2637.4s  eta 635s
+[analyze] 4800000 / 5832236  2697.2s  eta 580s
+[analyze] 4900000 / 5832236  2769.8s  eta 527s
+[analyze] 5000000 / 5832236  2842.7s  eta 473s
+[analyze] 5100000 / 5832236  2910.6s  eta 418s
+[analyze] 5200000 / 5832236  2975.6s  eta 362s
+[analyze] 5300000 / 5832236  3043.5s  eta 306s
+[analyze] 5400000 / 5832236  3113.3s  eta 249s
+[analyze] 5500000 / 5832236  3182.0s  eta 192s
+[analyze] 5600000 / 5832236  3236.8s  eta 134s
+[analyze] 5700000 / 5832236  3304.4s  eta 77s
+[analyze] 5800000 / 5832236  3376.0s  eta 19s
+[analyze] done 3393.8s
+[derive] depth 11 done
+[derive] depth 10 done
+[derive] depth  9 done
+[derive] depth  8 done
+[derive] depth  7 done
+[derive] depth  6 done
+[derive] depth  5 done
+[derive] depth  4 done
+[derive] depth  3 done
+[derive] depth  2 done
+[derive] depth  1 done
+[derive] depth  0 done
+[derive] 4.3s
+Loading opening book from file: /tmp/7x6.book. done
+[check] derived vs solver: 19992 checked, 0 mismatches
+[write] data/public/movebook12.bin: 9188816 records, 52.6 MiB, total 3404.9s

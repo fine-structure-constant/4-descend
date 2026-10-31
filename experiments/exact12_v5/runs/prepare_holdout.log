@@ -1,0 +1,8 @@
+{"attempted": 1000, "total": 6500, "proved": 999, "outcomes": {"1": 528, "-1": 377, "0": 94}, "seconds": 2.1}
+{"attempted": 2000, "total": 6500, "proved": 1999, "outcomes": {"1": 1103, "-1": 690, "0": 206}, "seconds": 3.9}
+{"attempted": 3000, "total": 6500, "proved": 2999, "outcomes": {"1": 1670, "-1": 1032, "0": 297}, "seconds": 5.7}
+{"attempted": 4000, "total": 6500, "proved": 3998, "outcomes": {"1": 2221, "-1": 1382, "0": 395}, "seconds": 7.4}
+{"attempted": 5000, "total": 6500, "proved": 4998, "outcomes": {"1": 2786, "-1": 1725, "0": 487}, "seconds": 8.9}
+{"attempted": 6000, "total": 6500, "proved": 5998, "outcomes": {"1": 3342, "-1": 2087, "0": 569}, "seconds": 10.5}
+{"attempted": 6500, "total": 6500, "proved": 6498, "outcomes": {"1": 3642, "-1": 2238, "0": 618}, "seconds": 11.4}
+{"positions": 6498, "attempted": 6500, "seconds": 11.66074514389038, "outcomes": {"1": 3642, "-1": 2238, "0": 618}, "validation": 661, "seed": 2026103199, "teacher": "Pascal Pons reference solver with per-position deadline; unknowns excluded", "source_counts": {"diverse": 5399, "replay": 955, "flash": 144}}

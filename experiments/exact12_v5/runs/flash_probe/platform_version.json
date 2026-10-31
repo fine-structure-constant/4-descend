@@ -1,0 +1,139 @@
+{
+  "id": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d",
+  "bot": "1e619e88-82a0-42d6-88f2-66199e68b402",
+  "name": "张景天在打表",
+  "game": "connect4",
+  "board_size": 7,
+  "board_rows": 6,
+  "board_cols": 7,
+  "action_count": 7,
+  "pass_action": null,
+  "number": 3,
+  "note": "v5 exact12; proof-assisted CNN training; Python-only inference",
+  "status": "READY",
+  "is_disabled": false,
+  "code": {
+    "id": "b89c7b29-3879-4e78-ae2c-d3b1e5b19c19",
+    "filename": "code.zip",
+    "size": 309807,
+    "sha256": "69a081af66f964939ea157d14f353f31211483df1793c327e40ea49e0f8daed6",
+    "download_url": "/api/v1/files/b89c7b29-3879-4e78-ae2c-d3b1e5b19c19",
+    "files": [
+      {
+        "path": "AGPL-3.0.txt",
+        "size": 34520,
+        "sha256": "76a97c878c9c7a8321bb395c2b44d3fe2f8d81314d219b20138ed0e2dddd5182",
+        "previewable": true
+      },
+      {
+        "path": "REFERENCES.md",
+        "size": 3501,
+        "sha256": "56cb7f59d1bef2a5c411d10d781ecaa68a7deda7b6469039782ab03548e34902",
+        "previewable": true
+      },
+      {
+        "path": "mcts.py",
+        "size": 15505,
+        "sha256": "ee47472502365fc67029c97006b67d16555184028b89e28fef9eac52d5a77b87",
+        "previewable": true
+      },
+      {
+        "path": "model.py",
+        "size": 2686,
+        "sha256": "8e977d6622a9d54f3a9ae2784403f3d4e5840e068df7a705ffda8eb5ebb35d92",
+        "previewable": true
+      },
+      {
+        "path": "strategy.py",
+        "size": 28,
+        "sha256": "7b9525db5e1d0a8e31476cecd075148a726c8210cbb0ba7c1bf5a30406ffc16d",
+        "previewable": true
+      },
+      {
+        "path": "support/__init__.py",
+        "size": 49,
+        "sha256": "6ca68b0bf2d60f8805a692b94790a0f020ef18550df0943394a6e46aaed22d37",
+        "previewable": true
+      },
+      {
+        "path": "support/bot.py",
+        "size": 1720,
+        "sha256": "bda64c108f730d2b1dfedacce504097290aef8951dd1f6d97cb95320982dacd2",
+        "previewable": true
+      },
+      {
+        "path": "support/deep_opening.py",
+        "size": 4347,
+        "sha256": "cf7223f5d5ec2f25e896c29184a7b1e58bf472c8644a1f51cb6b4834f51ebfd5",
+        "previewable": true
+      },
+      {
+        "path": "support/endgame.py",
+        "size": 9055,
+        "sha256": "e2457dcc4fbd74c00728cd5d08adbbabb6347c58b344deebcb9bdde9c777aca4",
+        "previewable": true
+      },
+      {
+        "path": "support/game.py",
+        "size": 1883,
+        "sha256": "7700ca1b103442c3dfbf2253e32712fd80ad2bad0ece5b2cbcdaf47f5a73ea38",
+        "previewable": true
+      },
+      {
+        "path": "support/movebook.py",
+        "size": 3698,
+        "sha256": "273b1d2b78784235d86d7f40961ff8bb24662512e63688e7ff80cdfc327e68b8",
+        "previewable": true
+      },
+      {
+        "path": "support/opening.py",
+        "size": 357625,
+        "sha256": "334c0699d65706e114691c12b79e375e0fb5656aa840548e0fdfa4c058ecdc8c",
+        "previewable": true
+      },
+      {
+        "path": "support/pons_book.py",
+        "size": 2663,
+        "sha256": "a6d9fcc6ffbda7293e45b4645adf1d936d777e59a8d834a0eb69bcaa74308cb7",
+        "previewable": true
+      },
+      {
+        "path": "support/runtime.py",
+        "size": 3989,
+        "sha256": "d24e651438d2a83c3c392056f366e562412439a5e53af7cdb19ada9bc6a00e2d",
+        "previewable": true
+      },
+      {
+        "path": "support/tactics.py",
+        "size": 7165,
+        "sha256": "77a7d57e3186524981458ce4103b707600ac27f471f472103d175c6727d884a5",
+        "previewable": true
+      }
+    ]
+  },
+  "models": {
+    "id": "05a46a24-cbfe-48c9-884b-752bd19da422",
+    "filename": "model.pt",
+    "size": 96029983,
+    "sha256": "913bb04165cfad3e5e53fd649454f2cfdfb3d2cdad93e6f401d89a543550ae36",
+    "download_url": "/api/v1/files/05a46a24-cbfe-48c9-884b-752bd19da422",
+    "files": [
+      {
+        "path": "model.pt",
+        "size": 96029983,
+        "sha256": "913bb04165cfad3e5e53fd649454f2cfdfb3d2cdad93e6f401d89a543550ae36",
+        "previewable": false
+      }
+    ]
+  },
+  "image_digest": "sha256:689b9d0f915eaa5df9e6c77a6bff5f3c3fa63d67b5a3b578cc4314129c8d37b1",
+  "rules_version": "connect4-v1",
+  "validation_stage": "验证通过",
+  "validation_error": {},
+  "can_play": true,
+  "is_system": false,
+  "provenance": null,
+  "competition_status": null,
+  "revision": 5,
+  "created_at": "2026-10-31T15:41:27.962682+08:00"
+}

@@ -1,0 +1,13 @@
+{
+  "focused_positions": 15000,
+  "merged_positions": 44843,
+  "sources": {
+    "boundary4": 5000,
+    "closed3": 10000,
+    "diverse": 28044,
+    "replay": 1737,
+    "flash": 62
+  },
+  "seed": 2026103116,
+  "mirror_equivalent_states_deduplicated": true
+}

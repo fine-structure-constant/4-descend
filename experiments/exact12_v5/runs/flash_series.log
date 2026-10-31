@@ -1,0 +1,95 @@
+{"version": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d", "status": "VALIDATING", "stage": "\u4e0e Demo \u5b8c\u6210\u9a8c\u8bc1\u5bf9\u5c40\uff08\u6267\u7ea2\uff09"}
+{"version": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d", "status": "VALIDATING", "stage": "\u4e0e Demo \u5b8c\u6210\u9a8c\u8bc1\u5bf9\u5c40\uff08\u6267\u9ec4\uff09"}
+{"version": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d", "status": "READY", "stage": "\u9a8c\u8bc1\u901a\u8fc7"}
+{"created": {"id": "0d3e99db-b16a-4fd3-8cdb-b8db6b45f9c0", "match": "5975f646-11c6-4d6c-8922-6081d689361a", "url": "/api/v1/evaluations/0d3e99db-b16a-4fd3-8cdb-b8db6b45f9c0"}}
+{"match": "5975f646-11c6-4d6c-8922-6081d689361a", "phase": "QUEUED", "step": 0}
+{"match": "5975f646-11c6-4d6c-8922-6081d689361a", "phase": "PREPARING", "step": 0}
+{"match": "5975f646-11c6-4d6c-8922-6081d689361a", "phase": "RUNNING", "step": 3}
+{"match": "5975f646-11c6-4d6c-8922-6081d689361a", "phase": "RUNNING", "step": 9}
+{"match": "5975f646-11c6-4d6c-8922-6081d689361a", "phase": "RUNNING", "step": 14}
+{"match": "5975f646-11c6-4d6c-8922-6081d689361a", "phase": "RUNNING", "step": 17}
+{"match": "5975f646-11c6-4d6c-8922-6081d689361a", "phase": "RUNNING", "step": 21}
+{"match": "5975f646-11c6-4d6c-8922-6081d689361a", "phase": "RUNNING", "step": 26}
+{"match": "5975f646-11c6-4d6c-8922-6081d689361a", "phase": "RUNNING", "step": 31}
+{"match": "5975f646-11c6-4d6c-8922-6081d689361a", "phase": "COMPLETED", "step": 42}
+{"match": "5975f646-11c6-4d6c-8922-6081d689361a", "phase": "COMPLETED", "winner": 0, "end_reason": "NORMAL", "black": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d", "white": "34b95b93-3588-4bd8-baf9-25d7170a8aef"}
+{"completed": 1, "total": {"win": 0, "draw": 1, "loss": 0, "invalid": 0}}
+{"created": {"id": "b8e1bba8-bfdc-4f52-9cba-409cde844dd9", "match": "c6add757-5a0a-456f-b26c-067dc0370efa", "url": "/api/v1/evaluations/b8e1bba8-bfdc-4f52-9cba-409cde844dd9"}}
+{"match": "c6add757-5a0a-456f-b26c-067dc0370efa", "phase": "QUEUED", "step": 0}
+{"match": "c6add757-5a0a-456f-b26c-067dc0370efa", "phase": "PREPARING", "step": 0}
+{"match": "c6add757-5a0a-456f-b26c-067dc0370efa", "phase": "RUNNING", "step": 6}
+{"match": "c6add757-5a0a-456f-b26c-067dc0370efa", "phase": "RUNNING", "step": 12}
+{"match": "c6add757-5a0a-456f-b26c-067dc0370efa", "phase": "RUNNING", "step": 16}
+{"match": "c6add757-5a0a-456f-b26c-067dc0370efa", "phase": "RUNNING", "step": 19}
+{"match": "c6add757-5a0a-456f-b26c-067dc0370efa", "phase": "RUNNING", "step": 23}
+{"match": "c6add757-5a0a-456f-b26c-067dc0370efa", "phase": "RUNNING", "step": 28}
+{"match": "c6add757-5a0a-456f-b26c-067dc0370efa", "phase": "RUNNING", "step": 34}
+{"match": "c6add757-5a0a-456f-b26c-067dc0370efa", "phase": "COMPLETED", "step": 41}
+{"match": "c6add757-5a0a-456f-b26c-067dc0370efa", "phase": "COMPLETED", "winner": 1, "end_reason": "NORMAL", "black": "34b95b93-3588-4bd8-baf9-25d7170a8aef", "white": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d"}
+{"completed": 2, "total": {"win": 0, "draw": 1, "loss": 1, "invalid": 0}}
+{"created": {"id": "81f407c8-5c37-416d-941c-1bb14a1b82ab", "match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53", "url": "/api/v1/evaluations/81f407c8-5c37-416d-941c-1bb14a1b82ab"}}
+{"match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53", "phase": "QUEUED", "step": 0}
+{"match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53", "phase": "PREPARING", "step": 2}
+{"match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53", "phase": "RUNNING", "step": 3}
+{"match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53", "phase": "RUNNING", "step": 9}
+{"match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53", "phase": "RUNNING", "step": 14}
+{"match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53", "phase": "RUNNING", "step": 17}
+{"match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53", "phase": "RUNNING", "step": 21}
+{"match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53", "phase": "RUNNING", "step": 25}
+{"match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53", "phase": "RUNNING", "step": 31}
+{"match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53", "phase": "COMPLETED", "step": 42}
+{"match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53", "phase": "COMPLETED", "winner": -1, "end_reason": "NORMAL", "black": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d", "white": "34b95b93-3588-4bd8-baf9-25d7170a8aef"}
+{"completed": 3, "total": {"win": 0, "draw": 1, "loss": 2, "invalid": 0}}
+{"created": {"id": "5b9e0aac-1f7e-4e17-b6ec-f4c36d352112", "match": "cfe7b82e-8a82-4437-89b6-59f95108a058", "url": "/api/v1/evaluations/5b9e0aac-1f7e-4e17-b6ec-f4c36d352112"}}
+{"match": "cfe7b82e-8a82-4437-89b6-59f95108a058", "phase": "QUEUED", "step": 0}
+{"match": "cfe7b82e-8a82-4437-89b6-59f95108a058", "phase": "PREPARING", "step": 2}
+{"match": "cfe7b82e-8a82-4437-89b6-59f95108a058", "phase": "RUNNING", "step": 8}
+{"match": "cfe7b82e-8a82-4437-89b6-59f95108a058", "phase": "RUNNING", "step": 14}
+{"match": "cfe7b82e-8a82-4437-89b6-59f95108a058", "phase": "RUNNING", "step": 17}
+{"match": "cfe7b82e-8a82-4437-89b6-59f95108a058", "phase": "RUNNING", "step": 21}
+{"match": "cfe7b82e-8a82-4437-89b6-59f95108a058", "phase": "RUNNING", "step": 26}
+{"match": "cfe7b82e-8a82-4437-89b6-59f95108a058", "phase": "FINALIZING", "step": 37}
+{"match": "cfe7b82e-8a82-4437-89b6-59f95108a058", "phase": "COMPLETED", "step": 37}
+{"match": "cfe7b82e-8a82-4437-89b6-59f95108a058", "phase": "COMPLETED", "winner": 1, "end_reason": "NORMAL", "black": "34b95b93-3588-4bd8-baf9-25d7170a8aef", "white": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d"}
+{"completed": 4, "total": {"win": 0, "draw": 1, "loss": 3, "invalid": 0}}
+{"created": {"id": "8388c376-6cbc-4d1a-b5a0-3dffaaa64c96", "match": "353bb800-c228-4f93-969f-5ef3f60e5275", "url": "/api/v1/evaluations/8388c376-6cbc-4d1a-b5a0-3dffaaa64c96"}}
+{"match": "353bb800-c228-4f93-969f-5ef3f60e5275", "phase": "QUEUED", "step": 0}
+{"match": "353bb800-c228-4f93-969f-5ef3f60e5275", "phase": "PREPARING", "step": 4}
+{"match": "353bb800-c228-4f93-969f-5ef3f60e5275", "phase": "RUNNING", "step": 5}
+{"match": "353bb800-c228-4f93-969f-5ef3f60e5275", "phase": "RUNNING", "step": 11}
+{"match": "353bb800-c228-4f93-969f-5ef3f60e5275", "phase": "RUNNING", "step": 15}
+{"match": "353bb800-c228-4f93-969f-5ef3f60e5275", "phase": "RUNNING", "step": 21}
+{"match": "353bb800-c228-4f93-969f-5ef3f60e5275", "phase": "RUNNING", "step": 27}
+{"match": "353bb800-c228-4f93-969f-5ef3f60e5275", "phase": "COMPLETED", "step": 39}
+{"match": "353bb800-c228-4f93-969f-5ef3f60e5275", "phase": "COMPLETED", "winner": 1, "end_reason": "NORMAL", "black": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d", "white": "34b95b93-3588-4bd8-baf9-25d7170a8aef"}
+{"completed": 5, "total": {"win": 1, "draw": 1, "loss": 3, "invalid": 0}}
+{"created": {"id": "2fdf58cf-97dd-43de-9de2-2dcb31dda031", "match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3", "url": "/api/v1/evaluations/2fdf58cf-97dd-43de-9de2-2dcb31dda031"}}
+{"match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3", "phase": "QUEUED", "step": 0}
+{"match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3", "phase": "PREPARING", "step": 4}
+{"match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3", "phase": "RUNNING", "step": 10}
+{"match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3", "phase": "RUNNING", "step": 14}
+{"match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3", "phase": "RUNNING", "step": 18}
+{"match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3", "phase": "RUNNING", "step": 22}
+{"match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3", "phase": "RUNNING", "step": 28}
+{"match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3", "phase": "COMPLETED", "step": 35}
+{"match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3", "phase": "COMPLETED", "winner": 1, "end_reason": "NORMAL", "black": "34b95b93-3588-4bd8-baf9-25d7170a8aef", "white": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d"}
+{"completed": 6, "total": {"win": 1, "draw": 1, "loss": 4, "invalid": 0}}
+{"created": {"id": "beac4c95-0b7e-40a6-8fdf-cbbdff75d517", "match": "86a87102-1c6a-449e-adb6-bb2456c44453", "url": "/api/v1/evaluations/beac4c95-0b7e-40a6-8fdf-cbbdff75d517"}}
+{"match": "86a87102-1c6a-449e-adb6-bb2456c44453", "phase": "QUEUED", "step": 0}
+{"match": "86a87102-1c6a-449e-adb6-bb2456c44453", "phase": "PREPARING", "step": 6}
+{"match": "86a87102-1c6a-449e-adb6-bb2456c44453", "phase": "RUNNING", "step": 8}
+{"match": "86a87102-1c6a-449e-adb6-bb2456c44453", "phase": "RUNNING", "step": 14}
+{"match": "86a87102-1c6a-449e-adb6-bb2456c44453", "phase": "COMPLETED", "step": 19}
+{"match": "86a87102-1c6a-449e-adb6-bb2456c44453", "phase": "COMPLETED", "winner": 1, "end_reason": "NORMAL", "black": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d", "white": "34b95b93-3588-4bd8-baf9-25d7170a8aef"}
+{"completed": 7, "total": {"win": 2, "draw": 1, "loss": 4, "invalid": 0}}
+{"created": {"id": "4e736687-fa71-472b-9530-332808945484", "match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20", "url": "/api/v1/evaluations/4e736687-fa71-472b-9530-332808945484"}}
+{"match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20", "phase": "QUEUED", "step": 0}
+{"match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20", "phase": "PREPARING", "step": 6}
+{"match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20", "phase": "RUNNING", "step": 8}
+{"match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20", "phase": "RUNNING", "step": 13}
+{"match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20", "phase": "RUNNING", "step": 18}
+{"match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20", "phase": "RUNNING", "step": 24}
+{"match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20", "phase": "RUNNING", "step": 29}
+{"match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20", "phase": "COMPLETED", "step": 40}
+{"match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20", "phase": "COMPLETED", "winner": -1, "end_reason": "NORMAL", "black": "34b95b93-3588-4bd8-baf9-25d7170a8aef", "white": "0d3b3dae-1ccc-4b76-be09-1703efc24b3d"}
+{"completed": 8, "total": {"win": 3, "draw": 1, "loss": 4, "invalid": 0}}

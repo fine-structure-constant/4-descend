@@ -1,0 +1,48 @@
+{
+  "files": {
+    "code.zip": {
+      "bytes": 309807,
+      "sha256": "69a081af66f964939ea157d14f353f31211483df1793c327e40ea49e0f8daed6"
+    },
+    "model.pt": {
+      "bytes": 96029983,
+      "sha256": "913bb04165cfad3e5e53fd649454f2cfdfb3d2cdad93e6f401d89a543550ae36"
+    }
+  },
+  "init_cpu_seconds": 5.423318922,
+  "init_wall_seconds": 2.556064276024699,
+  "peak_memory_mib": 409.8984375,
+  "checks": [
+    {
+      "occupied": 0,
+      "action": 3,
+      "cpu_seconds": 0.011206366999999773,
+      "wall_seconds": 0.011215281207114458
+    },
+    {
+      "occupied": 11,
+      "action": 5,
+      "cpu_seconds": 0.003525612999999872,
+      "wall_seconds": 0.0035271290689706802
+    },
+    {
+      "occupied": 12,
+      "action": 4,
+      "cpu_seconds": 0.0018461609999995687,
+      "wall_seconds": 0.0018454259261488914
+    },
+    {
+      "occupied": 13,
+      "action": 4,
+      "cpu_seconds": 0.8025639049999995,
+      "wall_seconds": 0.8031949000433087
+    },
+    {
+      "occupied": 14,
+      "action": 1,
+      "cpu_seconds": 0.8013186709999998,
+      "wall_seconds": 0.8056792388670146
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,6 @@
+{"stage": "distill", "step": 500, "loss": 1.9068254232406616, "validation_loss": 1.9953004121780396, "strong_positions": 795, "local_positions": 24207, "seconds": 15.2}
+{"stage": "distill", "step": 1000, "loss": 1.756044626235962, "validation_loss": 2.0043466091156006, "strong_positions": 795, "local_positions": 24207, "seconds": 30.6}
+{"stage": "distill", "step": 1500, "loss": 1.660101294517517, "validation_loss": 2.0065760612487793, "strong_positions": 795, "local_positions": 24207, "seconds": 45.9}
+{"stage": "distill", "step": 2000, "loss": 1.525456428527832, "validation_loss": 1.9778746366500854, "strong_positions": 795, "local_positions": 24207, "seconds": 62.1}
+{"stage": "distill", "step": 2500, "loss": 1.5117652416229248, "validation_loss": 2.019904375076294, "strong_positions": 795, "local_positions": 24207, "seconds": 77.1}
+{"stage": "distill", "step": 3000, "loss": 1.4643374681472778, "validation_loss": 2.0083811283111572, "strong_positions": 795, "local_positions": 24207, "seconds": 91.6}

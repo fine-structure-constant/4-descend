@@ -1,0 +1,41 @@
+{
+  "version": "upload-v3",
+  "architecture": "6-plane residual CNN, 32 channels, 4 residual blocks",
+  "trainable_parameters": 88134,
+  "checkpoint": "runs/cnn_replay/model.pt",
+  "public_search_data": "MIT-licensed BitBully 12-ply WDL, uint8 opening12 model buffer",
+  "references": "REFERENCES.md",
+  "evaluation": {
+    "strong": {
+      "games": 16,
+      "results": {
+        "win": 8,
+        "draw": 3,
+        "loss": 5
+      },
+      "max_cpu_seconds": 0.8134085969999987
+    },
+    "standard": {
+      "games": 8,
+      "results": {
+        "win": 7,
+        "draw": 0,
+        "loss": 1
+      },
+      "max_cpu_seconds": 0.8017726740000022
+    },
+    "previous_v2_strong": {
+      "games": 16,
+      "results": {
+        "win": 7,
+        "draw": 3,
+        "loss": 6
+      },
+      "max_cpu_seconds": 0.6485947630000002
+    }
+  },
+  "export_sha256": {
+    "model.pt": "1ecec1bd751dc3bdbefdf3f800b618ec0dc51ce1c766c6d9be8b5a3e15f0c03b",
+    "code.zip": "92b0cdb0eb69c762b04c4994e16de01654a2e5c231eb878c6a4627b3513c5c5e"
+  }
+}

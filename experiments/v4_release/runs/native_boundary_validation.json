@@ -1,0 +1,9 @@
+{
+  "exact_leaf_checks": 1500,
+  "book_hits": 1073,
+  "phase_counts": {
+    "opening": 24,
+    "model_search": 12
+  },
+  "max_cpu_seconds": 0.5222600150000001
+}

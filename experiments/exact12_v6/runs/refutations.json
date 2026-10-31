@@ -1,0 +1,6 @@
+{
+  "refutation_positions": 923,
+  "attempted": 931,
+  "merged_positions": 45716,
+  "purpose": "Penalize avoidable WDL downgrades before the final forced loss, using exact teacher values."
+}

@@ -1,0 +1,420 @@
+{
+  "output": "/home/stu2026/stu2400011444/homework4/upload-v6",
+  "artifacts": {
+    "code.zip": {
+      "bytes": 322414,
+      "sha256": "6d47ad6406690071a39f2991c395b6cace7673cb1a0e93e88e52cd01ce6408bc"
+    },
+    "model.pt": {
+      "bytes": 96029983,
+      "sha256": "69641c9e5b57950bf5930f491a040d6ae490f879f950c327c91db884944634bb"
+    }
+  },
+  "learned_parameters": 97549,
+  "code_format": "Python and text only; no compiled extension, compiler, or network required at inference",
+  "platform_version": {
+    "id": "418cae24-b542-427a-ac9b-1572359f1ae8",
+    "number": 4,
+    "status": "READY"
+  },
+  "training": {
+    "baseline": "upload-v5",
+    "unique_final_positions": 45716,
+    "new_narrow_and_transition_positions": 15000,
+    "new_real_game_refutations": 923,
+    "architecture_trials": [
+      32,
+      48
+    ],
+    "selected_channels": 32,
+    "selfplay_trial_games": 24,
+    "reanalysed_selfplay_positions": 824,
+    "selected_checkpoint": {
+      "stage": "proofs",
+      "round": 0,
+      "step": 300,
+      "loss": 1.1672940254211426,
+      "validation": {
+        "policy_optimal_rate": 0.9019055868341274,
+        "value_mse": 0.46906790866537906,
+        "winning_position_blunder_rate": 0.13614063777596075,
+        "positions": 4618
+      },
+      "seconds": 36.2
+    },
+    "lookup_buffers_unchanged": true
+  },
+  "architecture": {
+    "small": {
+      "channels": 32,
+      "learned_parameters": 97549,
+      "validation": {
+        "policy_optimal_rate": 0.896452963207755,
+        "value_mse": 0.47770774288307755,
+        "winning_position_blunder_rate": 0.1432129514321295,
+        "positions": 4539
+      },
+      "selection_metric": 0.22297397251301437,
+      "forward_cpu_seconds": 0.0012281642366666675
+    },
+    "wide": {
+      "channels": 48,
+      "learned_parameters": 195517,
+      "validation": {
+        "policy_optimal_rate": 0.8984357788059044,
+        "value_mse": 0.4717620694970843,
+        "winning_position_blunder_rate": 0.13947696139476962,
+        "positions": 4539
+      },
+      "selection_metric": 0.21950473856836666,
+      "forward_cpu_seconds": 0.001506855043333332
+    },
+    "selected": "small",
+    "wide_metric_gain": 0.0034692339446477094,
+    "reason": "Wider model must improve the validation metric by at least 0.005 within latency limits."
+  },
+  "exact_solver_validation": {
+    "positions": 10000,
+    "optimal_result_proved": 10000,
+    "non_immediate_win_positions": 9296,
+    "positions_with_top_spare_moves": 2427,
+    "only_optimal_actions_are_spare_top_moves": 458,
+    "dead_tempo_merge_crosschecks": 300,
+    "max_cpu_seconds": 0.4629500759999985,
+    "examples": [
+      {
+        "history_1based": "22222255757775577564444664466",
+        "spaces": [
+          6,
+          0,
+          6,
+          0,
+          0,
+          1,
+          0
+        ],
+        "optimal_columns_1based": [
+          6
+        ],
+        "value": 0,
+        "scores": [
+          -1,
+          -1000,
+          -1,
+          -1000,
+          -1000,
+          0,
+          -1000
+        ]
+      },
+      {
+        "history_1based": "144411141144555555666666773777732333",
+        "spaces": [
+          0,
+          5,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "optimal_columns_1based": [
+          3
+        ],
+        "value": 1,
+        "scores": [
+          -1000,
+          -1,
+          1,
+          -1000,
+          -1000,
+          -1000,
+          -1000
+        ]
+      },
+      {
+        "history_1based": "222222555353356533366666744444",
+        "spaces": [
+          6,
+          0,
+          0,
+          1,
+          0,
+          0,
+          5
+        ],
+        "optimal_columns_1based": [
+          4
+        ],
+        "value": 0,
+        "scores": [
+          -1,
+          -1000,
+          -1000,
+          0,
+          -1000,
+          -1000,
+          -1
+        ]
+      },
+      {
+        "history_1based": "34334377337427774441212211211266666",
+        "spaces": [
+          0,
+          0,
+          0,
+          0,
+          6,
+          1,
+          0
+        ],
+        "optimal_columns_1based": [
+          6
+        ],
+        "value": 0,
+        "scores": [
+          -1000,
+          -1000,
+          -1000,
+          -1000,
+          -1,
+          0,
+          -1000
+        ]
+      },
+      {
+        "history_1based": "11222222111163333633666655555547747444",
+        "spaces": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          3
+        ],
+        "optimal_columns_1based": [
+          4
+        ],
+        "value": 0,
+        "scores": [
+          -1000,
+          -1000,
+          -1000,
+          0,
+          -1000,
+          -1000,
+          -1
+        ]
+      },
+      {
+        "history_1based": "151111155555666666444444233333",
+        "spaces": [
+          0,
+          5,
+          1,
+          0,
+          0,
+          0,
+          6
+        ],
+        "optimal_columns_1based": [
+          3
+        ],
+        "value": 1,
+        "scores": [
+          -1000,
+          -1,
+          1,
+          -1000,
+          -1000,
+          -1000,
+          -1
+        ]
+      },
+      {
+        "history_1based": "64666664444432333332122221117117777",
+        "spaces": [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          1
+        ],
+        "optimal_columns_1based": [
+          7
+        ],
+        "value": 1,
+        "scores": [
+          -1000,
+          -1000,
+          -1000,
+          -1000,
+          -1,
+          -1000,
+          1
+        ]
+      },
+      {
+        "history_1based": "66777771766661111154555554444422222",
+        "spaces": [
+          0,
+          1,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "optimal_columns_1based": [
+          2
+        ],
+        "value": 1,
+        "scores": [
+          -1000,
+          1,
+          -1,
+          -1000,
+          -1000,
+          -1000,
+          -1000
+        ]
+      }
+    ],
+    "passed": true
+  },
+  "external_solver_validation": {
+    "unseen_closed_positions": 2789,
+    "correct": 2789,
+    "reference_unknown_actions": 0,
+    "mean_cpu_seconds": 0.004572117078522765,
+    "max_cpu_seconds": 0.6411602109999999,
+    "cold_transposition_table_each_position": true,
+    "no_correction_book_hits": true
+  },
+  "external_neural_holdout": {
+    "v5": {
+      "all": {
+        "policy_optimal_rate": 0.8691745036572622,
+        "value_mse": 0.6646968733928047,
+        "winning_position_blunder_rate": 0.1864870142550283,
+        "positions": 9570
+      },
+      "closed3": {
+        "policy_optimal_rate": 0.8970957332377196,
+        "value_mse": 0.7896810253275984,
+        "winning_position_blunder_rate": 0.16815597075548336,
+        "positions": 2789
+      },
+      "boundary4": {
+        "policy_optimal_rate": 0.8253968253968254,
+        "value_mse": 0.7324441356576367,
+        "winning_position_blunder_rate": 0.2489905787348587,
+        "positions": 1386
+      },
+      "general": {
+        "policy_optimal_rate": 0.8659870250231696,
+        "value_mse": 0.5826804768276833,
+        "winning_position_blunder_rate": 0.17890054019701304,
+        "positions": 5395
+      }
+    },
+    "v6": {
+      "all": {
+        "policy_optimal_rate": 0.8888192267502613,
+        "value_mse": 0.5359490724442023,
+        "winning_position_blunder_rate": 0.1571958601835579,
+        "positions": 9570
+      },
+      "closed3": {
+        "policy_optimal_rate": 0.922911437791323,
+        "value_mse": 0.5356499530714274,
+        "winning_position_blunder_rate": 0.12753858651502845,
+        "positions": 2789
+      },
+      "boundary4": {
+        "policy_optimal_rate": 0.8831168831168831,
+        "value_mse": 0.5459289991150342,
+        "winning_position_blunder_rate": 0.1641991924629879,
+        "positions": 1386
+      },
+      "general": {
+        "policy_optimal_rate": 0.8726598702502317,
+        "value_mse": 0.5335398224131502,
+        "winning_position_blunder_rate": 0.16714331108992692,
+        "positions": 5395
+      }
+    }
+  },
+  "correction_table": {
+    "entries": 972,
+    "source_dataset_sha256": "8d15b7e4ac70a9a0fc70ff21640d5b537fc8b66f3f725c230377ea48af9462e4",
+    "only_proved_nonlosing_moves": true,
+    "depth_range": [
+      13,
+      24
+    ],
+    "sources": [
+      "flash",
+      "replay",
+      "refutation"
+    ],
+    "includes_internal_development_labels": true,
+    "external_test_states_excluded": true
+  },
+  "strong_stability": {
+    "games": 40,
+    "opening_groups": 20,
+    "total": {
+      "win": 23,
+      "draw": 12,
+      "loss": 5
+    },
+    "score_rate": 0.725,
+    "paired_matches": {
+      "win": 12,
+      "draw": 6,
+      "loss": 2
+    },
+    "paired_bootstrap_95_interval": [
+      0.6125,
+      0.8375
+    ],
+    "max_cpu_seconds": 0.8037329480000039,
+    "criterion_passed": {
+      "games": true,
+      "score_rate": true,
+      "pair_win_rate": false,
+      "bootstrap_lower_bound": true,
+      "move_cpu": true
+    },
+    "all_criteria_passed": false,
+    "protocol": "20 new 8-ply theoretical-draw openings, colours swapped; frozen candidate; no test-game training.",
+    "inference_phases": {
+      "opening": 100,
+      "model_search": 282,
+      "constrained": 224
+    }
+  },
+  "flash": {
+    "games": 8,
+    "platform_total": {
+      "win": 3,
+      "draw": 3,
+      "loss": 2
+    },
+    "normal_total": {
+      "win": 2,
+      "draw": 3,
+      "loss": 2
+    },
+    "opponent_timeout_wins": 1,
+    "timeout_position_exact_value": 0,
+    "max_our_move_cpu_seconds": 0.80267
+  },
+  "package_validation": "runs/package_validation.json",
+  "flash_replays": "runs/flash_probe/summary.json",
+  "strong_replays": "runs/strong_stability.json"
+}

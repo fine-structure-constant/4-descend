@@ -1,0 +1,1966 @@
+{
+  "positions": 120,
+  "correct": 120,
+  "mean_cpu_seconds": 0.01955361994166668,
+  "max_cpu_seconds": 0.1940931130000001,
+  "records": [
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.030473178000000267,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.03141610200000011,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.015117996999999939,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.026932211000000095,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.015141354999999912,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.011397516999999802,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.015622743999999855,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.027766884000000047,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.009585180000000193,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          -1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.012107703999999941,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        [
+          -1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.00859797200000001,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          -1,
+          -1
+        ],
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.015696061999999955,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.00747783199999974,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        [
+          -1,
+          -1
+        ],
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.011277512000000378,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.01487317999999993,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.011492416000000283,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.007998143000000013,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          -1,
+          -1
+        ],
+        null,
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.015522516999999958,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.014664001999999954,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.01204166700000009,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.032072118000000316,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.01331350500000017,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        [
+          0,
+          0
+        ],
+        null,
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.021706986999999955,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.012180659999999843,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          1,
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.03432470399999987,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.02157668800000012,
+      "value": 0.0,
+      "root_bounds": [
+        [
+          -1,
+          -1
+        ],
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        null,
+        null,
+        [
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.020993904000000008,
+      "value": 0.0,
+      "root_bounds": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.03971489200000011,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.012814815000000035,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.02901339500000022,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.012941269999999783,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        null,
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.012074764999999932,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        [
+          -1,
+          -1
+        ],
+        null,
+        [
+          1,
+          1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.01504992500000002,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.013044908999999993,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        [
+          -1,
+          -1
+        ],
+        null,
+        null,
+        [
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.01910964599999998,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.011865655999999891,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.014440852999999976,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.013100058000000026,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        null,
+        [
+          -1,
+          -1
+        ],
+        null,
+        null,
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.014307105999999958,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.011802517000000012,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.022214172999999615,
+      "value": 0.0,
+      "root_bounds": [
+        [
+          -1,
+          -1
+        ],
+        null,
+        null,
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.013336471000000127,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          1,
+          1
+        ],
+        null,
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.013955475000000384,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.012351840000000003,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.011335928999999911,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.015047932999999958,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.01755552600000021,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.01301330700000003,
+      "value": 0.0,
+      "root_bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.013063175000000093,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          1,
+          1
+        ],
+        null,
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.028730308000000093,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.01316749599999989,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.017194186000000222,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.012413943999999955,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.015959255000000283,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.014845651999999987,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.012857525000000258,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        null,
+        null,
+        [
+          -1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.014031499999999753,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.013323863999999741,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.02788642699999988,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.02765358700000009,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.014816834999999973,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.023229742999999914,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.014391894000000072,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.0323143159999999,
+      "value": 0.0,
+      "root_bounds": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        null,
+        [
+          -1,
+          -1
+        ],
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.011715317999999808,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.013185817999999738,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        null,
+        null,
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.024569329999999834,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.012007034999999888,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.01110075499999974,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.014341381000000375,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.01444965999999992,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.013748902000000118,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.014973858000000284,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.027396223999999858,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.1940931130000001,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        null,
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.0977082939999998,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.011812981000000278,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          -1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.014393023000000227,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.01213801400000003,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.020110076000000365,
+      "value": 0.0,
+      "root_bounds": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        null,
+        [
+          0,
+          0
+        ],
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.020860461999999913,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.012329875999999906,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          -1,
+          1
+        ],
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        [
+          -1,
+          1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.014753346,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.012364209999999876,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.011496547000000135,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          1,
+          1
+        ],
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.022140609000000033,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.01190401899999971,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.011712687999999805,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        [
+          -1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.023240767999999967,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.011978709000000087,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        [
+          -1,
+          1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.011447199000000019,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.012264897999999747,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.012109571999999957,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.011400636000000297,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.016123602000000403,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.024845616000000348,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.013944579999999984,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.02405761999999978,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.02324506799999959,
+      "value": 0.0,
+      "root_bounds": [
+        [
+          -1,
+          -1
+        ],
+        null,
+        null,
+        [
+          0,
+          0
+        ],
+        null,
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.07384783899999992,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.013343636000000103,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        [
+          0,
+          0
+        ],
+        null,
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        null,
+        [
+          -1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.011648636999999962,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.02124316000000004,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.012333547999999972,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.013115584999999985,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 0,
+      "cpu_seconds": 0.014730203000000053,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.07858994200000025,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.011826557000000015,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.01448822800000027,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.01715984699999984,
+      "value": 0.0,
+      "root_bounds": [
+        null,
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.026746060999999877,
+      "value": 0.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.014712956000000332,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.017377060000000277,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          -1
+        ],
+        null,
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 3,
+      "cpu_seconds": 0.013424604999999978,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "correct": true,
+      "action": 5,
+      "cpu_seconds": 0.011586859000000338,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 4,
+      "cpu_seconds": 0.014644114999999847,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.012100211999999999,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          -1,
+          1
+        ],
+        null,
+        null,
+        null,
+        [
+          -1,
+          -1
+        ],
+        null,
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 1,
+      "cpu_seconds": 0.014268512000000122,
+      "value": 1.0,
+      "root_bounds": null
+    },
+    {
+      "correct": true,
+      "action": 6,
+      "cpu_seconds": 0.011771349999999625,
+      "value": 1.0,
+      "root_bounds": [
+        null,
+        [
+          -1,
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "correct": true,
+      "action": 2,
+      "cpu_seconds": 0.012170765000000028,
+      "value": 1.0,
+      "root_bounds": [
+        [
+          -1,
+          1
+        ],
+        null,
+        [
+          1,
+          1
+        ],
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

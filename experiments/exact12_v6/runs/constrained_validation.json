@@ -1,0 +1,212 @@
+{
+  "positions": 10000,
+  "optimal_result_proved": 10000,
+  "non_immediate_win_positions": 9296,
+  "positions_with_top_spare_moves": 2427,
+  "only_optimal_actions_are_spare_top_moves": 458,
+  "dead_tempo_merge_crosschecks": 300,
+  "max_cpu_seconds": 0.4629500759999985,
+  "examples": [
+    {
+      "history_1based": "22222255757775577564444664466",
+      "spaces": [
+        6,
+        0,
+        6,
+        0,
+        0,
+        1,
+        0
+      ],
+      "optimal_columns_1based": [
+        6
+      ],
+      "value": 0,
+      "scores": [
+        -1,
+        -1000,
+        -1,
+        -1000,
+        -1000,
+        0,
+        -1000
+      ]
+    },
+    {
+      "history_1based": "144411141144555555666666773777732333",
+      "spaces": [
+        0,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "optimal_columns_1based": [
+        3
+      ],
+      "value": 1,
+      "scores": [
+        -1000,
+        -1,
+        1,
+        -1000,
+        -1000,
+        -1000,
+        -1000
+      ]
+    },
+    {
+      "history_1based": "222222555353356533366666744444",
+      "spaces": [
+        6,
+        0,
+        0,
+        1,
+        0,
+        0,
+        5
+      ],
+      "optimal_columns_1based": [
+        4
+      ],
+      "value": 0,
+      "scores": [
+        -1,
+        -1000,
+        -1000,
+        0,
+        -1000,
+        -1000,
+        -1
+      ]
+    },
+    {
+      "history_1based": "34334377337427774441212211211266666",
+      "spaces": [
+        0,
+        0,
+        0,
+        0,
+        6,
+        1,
+        0
+      ],
+      "optimal_columns_1based": [
+        6
+      ],
+      "value": 0,
+      "scores": [
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1,
+        0,
+        -1000
+      ]
+    },
+    {
+      "history_1based": "11222222111163333633666655555547747444",
+      "spaces": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        3
+      ],
+      "optimal_columns_1based": [
+        4
+      ],
+      "value": 0,
+      "scores": [
+        -1000,
+        -1000,
+        -1000,
+        0,
+        -1000,
+        -1000,
+        -1
+      ]
+    },
+    {
+      "history_1based": "151111155555666666444444233333",
+      "spaces": [
+        0,
+        5,
+        1,
+        0,
+        0,
+        0,
+        6
+      ],
+      "optimal_columns_1based": [
+        3
+      ],
+      "value": 1,
+      "scores": [
+        -1000,
+        -1,
+        1,
+        -1000,
+        -1000,
+        -1000,
+        -1
+      ]
+    },
+    {
+      "history_1based": "64666664444432333332122221117117777",
+      "spaces": [
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        1
+      ],
+      "optimal_columns_1based": [
+        7
+      ],
+      "value": 1,
+      "scores": [
+        -1000,
+        -1000,
+        -1000,
+        -1000,
+        -1,
+        -1000,
+        1
+      ]
+    },
+    {
+      "history_1based": "66777771766661111154555554444422222",
+      "spaces": [
+        0,
+        1,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "optimal_columns_1based": [
+        2
+      ],
+      "value": 1,
+      "scores": [
+        -1000,
+        1,
+        -1,
+        -1000,
+        -1000,
+        -1000,
+        -1000
+      ]
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,1764 @@
+{
+  "internal_validation_only": true,
+  "seed": 2026103125,
+  "summary": [
+    {
+      "mode": "legacy",
+      "weight": -1,
+      "correct": 47,
+      "positions": 48,
+      "mean_completed_depth": 1.7083333333333333
+    },
+    {
+      "mode": "legacy",
+      "weight": 0.1,
+      "correct": 47,
+      "positions": 48,
+      "mean_completed_depth": 2.1666666666666665
+    },
+    {
+      "mode": "supported",
+      "weight": 0.2,
+      "correct": 47,
+      "positions": 48,
+      "mean_completed_depth": 2.1666666666666665
+    },
+    {
+      "mode": "supported",
+      "weight": 0.1,
+      "correct": 47,
+      "positions": 48,
+      "mean_completed_depth": 2.2916666666666665
+    }
+  ],
+  "records": [
+    {
+      "index": 41618,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 34969,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 27415,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 31236,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 342,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 18634,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 25492,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 0,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 26682,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 40454,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 8494,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 16239,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 30416,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 32041,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 20998,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 24842,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 32694,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 41552,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 35663,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 39038,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 6307,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 823,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 19458,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 30644,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 18322,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 18295,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 43402,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 3976,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 5863,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 16090,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 43710,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 32438,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 0,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 16780,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 26276,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 6
+    },
+    {
+      "index": 22392,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 4,
+      "correct": false,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 34785,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 33660,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 4343,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 14
+    },
+    {
+      "index": 41594,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 37566,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 34570,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 21055,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 6,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 44117,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 6,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 31833,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 11506,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 0,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 14
+    },
+    {
+      "index": 2892,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 16512,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 24515,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 9892,
+      "mode": "legacy",
+      "weight": -1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 41618,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 34969,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 27415,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 31236,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 342,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 18634,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 25492,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 0,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 26682,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 40454,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 8494,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 16239,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 30416,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 32041,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 20998,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 24842,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 32694,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 41552,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 35663,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 39038,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 4
+    },
+    {
+      "index": 6307,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 823,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 19458,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 30644,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 18322,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 18295,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 43402,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 3976,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 5863,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 16090,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 43710,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 32438,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 0,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 16780,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 26276,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 22392,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 4,
+      "correct": false,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 34785,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 33660,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 4343,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 14
+    },
+    {
+      "index": 41594,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 6
+    },
+    {
+      "index": 37566,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 34570,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 10
+    },
+    {
+      "index": 21055,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 6,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 44117,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 6,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 31833,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 11506,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 0,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 14
+    },
+    {
+      "index": 2892,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 16512,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 24515,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 9892,
+      "mode": "legacy",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 41618,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 34969,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 27415,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 31236,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 342,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 18634,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 25492,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 0,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 26682,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 40454,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 8494,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 16239,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 8
+    },
+    {
+      "index": 30416,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 32041,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 20998,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 24842,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 32694,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 41552,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 35663,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 39038,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 4
+    },
+    {
+      "index": 6307,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 823,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 19458,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 30644,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 18322,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 18295,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 43402,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 3976,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 5863,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 16090,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 43710,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 32438,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 0,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 16780,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 26276,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 22392,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 4,
+      "correct": false,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 34785,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 33660,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 4343,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 16
+    },
+    {
+      "index": 41594,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 37566,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 34570,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 10
+    },
+    {
+      "index": 21055,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 6,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 44117,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 31833,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 11506,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 0,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 16
+    },
+    {
+      "index": 2892,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 16512,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 24515,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 9892,
+      "mode": "supported",
+      "weight": 0.2,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 41618,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 34969,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 27415,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 31236,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 342,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 18634,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 25492,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 0,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 26682,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 40454,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 8494,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 16239,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 8
+    },
+    {
+      "index": 30416,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 32041,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 20998,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 6
+    },
+    {
+      "index": 24842,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 32694,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 41552,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 35663,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 39038,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 4
+    },
+    {
+      "index": 6307,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 823,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 19458,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 30644,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 18322,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 18295,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 43402,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 3976,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 5863,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 16090,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 43710,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 32438,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 0,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 16780,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 26276,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 1,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 22392,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 4,
+      "correct": false,
+      "played_wdl": 0,
+      "depth": 8
+    },
+    {
+      "index": 34785,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 33660,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 4343,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 20
+    },
+    {
+      "index": 41594,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 37566,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 34570,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 12
+    },
+    {
+      "index": 21055,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 6,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 44117,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 31833,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 0
+    },
+    {
+      "index": 11506,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 0,
+      "correct": true,
+      "played_wdl": 0,
+      "depth": 16
+    },
+    {
+      "index": 2892,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 4,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 16512,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 2,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 24515,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 3,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    },
+    {
+      "index": 9892,
+      "mode": "supported",
+      "weight": 0.1,
+      "action": 5,
+      "correct": true,
+      "played_wdl": 1,
+      "depth": 0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "a90b5c11-c291-404e-ac37-d4bbd3bda575",
+  "evaluation": "0a7d2774-979e-4028-8b78-fe49313b43fe",
+  "competition": null,
+  "rated_series": null,
+  "game": "connect4",
+  "rules_version": "connect4-v1",
+  "board_size": 7,
+  "board_rows": 6,
+  "board_cols": 7,
+  "action_count": 7,
+  "pass_action": null,
+  "komi": 0,
+  "sequence": 1,
+  "owner": "2400011444",
+  "owner_id": 74,
+  "cancel_requested": false,
+  "black": {
+    "id": "34b95b93-3588-4bd8-baf9-25d7170a8aef",
+    "name": "flash",
+    "number": 1,
+    "is_system": false,
+    "owner": "2400011461"
+  },
+  "white": {
+    "id": "418cae24-b542-427a-ac9b-1572359f1ae8",
+    "name": "张景天在打表",
+    "number": 4,
+    "is_system": false,
+    "owner": "2400011444"
+  },
+  "black_slot": "b",
+  "black_seed": 525329759,
+  "white_seed": 944163527,
+  "opening_pairs": 2,
+  "opening_seed": 1009731066,
+  "opening_actions": [
+    0,
+    6,
+    4,
+    2
+  ],
+  "phase": "COMPLETED",
+  "step": 42,
+  "end_reason": "NORMAL",
+  "winner": 0,
+  "scores": {
+    "black": 0,
+    "white": 0
+  },
+  "error": {},
+  "replay_available": true,
+  "can_view_logs": true,
+  "revision": 47,
+  "started_at": "2026-10-31T16:40:28.610950+08:00",
+  "finished_at": "2026-10-31T16:40:51.767842+08:00",
+  "created_at": "2026-10-31T16:39:46.992589+08:00"
+}

@@ -1,0 +1,46 @@
+{
+  "output": "/home/stu2026/stu2400011444/homework4/upload-v7",
+  "artifacts": {
+    "code.zip": {
+      "bytes": 324286,
+      "sha256": "9539999708ec298d32c304b270b17973ad4411843e3b5359405b51628b086656"
+    },
+    "model.pt": {
+      "bytes": 97503563,
+      "sha256": "2a98dbb2d08d6c6c4b341e3d0746f3c8193541622e422c4ce05293a0228472ec"
+    }
+  },
+  "learned_parameters": 195517,
+  "code_format": "Python and text only; no compiled extension, compiler, or network required at inference",
+  "original_export_directory": "/home/stu2026/stu2400011444/homework4/experiments/exact12_v7/runs/release_v7",
+  "audit": {
+    "channels": 48,
+    "midbook_positions": 41661,
+    "midbook_complete_on_legal_actions": true,
+    "neural_parameter_origin_matches": [
+      "runs/midbook_v5_nn2/model.pt"
+    ],
+    "neural_sha256": "340e56e78d2ea6ac30cb99c620f64800db17114e3aa033ae7678c746d2e0446b",
+    "source_archive_matches_current_files": true
+  },
+  "platform_version": {
+    "id": "65a6ca5f-a365-4f8d-a03a-31e02c33062e",
+    "number": 5,
+    "status": "READY",
+    "note": "v7; 48-channel CNN; 41661 exact midgame positions; Python-only inference"
+  },
+  "development_arena": {
+    "report": "runs/arena_v5nn2_fixed_vs_v6.json",
+    "games": 40,
+    "wins": 19,
+    "draws": 21,
+    "losses": 0,
+    "same_v7_search_both_models": true,
+    "development_openings_reused": true
+  },
+  "cleanup": {
+    "report": "../cleanup_report.json",
+    "archived_checkpoint_restore_verified": true,
+    "delivered_model_unchanged": true
+  }
+}

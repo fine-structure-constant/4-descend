@@ -1,0 +1,9 @@
+{"attempted": 2000, "selected": 15000, "proved": 2000, "seconds": 0.7626152038574219}
+{"attempted": 4000, "selected": 15000, "proved": 4000, "seconds": 1.6518707275390625}
+{"attempted": 6000, "selected": 15000, "proved": 6000, "seconds": 2.45666241645813}
+{"attempted": 8000, "selected": 15000, "proved": 8000, "seconds": 3.2330679893493652}
+{"attempted": 10000, "selected": 15000, "proved": 10000, "seconds": 4.044979810714722}
+{"attempted": 12000, "selected": 15000, "proved": 12000, "seconds": 4.802530765533447}
+{"attempted": 14000, "selected": 15000, "proved": 14000, "seconds": 5.575724124908447}
+{"attempted": 15000, "selected": 15000, "proved": 15000, "seconds": 5.978554964065552}
+{"focused_positions": 15000, "merged_positions": 44843, "sources": {"boundary4": 5000, "closed3": 10000, "diverse": 28044, "replay": 1737, "flash": 62}, "seed": 2026103116, "mirror_equivalent_states_deduplicated": true}

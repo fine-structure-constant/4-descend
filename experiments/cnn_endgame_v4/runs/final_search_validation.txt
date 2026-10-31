@@ -1,0 +1,1 @@
+{'tactical_positions_checked': 3025, 'exact_endgames_checked': 30}

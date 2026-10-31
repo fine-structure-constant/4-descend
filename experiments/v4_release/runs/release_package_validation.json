@@ -1,0 +1,57 @@
+{
+  "files": {
+    "model.pt": {
+      "bytes": 61000246,
+      "sha256": "4e9355b37496ef316b9baa81c7398c7f7cb6b6b11091e91eedb8daf91b7b943d"
+    },
+    "code.zip": {
+      "bytes": 845488,
+      "sha256": "399165c3b835deea890e5053a7f7d143ad58b6362cc644f6d084690361efe518"
+    }
+  },
+  "initialization_cpu_seconds": 7.38225146,
+  "peak_memory_mib": 421.34375,
+  "checks": [
+    {
+      "occupied": 0,
+      "action": 3,
+      "phase": "opening",
+      "cnn_calls": 0,
+      "cpu_seconds": 0.012956229999999458,
+      "wall_seconds": 0.012963015120476484
+    },
+    {
+      "occupied": 6,
+      "action": 3,
+      "phase": "opening",
+      "cnn_calls": 0,
+      "cpu_seconds": 0.007388451999999823,
+      "wall_seconds": 0.0073967985808849335
+    },
+    {
+      "occupied": 11,
+      "action": 3,
+      "phase": "opening",
+      "cnn_calls": 1,
+      "cpu_seconds": 0.006684962000000461,
+      "wall_seconds": 0.006693851202726364
+    },
+    {
+      "occupied": 12,
+      "action": 4,
+      "phase": "model_search",
+      "cnn_calls": 1,
+      "cpu_seconds": 0.014329725000000515,
+      "wall_seconds": 0.014338888227939606
+    },
+    {
+      "occupied": 16,
+      "action": 6,
+      "phase": "model_search",
+      "cnn_calls": 1,
+      "cpu_seconds": 0.023880902000000148,
+      "wall_seconds": 0.023894815240055323
+    }
+  ],
+  "sources_match_evaluated_model": true
+}

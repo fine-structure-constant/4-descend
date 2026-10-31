@@ -1,0 +1,3387 @@
+[
+  {
+    "file": "v5_01_black_open0_live.json",
+    "step": 31,
+    "played": 6,
+    "spaces": [
+      2,
+      0,
+      0,
+      0,
+      2,
+      6,
+      2
+    ],
+    "main_columns": 4,
+    "tempo_columns": 0,
+    "empty": 12,
+    "nodes": 341,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      null,
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "cpu_seconds": 0.009303391999999633,
+    "cached_states": 228
+  },
+  {
+    "file": "v5_01_black_open0_live.json",
+    "step": 32,
+    "played": 6,
+    "spaces": [
+      2,
+      0,
+      0,
+      0,
+      2,
+      6,
+      1
+    ],
+    "main_columns": 3,
+    "tempo_columns": 1,
+    "empty": 11,
+    "nodes": 128,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      null,
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "cpu_seconds": 0.003480576999999485,
+    "cached_states": 278
+  },
+  {
+    "file": "v5_01_black_open0_live.json",
+    "step": 33,
+    "played": 0,
+    "spaces": [
+      2,
+      0,
+      0,
+      0,
+      2,
+      6,
+      0
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 10,
+    "nodes": 8,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      null,
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      null
+    ],
+    "cpu_seconds": 0.00027911200000030334,
+    "cached_states": 278
+  },
+  {
+    "file": "v5_01_black_open0_live.json",
+    "step": 34,
+    "played": 0,
+    "spaces": [
+      1,
+      0,
+      0,
+      0,
+      2,
+      6,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 1,
+    "empty": 9,
+    "nodes": 35,
+    "dead_tempo_columns": 1,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      null,
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      [
+        -1,
+        -1
+      ],
+      null
+    ],
+    "cpu_seconds": 0.001015859000000674,
+    "cached_states": 27
+  },
+  {
+    "file": "v5_01_black_open0_live.json",
+    "step": 35,
+    "played": 5,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      6,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 8,
+    "nodes": 13,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      null
+    ],
+    "cpu_seconds": 0.0003566120000000339,
+    "cached_states": 10
+  },
+  {
+    "file": "v5_01_black_open0_live.json",
+    "step": 36,
+    "played": 5,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      5,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 7,
+    "nodes": 2,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      null
+    ],
+    "cpu_seconds": 0.00011896399999944407,
+    "cached_states": 10
+  },
+  {
+    "file": "v5_01_black_open0_live.json",
+    "step": 37,
+    "played": 5,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 6,
+    "nodes": 2,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      null
+    ],
+    "cpu_seconds": 0.00011679500000028042,
+    "cached_states": 10
+  },
+  {
+    "file": "v5_01_black_open0_live.json",
+    "step": 38,
+    "played": 5,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      3,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 5,
+    "nodes": 2,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      null
+    ],
+    "cpu_seconds": 0.00011113800000028817,
+    "cached_states": 10
+  },
+  {
+    "file": "v5_01_black_open0_live.json",
+    "step": 39,
+    "played": 5,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 4,
+    "nodes": 2,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      null
+    ],
+    "cpu_seconds": 0.00013714700000022617,
+    "cached_states": 10
+  },
+  {
+    "file": "v5_01_black_open0_live.json",
+    "step": 40,
+    "played": 5,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 1,
+    "empty": 3,
+    "nodes": 2,
+    "dead_tempo_columns": 1,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      null
+    ],
+    "cpu_seconds": 0.00011194000000003257,
+    "cached_states": 0
+  },
+  {
+    "file": "v5_01_black_open0_live.json",
+    "step": 41,
+    "played": 4,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 2,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 7.092999999969152e-05,
+    "cached_states": 0
+  },
+  {
+    "file": "v5_01_black_open0_live.json",
+    "step": 42,
+    "played": 4,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "main_columns": 0,
+    "tempo_columns": 1,
+    "empty": 1,
+    "nodes": 0,
+    "dead_tempo_columns": 1,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 6.863500000076073e-05,
+    "cached_states": 0
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 24,
+    "played": 0,
+    "spaces": [
+      1,
+      0,
+      6,
+      0,
+      6,
+      0,
+      6
+    ],
+    "main_columns": 3,
+    "tempo_columns": 1,
+    "empty": 19,
+    "nodes": 2853,
+    "dead_tempo_columns": 1,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 0.08099034100000058,
+    "cached_states": 1998
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 25,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      6,
+      0,
+      6,
+      0,
+      6
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 18,
+    "nodes": 736,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.020888369999999767,
+    "cached_states": 563
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 26,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      6,
+      0,
+      6,
+      0,
+      5
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 17,
+    "nodes": 395,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 0.011916621000000127,
+    "cached_states": 866
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 27,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      6,
+      0,
+      6,
+      0,
+      4
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 16,
+    "nodes": 135,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.0040342300000002496,
+    "cached_states": 970
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 28,
+    "played": 2,
+    "spaces": [
+      0,
+      0,
+      6,
+      0,
+      6,
+      0,
+      3
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 15,
+    "nodes": 3,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 0.00014716899999989153,
+    "cached_states": 970
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 29,
+    "played": 2,
+    "spaces": [
+      0,
+      0,
+      5,
+      0,
+      6,
+      0,
+      3
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 14,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 9.889800000006943e-05,
+    "cached_states": 970
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 30,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      4,
+      0,
+      6,
+      0,
+      3
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 13,
+    "nodes": 3,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 0.00014907499999949891,
+    "cached_states": 970
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 31,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      4,
+      0,
+      6,
+      0,
+      2
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 12,
+    "nodes": 89,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.0027527359999997003,
+    "cached_states": 1040
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 32,
+    "played": 2,
+    "spaces": [
+      0,
+      0,
+      4,
+      0,
+      6,
+      0,
+      1
+    ],
+    "main_columns": 2,
+    "tempo_columns": 1,
+    "empty": 11,
+    "nodes": 3,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 0.0002109109999999248,
+    "cached_states": 1040
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 33,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      3,
+      0,
+      6,
+      0,
+      1
+    ],
+    "main_columns": 2,
+    "tempo_columns": 1,
+    "empty": 10,
+    "nodes": 24,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.0007721759999999023,
+    "cached_states": 1058
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 34,
+    "played": 2,
+    "spaces": [
+      0,
+      0,
+      3,
+      0,
+      6,
+      0,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 9,
+    "nodes": 2,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 0.0001809829999999124,
+    "cached_states": 1058
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 35,
+    "played": 2,
+    "spaces": [
+      0,
+      0,
+      2,
+      0,
+      6,
+      0,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 8,
+    "nodes": 9,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 0.0003014870000006553,
+    "cached_states": 1065
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 36,
+    "played": 2,
+    "spaces": [
+      0,
+      0,
+      1,
+      0,
+      6,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 1,
+    "empty": 7,
+    "nodes": 8,
+    "dead_tempo_columns": 1,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 0.0003054130000004207,
+    "cached_states": 6
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 37,
+    "played": 4,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 6,
+    "nodes": 3,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 0.00012052599999989866,
+    "cached_states": 2
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 38,
+    "played": 4,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 5,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 7.360399999978284e-05,
+    "cached_states": 2
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 39,
+    "played": 4,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 4,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 6.983499999968501e-05,
+    "cached_states": 2
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 40,
+    "played": 4,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 3,
+    "nodes": 0,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 5.3134999999926436e-05,
+    "cached_states": 2
+  },
+  {
+    "file": "v5_02_white_open0_live.json",
+    "step": 41,
+    "played": 4,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 2,
+    "nodes": 0,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 3.963899999970266e-05,
+    "cached_states": 2
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 30,
+    "played": 6,
+    "spaces": [
+      0,
+      6,
+      0,
+      0,
+      2,
+      4,
+      1
+    ],
+    "main_columns": 3,
+    "tempo_columns": 1,
+    "empty": 13,
+    "nodes": 413,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      [
+        0,
+        0
+      ],
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.01124351599999951,
+    "cached_states": 298
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 31,
+    "played": 5,
+    "spaces": [
+      0,
+      6,
+      0,
+      0,
+      2,
+      4,
+      0
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 12,
+    "nodes": 96,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1
+      ],
+      null
+    ],
+    "cpu_seconds": 0.002729678999999763,
+    "cached_states": 366
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 32,
+    "played": 5,
+    "spaces": [
+      0,
+      6,
+      0,
+      0,
+      2,
+      3,
+      0
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 11,
+    "nodes": 16,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      [
+        0,
+        0
+      ],
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      null
+    ],
+    "cpu_seconds": 0.0006088589999997396,
+    "cached_states": 369
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 33,
+    "played": 5,
+    "spaces": [
+      0,
+      6,
+      0,
+      0,
+      2,
+      2,
+      0
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 10,
+    "nodes": 3,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1
+      ],
+      null
+    ],
+    "cpu_seconds": 0.00014233100000016208,
+    "cached_states": 369
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 34,
+    "played": 5,
+    "spaces": [
+      0,
+      6,
+      0,
+      0,
+      2,
+      1,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 1,
+    "empty": 9,
+    "nodes": 10,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      null
+    ],
+    "cpu_seconds": 0.0003369339999998999,
+    "cached_states": 373
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 35,
+    "played": 1,
+    "spaces": [
+      0,
+      6,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 8,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 0.00010396900000042564,
+    "cached_states": 373
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 36,
+    "played": 1,
+    "spaces": [
+      0,
+      5,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 7,
+    "nodes": 3,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 0.00014168299999983702,
+    "cached_states": 373
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 37,
+    "played": 1,
+    "spaces": [
+      0,
+      4,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 6,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 0.0001574680000002715,
+    "cached_states": 373
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 38,
+    "played": 1,
+    "spaces": [
+      0,
+      3,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 5,
+    "nodes": 3,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 0.0001379570000006325,
+    "cached_states": 373
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 39,
+    "played": 1,
+    "spaces": [
+      0,
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 4,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 8.989500000033956e-05,
+    "cached_states": 373
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 40,
+    "played": 1,
+    "spaces": [
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 1,
+    "empty": 3,
+    "nodes": 2,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      [
+        0,
+        0
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 0.00010256500000060953,
+    "cached_states": 373
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 41,
+    "played": 4,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 2,
+    "nodes": 0,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 5.482800000056187e-05,
+    "cached_states": 373
+  },
+  {
+    "file": "v5_03_black_open1_live.json",
+    "step": 42,
+    "played": 4,
+    "spaces": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "main_columns": 0,
+    "tempo_columns": 1,
+    "empty": 1,
+    "nodes": 0,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 4.787800000016773e-05,
+    "cached_states": 373
+  },
+  {
+    "file": "v5_04_white_open1_live.json",
+    "step": 29,
+    "played": 6,
+    "spaces": [
+      2,
+      6,
+      0,
+      0,
+      0,
+      5,
+      1
+    ],
+    "main_columns": 3,
+    "tempo_columns": 1,
+    "empty": 14,
+    "nodes": 19,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      null,
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.000663077000000456,
+    "cached_states": 389
+  },
+  {
+    "file": "v5_04_white_open1_live.json",
+    "step": 30,
+    "played": 0,
+    "spaces": [
+      2,
+      6,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 13,
+    "nodes": 21,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null
+    ],
+    "cpu_seconds": 0.0006120630000001626,
+    "cached_states": 406
+  },
+  {
+    "file": "v5_04_white_open1_live.json",
+    "step": 31,
+    "played": 0,
+    "spaces": [
+      1,
+      6,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 1,
+    "empty": 12,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      null,
+      [
+        -1,
+        1
+      ],
+      null
+    ],
+    "cpu_seconds": 0.00010762899999949838,
+    "cached_states": 406
+  },
+  {
+    "file": "v5_04_white_open1_live.json",
+    "step": 32,
+    "played": 1,
+    "spaces": [
+      0,
+      6,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 11,
+    "nodes": 4,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null
+    ],
+    "cpu_seconds": 0.00017287099999929723,
+    "cached_states": 409
+  },
+  {
+    "file": "v5_04_white_open1_live.json",
+    "step": 33,
+    "played": 1,
+    "spaces": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 10,
+    "nodes": 3,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      null,
+      [
+        -1,
+        1
+      ],
+      null
+    ],
+    "cpu_seconds": 0.0001339619999995989,
+    "cached_states": 411
+  },
+  {
+    "file": "v5_04_white_open1_live.json",
+    "step": 34,
+    "played": 1,
+    "spaces": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 9,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null
+    ],
+    "cpu_seconds": 9.743499999981253e-05,
+    "cached_states": 411
+  },
+  {
+    "file": "v5_04_white_open1_live.json",
+    "step": 35,
+    "played": 1,
+    "spaces": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 8,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null
+    ],
+    "cpu_seconds": 8.479300000008294e-05,
+    "cached_states": 411
+  },
+  {
+    "file": "v5_04_white_open1_live.json",
+    "step": 36,
+    "played": 5,
+    "spaces": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 7,
+    "nodes": 0,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null
+    ],
+    "cpu_seconds": 9.344099999974986e-05,
+    "cached_states": 411
+  },
+  {
+    "file": "v5_04_white_open1_live.json",
+    "step": 37,
+    "played": 5,
+    "spaces": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 6,
+    "nodes": 0,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": true,
+    "bounds": [
+      null,
+      [
+        -1,
+        1
+      ],
+      null,
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null
+    ],
+    "cpu_seconds": 5.3906999999853156e-05,
+    "cached_states": 411
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 25,
+    "played": 2,
+    "spaces": [
+      5,
+      0,
+      1,
+      5,
+      0,
+      1,
+      6
+    ],
+    "main_columns": 3,
+    "tempo_columns": 2,
+    "empty": 18,
+    "nodes": 264,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      [
+        -1,
+        1
+      ],
+      null,
+      [
+        1,
+        1
+      ],
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.007272683999999252,
+    "cached_states": 616
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 26,
+    "played": 5,
+    "spaces": [
+      5,
+      0,
+      0,
+      5,
+      0,
+      1,
+      6
+    ],
+    "main_columns": 3,
+    "tempo_columns": 1,
+    "empty": 17,
+    "nodes": 3,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 0.0001645039999997877,
+    "cached_states": 616
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 27,
+    "played": 6,
+    "spaces": [
+      5,
+      0,
+      0,
+      5,
+      0,
+      0,
+      6
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 16,
+    "nodes": 66,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.0018112409999995194,
+    "cached_states": 669
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 28,
+    "played": 0,
+    "spaces": [
+      5,
+      0,
+      0,
+      5,
+      0,
+      0,
+      5
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 15,
+    "nodes": 2,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 0.00017897999999938463,
+    "cached_states": 669
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 29,
+    "played": 0,
+    "spaces": [
+      4,
+      0,
+      0,
+      5,
+      0,
+      0,
+      5
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 14,
+    "nodes": 45,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.0013120170000000542,
+    "cached_states": 705
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 30,
+    "played": 0,
+    "spaces": [
+      3,
+      0,
+      0,
+      5,
+      0,
+      0,
+      5
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 13,
+    "nodes": 2,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 0.00011296899999990728,
+    "cached_states": 705
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 31,
+    "played": 0,
+    "spaces": [
+      2,
+      0,
+      0,
+      5,
+      0,
+      0,
+      5
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 12,
+    "nodes": 19,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.0004976679999995071,
+    "cached_states": 720
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 32,
+    "played": 0,
+    "spaces": [
+      1,
+      0,
+      0,
+      5,
+      0,
+      0,
+      5
+    ],
+    "main_columns": 2,
+    "tempo_columns": 1,
+    "empty": 11,
+    "nodes": 2,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 0.00013873199999991925,
+    "cached_states": 720
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 33,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      5
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 10,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        1,
+        1
+      ]
+    ],
+    "cpu_seconds": 8.629399999993126e-05,
+    "cached_states": 720
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 34,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      4
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 9,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 8.852599999986666e-05,
+    "cached_states": 720
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 35,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      3
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 8,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        1,
+        1
+      ]
+    ],
+    "cpu_seconds": 8.829499999940538e-05,
+    "cached_states": 720
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 36,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      2
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 7,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 9.048599999950113e-05,
+    "cached_states": 720
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 37,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      1
+    ],
+    "main_columns": 1,
+    "tempo_columns": 1,
+    "empty": 6,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      [
+        1,
+        1
+      ]
+    ],
+    "cpu_seconds": 9.08889999999829e-05,
+    "cached_states": 720
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 38,
+    "played": 3,
+    "spaces": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 5,
+    "nodes": 0,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      null
+    ],
+    "cpu_seconds": 5.4485000000603634e-05,
+    "cached_states": 720
+  },
+  {
+    "file": "v5_05_black_open2_live.json",
+    "step": 39,
+    "played": 3,
+    "spaces": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 4,
+    "nodes": 0,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      null
+    ],
+    "cpu_seconds": 4.1847000000316825e-05,
+    "cached_states": 720
+  },
+  {
+    "file": "v5_06_white_open2_live.json",
+    "step": 27,
+    "played": 2,
+    "spaces": [
+      0,
+      0,
+      5,
+      0,
+      5,
+      1,
+      5
+    ],
+    "main_columns": 3,
+    "tempo_columns": 1,
+    "empty": 16,
+    "nodes": 19,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.0006881489999992496,
+    "cached_states": 735
+  },
+  {
+    "file": "v5_06_white_open2_live.json",
+    "step": 28,
+    "played": 5,
+    "spaces": [
+      0,
+      0,
+      4,
+      0,
+      5,
+      1,
+      5
+    ],
+    "main_columns": 3,
+    "tempo_columns": 1,
+    "empty": 15,
+    "nodes": 2,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 0.00014500400000017066,
+    "cached_states": 735
+  },
+  {
+    "file": "v5_06_white_open2_live.json",
+    "step": 29,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      4,
+      0,
+      5,
+      0,
+      5
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 14,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ],
+      null,
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.00011290800000018919,
+    "cached_states": 735
+  },
+  {
+    "file": "v5_06_white_open2_live.json",
+    "step": 30,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      4,
+      0,
+      5,
+      0,
+      4
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 13,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 0.00010903399999939722,
+    "cached_states": 735
+  },
+  {
+    "file": "v5_06_white_open2_live.json",
+    "step": 31,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      4,
+      0,
+      5,
+      0,
+      3
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 12,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.00013627800000026724,
+    "cached_states": 735
+  },
+  {
+    "file": "v5_06_white_open2_live.json",
+    "step": 32,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      4,
+      0,
+      5,
+      0,
+      2
+    ],
+    "main_columns": 3,
+    "tempo_columns": 0,
+    "empty": 11,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ]
+    ],
+    "cpu_seconds": 0.00012783499999979853,
+    "cached_states": 735
+  },
+  {
+    "file": "v5_06_white_open2_live.json",
+    "step": 33,
+    "played": 6,
+    "spaces": [
+      0,
+      0,
+      4,
+      0,
+      5,
+      0,
+      1
+    ],
+    "main_columns": 2,
+    "tempo_columns": 1,
+    "empty": 10,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        1
+      ]
+    ],
+    "cpu_seconds": 0.00010772600000041876,
+    "cached_states": 735
+  },
+  {
+    "file": "v5_06_white_open2_live.json",
+    "step": 34,
+    "played": 2,
+    "spaces": [
+      0,
+      0,
+      4,
+      0,
+      5,
+      0,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 9,
+    "nodes": 0,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 6.671099999966401e-05,
+    "cached_states": 735
+  },
+  {
+    "file": "v5_06_white_open2_live.json",
+    "step": 35,
+    "played": 2,
+    "spaces": [
+      0,
+      0,
+      3,
+      0,
+      5,
+      0,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 8,
+    "nodes": 0,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": true,
+    "bounds": [
+      null,
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null
+    ],
+    "cpu_seconds": 5.6685000000555874e-05,
+    "cached_states": 735
+  },
+  {
+    "file": "v5_08_white_open3_live.json",
+    "step": 31,
+    "played": 0,
+    "spaces": [
+      2,
+      6,
+      0,
+      2,
+      0,
+      2,
+      0
+    ],
+    "main_columns": 4,
+    "tempo_columns": 0,
+    "empty": 12,
+    "nodes": 109,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null
+    ],
+    "cpu_seconds": 0.003287557000000163,
+    "cached_states": 810
+  },
+  {
+    "file": "v5_08_white_open3_live.json",
+    "step": 32,
+    "played": 5,
+    "spaces": [
+      1,
+      6,
+      0,
+      2,
+      0,
+      2,
+      0
+    ],
+    "main_columns": 3,
+    "tempo_columns": 1,
+    "empty": 11,
+    "nodes": 88,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        0,
+        0
+      ],
+      null,
+      [
+        1,
+        1
+      ],
+      null
+    ],
+    "cpu_seconds": 0.002341967999999639,
+    "cached_states": 879
+  },
+  {
+    "file": "v5_08_white_open3_live.json",
+    "step": 33,
+    "played": 5,
+    "spaces": [
+      1,
+      6,
+      0,
+      2,
+      0,
+      1,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 2,
+    "empty": 10,
+    "nodes": 51,
+    "dead_tempo_columns": 1,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null
+    ],
+    "cpu_seconds": 0.001469209000000582,
+    "cached_states": 36
+  },
+  {
+    "file": "v5_08_white_open3_live.json",
+    "step": 34,
+    "played": 0,
+    "spaces": [
+      1,
+      6,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 1,
+    "empty": 9,
+    "nodes": 29,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      [
+        1,
+        1
+      ],
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        0,
+        0
+      ],
+      null,
+      null,
+      null
+    ],
+    "cpu_seconds": 0.0007385309999996537,
+    "cached_states": 23
+  },
+  {
+    "file": "v5_08_white_open3_live.json",
+    "step": 35,
+    "played": 3,
+    "spaces": [
+      0,
+      6,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "main_columns": 2,
+    "tempo_columns": 0,
+    "empty": 8,
+    "nodes": 2,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      null
+    ],
+    "cpu_seconds": 0.0001122709999998861,
+    "cached_states": 23
+  },
+  {
+    "file": "v5_08_white_open3_live.json",
+    "step": 36,
+    "played": 3,
+    "spaces": [
+      0,
+      6,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 1,
+    "empty": 7,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      null
+    ],
+    "cpu_seconds": 9.546899999968161e-05,
+    "cached_states": 23
+  },
+  {
+    "file": "v5_08_white_open3_live.json",
+    "step": 37,
+    "played": 1,
+    "spaces": [
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 6,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "cpu_seconds": 0.0001431410000005684,
+    "cached_states": 23
+  },
+  {
+    "file": "v5_08_white_open3_live.json",
+    "step": 38,
+    "played": 1,
+    "spaces": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 5,
+    "nodes": 1,
+    "dead_tempo_columns": 0,
+    "complete": false,
+    "proved_win": true,
+    "bounds": [
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "cpu_seconds": 7.19750000000019e-05,
+    "cached_states": 23
+  },
+  {
+    "file": "v5_08_white_open3_live.json",
+    "step": 39,
+    "played": 1,
+    "spaces": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 4,
+    "nodes": 0,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": false,
+    "bounds": [
+      null,
+      [
+        -1,
+        -1
+      ],
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "cpu_seconds": 5.64210000000287e-05,
+    "cached_states": 23
+  },
+  {
+    "file": "v5_08_white_open3_live.json",
+    "step": 40,
+    "played": 1,
+    "spaces": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "main_columns": 1,
+    "tempo_columns": 0,
+    "empty": 3,
+    "nodes": 0,
+    "dead_tempo_columns": 0,
+    "complete": true,
+    "proved_win": true,
+    "bounds": [
+      null,
+      [
+        1,
+        1
+      ],
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "cpu_seconds": 4.2173000000644834e-05,
+    "cached_states": 23
+  }
+]

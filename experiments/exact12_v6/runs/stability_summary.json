@@ -1,0 +1,34 @@
+{
+  "games": 40,
+  "opening_groups": 20,
+  "total": {
+    "win": 23,
+    "draw": 12,
+    "loss": 5
+  },
+  "score_rate": 0.725,
+  "paired_matches": {
+    "win": 12,
+    "draw": 6,
+    "loss": 2
+  },
+  "paired_bootstrap_95_interval": [
+    0.6125,
+    0.8375
+  ],
+  "max_cpu_seconds": 0.8037329480000039,
+  "criterion_passed": {
+    "games": true,
+    "score_rate": true,
+    "pair_win_rate": false,
+    "bootstrap_lower_bound": true,
+    "move_cpu": true
+  },
+  "all_criteria_passed": false,
+  "protocol": "20 new 8-ply theoretical-draw openings, colours swapped; frozen candidate; no test-game training.",
+  "inference_phases": {
+    "opening": 100,
+    "model_search": 282,
+    "constrained": 224
+  }
+}

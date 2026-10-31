@@ -1,0 +1,15 @@
+{
+  "output": "/home/stu2026/stu2400011444/homework4/upload-v8",
+  "artifacts": {
+    "code.zip": {
+      "bytes": 852203,
+      "sha256": "d5ff1abcfb19859d707fcb5ab59de1ca9605591094ad3521806cac1284482380"
+    },
+    "model.pt": {
+      "bytes": 97503563,
+      "sha256": "2a98dbb2d08d6c6c4b341e3d0746f3c8193541622e422c4ce05293a0228472ec"
+    }
+  },
+  "learned_parameters": 195517,
+  "code_format": "Python/text archive with a self-contained offline helper; no compiler or network required at inference"
+}

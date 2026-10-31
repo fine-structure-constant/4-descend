@@ -1,0 +1,16 @@
+{
+  "entries": 972,
+  "source_dataset_sha256": "8d15b7e4ac70a9a0fc70ff21640d5b537fc8b66f3f725c230377ea48af9462e4",
+  "only_proved_nonlosing_moves": true,
+  "depth_range": [
+    13,
+    24
+  ],
+  "sources": [
+    "flash",
+    "replay",
+    "refutation"
+  ],
+  "includes_internal_development_labels": true,
+  "external_test_states_excluded": true
+}

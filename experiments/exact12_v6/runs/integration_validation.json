@@ -1,0 +1,5 @@
+{
+  "random_closed_positions": 1000,
+  "all_chosen_actions_exact_optimal": true,
+  "max_cpu_seconds": 0.11608421299999883
+}

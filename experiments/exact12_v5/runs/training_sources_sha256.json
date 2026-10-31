@@ -1,0 +1,10 @@
+{
+  "train.py": "361eef019cb9c72203a9e65efef4b76a48d68f14a7a62c76c997cee93e747545",
+  "prepare_data.py": "78157c9739f8b5e6fe6100e8a68a3cf90fd2e592e3df1048726f8e89bfebf5fa",
+  "model.py": "8e977d6622a9d54f3a9ae2784403f3d4e5840e068df7a705ffda8eb5ebb35d92",
+  "mcts.py": "ee47472502365fc67029c97006b67d16555184028b89e28fef9eac52d5a77b87",
+  "support/endgame.py": "e2457dcc4fbd74c00728cd5d08adbbabb6347c58b344deebcb9bdde9c777aca4",
+  "tools/label_positions.cpp": "3965fbe768eb842dabb44d0d4ae9c0f01dc3730a2ad645e577b28c5487702e6a",
+  "tools/pons_fast/Solver.cpp": "4b92218a919cc24b50a71381b0d88802a5f989569b8f539a1b0cfa948be9a7fe",
+  "tools/pons_fast/Solver.hpp": "bb5ccd3b723a0d7debe6698dad149de9a163261a12a8e8401b2a3ee1fc3c42b6"
+}

@@ -1,0 +1,84 @@
+{
+  "files": {
+    "code.zip": {
+      "bytes": 322414,
+      "sha256": "6d47ad6406690071a39f2991c395b6cace7673cb1a0e93e88e52cd01ce6408bc"
+    },
+    "model.pt": {
+      "bytes": 96029983,
+      "sha256": "69641c9e5b57950bf5930f491a040d6ae490f879f950c327c91db884944634bb"
+    }
+  },
+  "init_cpu_seconds": 6.1276257659999995,
+  "init_wall_seconds": 2.6970310038886964,
+  "peak_memory_mib": 408.54296875,
+  "checks": [
+    {
+      "occupied": 0,
+      "action": 3,
+      "cpu_seconds": 0.014374959999999604,
+      "wall_seconds": 0.014383902307599783
+    },
+    {
+      "occupied": 11,
+      "action": 5,
+      "cpu_seconds": 0.0048531370000004515,
+      "wall_seconds": 0.0048528932966291904
+    },
+    {
+      "occupied": 12,
+      "action": 4,
+      "cpu_seconds": 0.002883767000000148,
+      "wall_seconds": 0.002891839947551489
+    },
+    {
+      "occupied": 13,
+      "action": 4,
+      "cpu_seconds": 0.8028250230000005,
+      "wall_seconds": 0.8034990420565009
+    },
+    {
+      "occupied": 14,
+      "action": 1,
+      "cpu_seconds": 0.0003737380000004009,
+      "wall_seconds": 0.00037279026582837105
+    },
+    {
+      "occupied": 39,
+      "action": 4,
+      "cpu_seconds": 0.000569968999999837,
+      "wall_seconds": 0.000569573137909174
+    },
+    {
+      "occupied": 35,
+      "action": 6,
+      "cpu_seconds": 0.0007780820000000688,
+      "wall_seconds": 0.000777524895966053
+    },
+    {
+      "occupied": 35,
+      "action": 2,
+      "cpu_seconds": 0.0006146720000002048,
+      "wall_seconds": 0.0006138971075415611
+    },
+    {
+      "occupied": 23,
+      "action": 3,
+      "cpu_seconds": 0.040858247999999264,
+      "wall_seconds": 0.04088934790343046
+    },
+    {
+      "occupied": 35,
+      "action": 1,
+      "cpu_seconds": 0.0007128019999997903,
+      "wall_seconds": 0.000719982199370861
+    },
+    {
+      "occupied": 35,
+      "action": 1,
+      "cpu_seconds": 0.0005448129999994222,
+      "wall_seconds": 0.0005438569933176041
+    }
+  ],
+  "passed": true
+}

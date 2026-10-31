@@ -1,0 +1,17 @@
+depth  0 canonical         1
+depth  1 canonical         4
+depth  2 canonical        25
+depth  3 canonical       121
+depth  4 canonical       568
+depth  5 canonical      2144
+depth  6 canonical      8231
+depth  7 canonical     27109
+depth  8 canonical     91295
+depth  9 canonical    269531
+depth 10 canonical    809464
+depth 11 canonical   2148087
+depth 12 canonical   5832236
+total 9188816, enum 3.15s
+Loading opening book from file: data/public/7x6.book. done
+book load 0.03s
+probe 2000: mean 2.908ms max 62.567ms total 5.82s; all masks equal full analysis

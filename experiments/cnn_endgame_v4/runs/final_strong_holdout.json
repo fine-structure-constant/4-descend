@@ -1,0 +1,4284 @@
+{
+  "model": "/home/stu2026/stu2400011444/homework4/experiments/cnn_endgame_v4/runs/cnn_replay/model.pt",
+  "opponent": "strong",
+  "simulations": 128,
+  "seed": 20261030,
+  "sha256": {
+    "runs/cnn_replay/model.pt": "1ecec1bd751dc3bdbefdf3f800b618ec0dc51ce1c766c6d9be8b5a3e15f0c03b",
+    "/home/stu2026/stu2400011444/homework4/experiments/cnn_endgame_v4/mcts.py": "d89213ca5016c883e1b351e533c0f4050b5187a53b5977a8c49a0d5184db6f12",
+    "/home/stu2026/stu2400011444/homework4/experiments/cnn_endgame_v4/model.py": "58d1fe23b76bc7b8277018140e097e52912254192d56f4e4dfa330ad29189ce3",
+    "/home/stu2026/stu2400011444/homework4/experiments/cnn_endgame_v4/support/endgame.py": "13b9eb75d57c1dd8b91260336064d53a48a790628c4b4daefaa76149f4da5412",
+    "/home/stu2026/stu2400011444/homework4/experiments/cnn_endgame_v4/support/tactics.py": "77a7d57e3186524981458ce4103b707600ac27f471f472103d175c6727d884a5",
+    "/home/stu2026/stu2400011444/homework4/experiments/cnn_endgame_v4/support/opening.py": "334c0699d65706e114691c12b79e375e0fb5656aa840548e0fdfa4c058ecdc8c",
+    "/home/stu2026/stu2400011444/homework4/experiments/cnn_endgame_v4/support/deep_opening.py": "4ef85ab11dee4404084333b8dbffd0146b7618308ac6ed42fc77f0af82949267"
+  },
+  "total": {
+    "win": 3,
+    "draw": 1,
+    "loss": 1
+  },
+  "seconds": 74.41,
+  "records": [
+    {
+      "game": 1,
+      "side": 1,
+      "opening": [
+        3,
+        4,
+        2,
+        2
+      ],
+      "result": "loss",
+      "winner": -1,
+      "history": [
+        3,
+        4,
+        2,
+        2,
+        4,
+        4,
+        2,
+        2,
+        4,
+        3,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        1,
+        1,
+        4,
+        2,
+        0,
+        0,
+        6,
+        6,
+        4,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        5,
+        5,
+        5,
+        5,
+        0,
+        0,
+        3,
+        3
+      ],
+      "move_seconds": [
+        0.5848167552612722,
+        0.5144908330403268,
+        0.6165220662951469,
+        0.01407566200941801,
+        0.8014675709418952,
+        0.8009541719220579,
+        0.8014019457623363,
+        0.6172565948218107,
+        0.5118495188653469,
+        0.3061867393553257,
+        0.16651937924325466,
+        0.04989176103845239,
+        0.020582641940563917,
+        0.016910088248550892,
+        0.013372683897614479,
+        0.010046037845313549,
+        0.015047320164740086,
+        0.013940559700131416
+      ],
+      "move_cpu_seconds": [
+        0.5845961719999995,
+        0.5143272230000004,
+        0.6162346020000005,
+        0.014050195000001153,
+        0.8011676629999993,
+        0.8006249019999991,
+        0.801113226,
+        0.616980452,
+        0.5117090619999995,
+        0.3060805230000003,
+        0.1664542330000014,
+        0.04982673900000023,
+        0.020558892000000384,
+        0.01687832700000058,
+        0.013345863000001401,
+        0.010022495999999492,
+        0.015023138000000102,
+        0.01391580800000014
+      ],
+      "search_details": [
+        {
+          "occupied": 4,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "root_known": 0,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.584544
+        },
+        {
+          "occupied": 6,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            2
+          ],
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.51424
+        },
+        {
+          "occupied": 8,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            3,
+            4
+          ],
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.616176
+        },
+        {
+          "occupied": 10,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "root_known": 1,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.01399
+        },
+        {
+          "occupied": 12,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 110,
+          "cpu_seconds": 0.800918
+        },
+        {
+          "occupied": 14,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 110,
+          "cpu_seconds": 0.800386
+        },
+        {
+          "occupied": 16,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 116,
+          "cpu_seconds": 0.800841
+        },
+        {
+          "occupied": 18,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 10,
+          "simulations": 128,
+          "cpu_seconds": 0.616918
+        },
+        {
+          "occupied": 20,
+          "initial_allowed": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 14,
+          "simulations": 128,
+          "cpu_seconds": 0.511657
+        },
+        {
+          "occupied": 22,
+          "initial_allowed": [
+            0,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 16,
+          "simulations": 128,
+          "cpu_seconds": 0.306028
+        },
+        {
+          "occupied": 24,
+          "initial_allowed": [
+            0,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4,
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": [
+            -3,
+            null,
+            null,
+            -3,
+            -2,
+            -2,
+            -2
+          ],
+          "guidance_depth": 14,
+          "simulations": 128,
+          "cpu_seconds": 0.166403
+        },
+        {
+          "occupied": 26,
+          "initial_allowed": [
+            0,
+            3,
+            5,
+            6
+          ],
+          "allowed": [
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": [
+            -3,
+            null,
+            null,
+            -3,
+            null,
+            -2,
+            -2
+          ],
+          "guidance_depth": 12,
+          "simulations": 128,
+          "cpu_seconds": 0.049769
+        },
+        {
+          "occupied": 28,
+          "initial_allowed": [
+            0,
+            5,
+            6
+          ],
+          "allowed": [
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": [
+            -6,
+            null,
+            null,
+            -7,
+            null,
+            -2,
+            -2
+          ],
+          "guidance_depth": 10,
+          "simulations": 128,
+          "cpu_seconds": 0.02051
+        },
+        {
+          "occupied": 30,
+          "initial_allowed": [
+            0,
+            5,
+            6
+          ],
+          "allowed": [
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": [
+            -5,
+            null,
+            null,
+            -6,
+            null,
+            -2,
+            -2
+          ],
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.016821
+        },
+        {
+          "occupied": 32,
+          "initial_allowed": [
+            0,
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            null
+          ],
+          "distance_scores": [
+            -4,
+            null,
+            null,
+            -5,
+            null,
+            -2,
+            null
+          ],
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.013297
+        },
+        {
+          "occupied": 34,
+          "initial_allowed": [
+            0,
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            null
+          ],
+          "distance_scores": [
+            -3,
+            null,
+            null,
+            -4,
+            null,
+            -2,
+            null
+          ],
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.00997
+        },
+        {
+          "occupied": 36,
+          "initial_allowed": [
+            0
+          ],
+          "allowed": [
+            0
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.014974
+        },
+        {
+          "occupied": 38,
+          "initial_allowed": [
+            3
+          ],
+          "allowed": [
+            3
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.013869
+        }
+      ]
+    },
+    {
+      "game": 2,
+      "side": -1,
+      "opening": [
+        3,
+        4,
+        2,
+        2
+      ],
+      "result": "win",
+      "winner": -1,
+      "history": [
+        3,
+        4,
+        2,
+        2,
+        4,
+        4,
+        2,
+        2,
+        4,
+        0,
+        3,
+        3,
+        2,
+        4,
+        2,
+        3,
+        3,
+        6,
+        3,
+        4,
+        0,
+        6,
+        6,
+        6,
+        1,
+        1,
+        6,
+        6,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "move_seconds": [
+        0.011648545041680336,
+        0.4265669733285904,
+        0.01027459604665637,
+        0.010729384142905474,
+        0.8006876138970256,
+        0.5920773292891681,
+        0.3879413241520524,
+        0.19840794382616878,
+        0.20823601726442575,
+        0.18210802180692554,
+        0.07293084915727377,
+        0.032496471889317036,
+        0.017635479103773832,
+        0.011261563748121262,
+        0.010850057937204838
+      ],
+      "move_cpu_seconds": [
+        0.011625870999999677,
+        0.4263137119999989,
+        0.010252809999999002,
+        0.010708613000000256,
+        0.8003112779999988,
+        0.591793452000001,
+        0.3877626670000005,
+        0.19827674000000073,
+        0.20812121199999822,
+        0.18198424500000243,
+        0.07287451200000206,
+        0.03246429700000064,
+        0.017606452999999078,
+        0.011241064000000023,
+        0.010824094000000173
+      ],
+      "search_details": [
+        {
+          "occupied": 5,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "root_known": 0,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.011577
+        },
+        {
+          "occupied": 7,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2
+          ],
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.42626
+        },
+        {
+          "occupied": 9,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.010205
+        },
+        {
+          "occupied": 11,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.010661
+        },
+        {
+          "occupied": 13,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 114,
+          "cpu_seconds": 0.800077
+        },
+        {
+          "occupied": 15,
+          "initial_allowed": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              0,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.591594
+        },
+        {
+          "occupied": 17,
+          "initial_allowed": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.38758
+        },
+        {
+          "occupied": 19,
+          "initial_allowed": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            [
+              0,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.198073
+        },
+        {
+          "occupied": 21,
+          "initial_allowed": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.20795
+        },
+        {
+          "occupied": 23,
+          "initial_allowed": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.181833
+        },
+        {
+          "occupied": 25,
+          "initial_allowed": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.07279
+        },
+        {
+          "occupied": 27,
+          "initial_allowed": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.032393
+        },
+        {
+          "occupied": 29,
+          "initial_allowed": [
+            0,
+            1,
+            5
+          ],
+          "allowed": [
+            1
+          ],
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.017545
+        },
+        {
+          "occupied": 31,
+          "initial_allowed": [
+            0,
+            1,
+            5
+          ],
+          "allowed": [
+            1
+          ],
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            null
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.01119
+        },
+        {
+          "occupied": 33,
+          "initial_allowed": [
+            0
+          ],
+          "allowed": [
+            0
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.010776
+        }
+      ]
+    },
+    {
+      "game": 3,
+      "side": 1,
+      "opening": [
+        3,
+        2,
+        4,
+        4
+      ],
+      "result": "win",
+      "winner": 1,
+      "history": [
+        3,
+        2,
+        4,
+        4,
+        2,
+        4,
+        4,
+        2,
+        6,
+        5,
+        1,
+        2,
+        5,
+        2,
+        2,
+        1,
+        1,
+        1,
+        4,
+        5,
+        5,
+        5,
+        4,
+        6,
+        0,
+        6,
+        5,
+        6,
+        6,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        3,
+        3
+      ],
+      "move_seconds": [
+        0.5116694588214159,
+        0.5118012451566756,
+        0.6159518659114838,
+        0.014376861043274403,
+        0.8021597503684461,
+        0.21283176122233272,
+        0.23262769309803843,
+        0.013265846762806177,
+        0.011367573868483305,
+        0.012748606968671083,
+        0.021669964771717787,
+        0.013699131086468697,
+        0.012701930943876505,
+        0.011702343821525574,
+        0.010761417914181948,
+        0.01308851270005107,
+        0.017975647002458572,
+        0.008054763078689575
+      ],
+      "move_cpu_seconds": [
+        0.5115384190000007,
+        0.511602259,
+        0.6156735439999999,
+        0.014350556000000125,
+        0.8018562159999973,
+        0.21266728700000215,
+        0.23254142400000077,
+        0.013239286000001016,
+        0.011348513999998033,
+        0.012722823000000716,
+        0.021636029999999806,
+        0.013678716000001145,
+        0.012674775999997223,
+        0.011677431999999044,
+        0.010743598999997772,
+        0.01306627700000007,
+        0.017918557999998086,
+        0.008036469999996854
+      ],
+      "search_details": [
+        {
+          "occupied": 4,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": 0,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.51149
+        },
+        {
+          "occupied": 6,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4,
+            6
+          ],
+          "root_known": 1,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.511554
+        },
+        {
+          "occupied": 8,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            1,
+            5,
+            6
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.615618
+        },
+        {
+          "occupied": 10,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.014297
+        },
+        {
+          "occupied": 12,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 112,
+          "cpu_seconds": 0.801576
+        },
+        {
+          "occupied": 14,
+          "initial_allowed": [
+            2
+          ],
+          "allowed": [
+            2
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.212409
+        },
+        {
+          "occupied": 16,
+          "initial_allowed": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.232485
+        },
+        {
+          "occupied": 18,
+          "initial_allowed": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.01319
+        },
+        {
+          "occupied": 20,
+          "initial_allowed": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.011301
+        },
+        {
+          "occupied": 22,
+          "initial_allowed": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.012675
+        },
+        {
+          "occupied": 24,
+          "initial_allowed": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.021553
+        },
+        {
+          "occupied": 26,
+          "initial_allowed": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.013626
+        },
+        {
+          "occupied": 28,
+          "initial_allowed": [
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.012623
+        },
+        {
+          "occupied": 30,
+          "initial_allowed": [
+            0,
+            1,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.011629
+        },
+        {
+          "occupied": 32,
+          "initial_allowed": [
+            0,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.010701
+        },
+        {
+          "occupied": 34,
+          "initial_allowed": [
+            0,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.013018
+        },
+        {
+          "occupied": 36,
+          "initial_allowed": [
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.017859
+        },
+        {
+          "occupied": 38,
+          "initial_allowed": [
+            3
+          ],
+          "allowed": [
+            3
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.007996
+        }
+      ]
+    },
+    {
+      "game": 4,
+      "side": -1,
+      "opening": [
+        3,
+        2,
+        4,
+        4
+      ],
+      "result": "win",
+      "winner": -1,
+      "history": [
+        3,
+        2,
+        4,
+        4,
+        4,
+        4,
+        2,
+        2,
+        2,
+        6,
+        2,
+        6,
+        3,
+        1,
+        3,
+        3,
+        1,
+        6,
+        6,
+        3,
+        4,
+        3,
+        2,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        5,
+        5,
+        5,
+        1,
+        1,
+        1,
+        1,
+        6,
+        6,
+        5,
+        5
+      ],
+      "move_seconds": [
+        0.8128921408206224,
+        0.6221754681318998,
+        0.011965136043727398,
+        0.013531414326280355,
+        0.8009758130647242,
+        0.2184780458919704,
+        0.10502797458320856,
+        0.011796236038208008,
+        0.022666454780846834,
+        0.009370656218379736,
+        0.0128717590123415,
+        0.013876838143914938,
+        0.013150535989552736,
+        0.012485210783779621,
+        0.013583220075815916,
+        0.015300375875085592,
+        0.011628441978245974,
+        0.01197495125234127,
+        0.010832562111318111
+      ],
+      "move_cpu_seconds": [
+        0.8125311740000001,
+        0.6218074160000029,
+        0.011940699000000166,
+        0.013505229999999813,
+        0.800696938999998,
+        0.2183285159999997,
+        0.10498181199999834,
+        0.01177053199999989,
+        0.022641569000001027,
+        0.00934999600000097,
+        0.012845792000000245,
+        0.013852753999998413,
+        0.01312200399999952,
+        0.012464825000002122,
+        0.013555924999998581,
+        0.015261385000002292,
+        0.011602773000003452,
+        0.011949707999999504,
+        0.010806048999999263
+      ],
+      "search_details": [
+        {
+          "occupied": 5,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2,
+            4
+          ],
+          "root_known": 0,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 11,
+          "cpu_seconds": 0.812444
+        },
+        {
+          "occupied": 7,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            2
+          ],
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.621749
+        },
+        {
+          "occupied": 9,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": 0,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.011895
+        },
+        {
+          "occupied": 11,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": 1,
+          "root_minimum": 0,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.013453
+        },
+        {
+          "occupied": 13,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 112,
+          "cpu_seconds": 0.800461
+        },
+        {
+          "occupied": 15,
+          "initial_allowed": [
+            3
+          ],
+          "allowed": [
+            3
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.218071
+        },
+        {
+          "occupied": 17,
+          "initial_allowed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.104933
+        },
+        {
+          "occupied": 19,
+          "initial_allowed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.011718
+        },
+        {
+          "occupied": 21,
+          "initial_allowed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            3
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.022594
+        },
+        {
+          "occupied": 23,
+          "initial_allowed": [
+            1,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            4
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.0093
+        },
+        {
+          "occupied": 25,
+          "initial_allowed": [
+            0
+          ],
+          "allowed": [
+            0
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.012798
+        },
+        {
+          "occupied": 27,
+          "initial_allowed": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.013805
+        },
+        {
+          "occupied": 29,
+          "initial_allowed": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            0
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.013068
+        },
+        {
+          "occupied": 31,
+          "initial_allowed": [
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.012423
+        },
+        {
+          "occupied": 33,
+          "initial_allowed": [
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            [
+              -1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.013505
+        },
+        {
+          "occupied": 35,
+          "initial_allowed": [
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            [
+              1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.015215
+        },
+        {
+          "occupied": 37,
+          "initial_allowed": [
+            1,
+            5,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            [
+              1,
+              1
+            ],
+            null,
+            null,
+            null,
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.011551
+        },
+        {
+          "occupied": 39,
+          "initial_allowed": [
+            5,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.011897
+        },
+        {
+          "occupied": 41,
+          "initial_allowed": [
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "root_known": 1,
+          "root_minimum": 1,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.010743
+        }
+      ]
+    },
+    {
+      "game": 5,
+      "side": 1,
+      "opening": [
+        2,
+        4,
+        3,
+        3
+      ],
+      "result": "draw",
+      "winner": 0,
+      "history": [
+        2,
+        4,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        1,
+        1,
+        3,
+        3,
+        1,
+        1,
+        1,
+        4,
+        6,
+        1,
+        4,
+        0,
+        2,
+        0,
+        0,
+        6,
+        2,
+        2,
+        5,
+        5,
+        2,
+        2,
+        5,
+        5,
+        6,
+        5,
+        5,
+        6,
+        0,
+        0,
+        0,
+        6,
+        6
+      ],
+      "move_seconds": [
+        0.510358199942857,
+        0.5128779523074627,
+        0.6183883198536932,
+        0.5136635988019407,
+        0.8019889649003744,
+        0.6159069137647748,
+        0.6160159320570529,
+        0.5829682629555464,
+        0.14800113020464778,
+        0.06298869522288442,
+        0.017467791214585304,
+        0.18430928513407707,
+        0.17895288579165936,
+        0.03851596871390939,
+        0.0561039405874908,
+        0.03585195820778608,
+        0.02166129695251584,
+        0.014979502651840448,
+        0.019593228120356798
+      ],
+      "move_cpu_seconds": [
+        0.5102101770000012,
+        0.512719422,
+        0.6181713480000006,
+        0.5134551009999981,
+        0.8017021950000007,
+        0.6157351360000014,
+        0.6157972119999968,
+        0.5828001450000002,
+        0.14792963100000023,
+        0.06289515299999948,
+        0.0174428409999976,
+        0.18419086899999826,
+        0.17883459900000176,
+        0.038484118999999595,
+        0.05605782700000006,
+        0.035815970000001585,
+        0.02163698000000025,
+        0.014956080999997567,
+        0.019542933000000318
+      ],
+      "search_details": [
+        {
+          "occupied": 4,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": -1,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.510169
+        },
+        {
+          "occupied": 6,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": -1,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.512669
+        },
+        {
+          "occupied": 8,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": -1,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.618116
+        },
+        {
+          "occupied": 10,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": -1,
+          "root_minimum": null,
+          "opening_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 128,
+          "cpu_seconds": 0.513397
+        },
+        {
+          "occupied": 12,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "root_known": 0,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 6,
+          "simulations": 115,
+          "cpu_seconds": 0.801421
+        },
+        {
+          "occupied": 14,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.615687
+        },
+        {
+          "occupied": 16,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "allowed": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 8,
+          "simulations": 128,
+          "cpu_seconds": 0.615746
+        },
+        {
+          "occupied": 18,
+          "initial_allowed": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ],
+          "allowed": [
+            1
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 12,
+          "simulations": 128,
+          "cpu_seconds": 0.582752
+        },
+        {
+          "occupied": 20,
+          "initial_allowed": [
+            0,
+            2,
+            6
+          ],
+          "allowed": [
+            0,
+            2,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 12,
+          "simulations": 128,
+          "cpu_seconds": 0.147879
+        },
+        {
+          "occupied": 22,
+          "initial_allowed": [
+            0,
+            6
+          ],
+          "allowed": [
+            0,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 10,
+          "simulations": 128,
+          "cpu_seconds": 0.062843
+        },
+        {
+          "occupied": 24,
+          "initial_allowed": [
+            0,
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "distance_scores": [
+            -7,
+            null,
+            -9,
+            null,
+            null,
+            -9,
+            -5
+          ],
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.017391
+        },
+        {
+          "occupied": 26,
+          "initial_allowed": [
+            2
+          ],
+          "allowed": [
+            2
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.184049
+        },
+        {
+          "occupied": 28,
+          "initial_allowed": [
+            5
+          ],
+          "allowed": [
+            5
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.178695
+        },
+        {
+          "occupied": 30,
+          "initial_allowed": [
+            2,
+            5,
+            6
+          ],
+          "allowed": [
+            2,
+            5,
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            [
+              0,
+              0
+            ],
+            null,
+            null,
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "distance_scores": [
+            -6,
+            null,
+            0,
+            null,
+            null,
+            0,
+            0
+          ],
+          "guidance_depth": 42,
+          "simulations": 128,
+          "cpu_seconds": 0.038427
+        },
+        {
+          "occupied": 32,
+          "initial_allowed": [
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            null,
+            null,
+            [
+              0,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.05599
+        },
+        {
+          "occupied": 34,
+          "initial_allowed": [
+            5,
+            6
+          ],
+          "allowed": [
+            5
+          ],
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": [
+            [
+              -1,
+              -1
+            ],
+            null,
+            null,
+            null,
+            null,
+            [
+              0,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.035759
+        },
+        {
+          "occupied": 36,
+          "initial_allowed": [
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": null,
+          "root_minimum": 0,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.021585
+        },
+        {
+          "occupied": 38,
+          "initial_allowed": [
+            0
+          ],
+          "allowed": [
+            0
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.014904
+        },
+        {
+          "occupied": 40,
+          "initial_allowed": [
+            6
+          ],
+          "allowed": [
+            6
+          ],
+          "root_known": null,
+          "root_minimum": null,
+          "opening_bounds": null,
+          "outcome_bounds": null,
+          "distance_scores": null,
+          "guidance_depth": 0,
+          "simulations": 128,
+          "cpu_seconds": 0.019493
+        }
+      ]
+    }
+  ]
+}

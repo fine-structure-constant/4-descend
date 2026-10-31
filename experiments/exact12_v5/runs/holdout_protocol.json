@@ -1,0 +1,8 @@
+{
+  "new_seed": 2026103199,
+  "positions": 5395,
+  "training_and_mirrors_excluded": true,
+  "selfplay_replay_and_mirrors_excluded": true,
+  "replay_sources_excluded": true,
+  "checkpoint_selection": "Internal validation only; this external set is not used for checkpoint selection."
+}

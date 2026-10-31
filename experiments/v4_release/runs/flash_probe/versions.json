@@ -1,0 +1,430 @@
+{
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": "95236ab0-16da-4220-89f8-6d4b4bd34daf",
+      "bot": "1e619e88-82a0-42d6-88f2-66199e68b402",
+      "name": "张景天在打表",
+      "game": "connect4",
+      "board_size": 7,
+      "board_rows": 6,
+      "board_cols": 7,
+      "action_count": 7,
+      "pass_action": null,
+      "number": 2,
+      "note": "v2 12exact",
+      "status": "READY",
+      "is_disabled": false,
+      "code": {
+        "id": "9adaa089-10a0-4a7f-98cd-610c3825fe87",
+        "filename": "code.zip",
+        "size": 294229,
+        "sha256": "20822b942bad07aadfa6d1a65784e5e14a65399d8435d9783ed4bd4adc994769",
+        "download_url": "/api/v1/files/9adaa089-10a0-4a7f-98cd-610c3825fe87",
+        "files": [
+          {
+            "path": "mcts.py",
+            "size": 15026,
+            "sha256": "830a448f25595567e9f1110bed2e8a02190af0403953ecd7191841b574d65e18",
+            "previewable": true
+          },
+          {
+            "path": "model.py",
+            "size": 2105,
+            "sha256": "2b567f1c2ea76613ad50f1baf03a21a3b918a7960f1b765b1a08ba53ec4bee28",
+            "previewable": true
+          },
+          {
+            "path": "strategy.py",
+            "size": 28,
+            "sha256": "7b9525db5e1d0a8e31476cecd075148a726c8210cbb0ba7c1bf5a30406ffc16d",
+            "previewable": true
+          },
+          {
+            "path": "support/__init__.py",
+            "size": 49,
+            "sha256": "6ca68b0bf2d60f8805a692b94790a0f020ef18550df0943394a6e46aaed22d37",
+            "previewable": true
+          },
+          {
+            "path": "support/bot.py",
+            "size": 1720,
+            "sha256": "bda64c108f730d2b1dfedacce504097290aef8951dd1f6d97cb95320982dacd2",
+            "previewable": true
+          },
+          {
+            "path": "support/deep_opening.py",
+            "size": 4347,
+            "sha256": "cf7223f5d5ec2f25e896c29184a7b1e58bf472c8644a1f51cb6b4834f51ebfd5",
+            "previewable": true
+          },
+          {
+            "path": "support/endgame.py",
+            "size": 8891,
+            "sha256": "13b9eb75d57c1dd8b91260336064d53a48a790628c4b4daefaa76149f4da5412",
+            "previewable": true
+          },
+          {
+            "path": "support/game.py",
+            "size": 1883,
+            "sha256": "7700ca1b103442c3dfbf2253e32712fd80ad2bad0ece5b2cbcdaf47f5a73ea38",
+            "previewable": true
+          },
+          {
+            "path": "support/movebook.py",
+            "size": 3698,
+            "sha256": "273b1d2b78784235d86d7f40961ff8bb24662512e63688e7ff80cdfc327e68b8",
+            "previewable": true
+          },
+          {
+            "path": "support/opening.py",
+            "size": 357625,
+            "sha256": "334c0699d65706e114691c12b79e375e0fb5656aa840548e0fdfa4c058ecdc8c",
+            "previewable": true
+          },
+          {
+            "path": "support/runtime.py",
+            "size": 3989,
+            "sha256": "d24e651438d2a83c3c392056f366e562412439a5e53af7cdb19ada9bc6a00e2d",
+            "previewable": true
+          },
+          {
+            "path": "support/tactics.py",
+            "size": 7165,
+            "sha256": "77a7d57e3186524981458ce4103b707600ac27f471f472103d175c6727d884a5",
+            "previewable": true
+          }
+        ]
+      },
+      "models": {
+        "id": "9f1b50d7-9d82-4f0a-aaab-f0e81e8273e5",
+        "filename": "model.pt",
+        "size": 62438682,
+        "sha256": "9d5f91124bb8849aa71f85e935cec73e903966e2439fe41f3552db3aadfc6fbf",
+        "download_url": "/api/v1/files/9f1b50d7-9d82-4f0a-aaab-f0e81e8273e5",
+        "files": [
+          {
+            "path": "model.pt",
+            "size": 62438682,
+            "sha256": "9d5f91124bb8849aa71f85e935cec73e903966e2439fe41f3552db3aadfc6fbf",
+            "previewable": false
+          }
+        ]
+      },
+      "image_digest": "sha256:689b9d0f915eaa5df9e6c77a6bff5f3c3fa63d67b5a3b578cc4314129c8d37b1",
+      "rules_version": "connect4-v1",
+      "validation_stage": "验证通过",
+      "validation_error": {},
+      "can_play": true,
+      "is_system": false,
+      "provenance": null,
+      "competition_status": null,
+      "revision": 5,
+      "created_at": "2026-10-31T12:19:44.398082+08:00"
+    },
+    {
+      "id": "cfe7de9b-2193-4c69-9972-86307923f8c6",
+      "bot": "1e619e88-82a0-42d6-88f2-66199e68b402",
+      "name": "张景天在打表",
+      "game": "connect4",
+      "board_size": 7,
+      "board_rows": 6,
+      "board_cols": 7,
+      "action_count": 7,
+      "pass_action": null,
+      "number": 1,
+      "note": "CNN 01",
+      "status": "READY",
+      "is_disabled": false,
+      "code": {
+        "id": "f5d78443-d186-4afd-aeda-ac18eb7070bb",
+        "filename": "code.zip",
+        "size": 291934,
+        "sha256": "92b0cdb0eb69c762b04c4994e16de01654a2e5c231eb878c6a4627b3513c5c5e",
+        "download_url": "/api/v1/files/f5d78443-d186-4afd-aeda-ac18eb7070bb",
+        "files": [
+          {
+            "path": "mcts.py",
+            "size": 12457,
+            "sha256": "5ec335fe5e288d6bc8ab4762edb4db26fe66371ba40fb9aac63ebd98ef0efc31",
+            "previewable": true
+          },
+          {
+            "path": "model.py",
+            "size": 1855,
+            "sha256": "58d1fe23b76bc7b8277018140e097e52912254192d56f4e4dfa330ad29189ce3",
+            "previewable": true
+          },
+          {
+            "path": "strategy.py",
+            "size": 28,
+            "sha256": "7b9525db5e1d0a8e31476cecd075148a726c8210cbb0ba7c1bf5a30406ffc16d",
+            "previewable": true
+          },
+          {
+            "path": "support/__init__.py",
+            "size": 49,
+            "sha256": "6ca68b0bf2d60f8805a692b94790a0f020ef18550df0943394a6e46aaed22d37",
+            "previewable": true
+          },
+          {
+            "path": "support/bot.py",
+            "size": 1720,
+            "sha256": "bda64c108f730d2b1dfedacce504097290aef8951dd1f6d97cb95320982dacd2",
+            "previewable": true
+          },
+          {
+            "path": "support/deep_opening.py",
+            "size": 4263,
+            "sha256": "644dfd64b3d751583b8adedbc51f470fa05e658a8b253f6698d2842c4f04e395",
+            "previewable": true
+          },
+          {
+            "path": "support/endgame.py",
+            "size": 8891,
+            "sha256": "13b9eb75d57c1dd8b91260336064d53a48a790628c4b4daefaa76149f4da5412",
+            "previewable": true
+          },
+          {
+            "path": "support/game.py",
+            "size": 1883,
+            "sha256": "7700ca1b103442c3dfbf2253e32712fd80ad2bad0ece5b2cbcdaf47f5a73ea38",
+            "previewable": true
+          },
+          {
+            "path": "support/opening.py",
+            "size": 357625,
+            "sha256": "334c0699d65706e114691c12b79e375e0fb5656aa840548e0fdfa4c058ecdc8c",
+            "previewable": true
+          },
+          {
+            "path": "support/runtime.py",
+            "size": 3989,
+            "sha256": "d24e651438d2a83c3c392056f366e562412439a5e53af7cdb19ada9bc6a00e2d",
+            "previewable": true
+          },
+          {
+            "path": "support/tactics.py",
+            "size": 7165,
+            "sha256": "77a7d57e3186524981458ce4103b707600ac27f471f472103d175c6727d884a5",
+            "previewable": true
+          }
+        ]
+      },
+      "models": {
+        "id": "05915b46-c99b-4e23-b786-6226487af6bb",
+        "filename": "model.pt",
+        "size": 7303672,
+        "sha256": "1ecec1bd751dc3bdbefdf3f800b618ec0dc51ce1c766c6d9be8b5a3e15f0c03b",
+        "download_url": "/api/v1/files/05915b46-c99b-4e23-b786-6226487af6bb",
+        "files": [
+          {
+            "path": "model.pt",
+            "size": 7303672,
+            "sha256": "1ecec1bd751dc3bdbefdf3f800b618ec0dc51ce1c766c6d9be8b5a3e15f0c03b",
+            "previewable": false
+          }
+        ]
+      },
+      "image_digest": "sha256:689b9d0f915eaa5df9e6c77a6bff5f3c3fa63d67b5a3b578cc4314129c8d37b1",
+      "rules_version": "connect4-v1",
+      "validation_stage": "验证通过",
+      "validation_error": {},
+      "can_play": true,
+      "is_system": false,
+      "provenance": null,
+      "competition_status": null,
+      "revision": 5,
+      "created_at": "2026-10-30T23:05:37.964182+08:00"
+    },
+    {
+      "id": "1ef2f11c-5dd4-489a-8633-d244931c6c0c",
+      "bot": "d195c6ae-deab-48b3-af05-9c0c3a7dc253",
+      "name": "姜中萍",
+      "game": "connect4",
+      "board_size": 7,
+      "board_rows": 6,
+      "board_cols": 7,
+      "action_count": 7,
+      "pass_action": null,
+      "number": 1,
+      "note": "",
+      "status": "READY",
+      "is_disabled": false,
+      "code": {
+        "id": "28162237-e3a1-4dba-b935-c4e850d73d16",
+        "filename": "code.zip",
+        "size": 9670,
+        "sha256": "29247f21b89380463c8ac5d6e838bf801878c27f3119ea5ab7b355bb751238cc",
+        "download_url": "/api/v1/files/28162237-e3a1-4dba-b935-c4e850d73d16",
+        "files": [
+          {
+            "path": "mcts.py",
+            "size": 6324,
+            "sha256": "a8f0f4a7d82f1303f5d6527d8d9c1f8a8ab4740242dd1d21b6d9e12fe3d3d9a9",
+            "previewable": true
+          },
+          {
+            "path": "model.py",
+            "size": 731,
+            "sha256": "10a1b87aa6f87680ba6ff733e0e50e2ccef90204bbb26c313aafb71d773e6046",
+            "previewable": true
+          },
+          {
+            "path": "strategy.py",
+            "size": 28,
+            "sha256": "7b9525db5e1d0a8e31476cecd075148a726c8210cbb0ba7c1bf5a30406ffc16d",
+            "previewable": true
+          },
+          {
+            "path": "support/__init__.py",
+            "size": 49,
+            "sha256": "6ca68b0bf2d60f8805a692b94790a0f020ef18550df0943394a6e46aaed22d37",
+            "previewable": true
+          },
+          {
+            "path": "support/bot.py",
+            "size": 1720,
+            "sha256": "bda64c108f730d2b1dfedacce504097290aef8951dd1f6d97cb95320982dacd2",
+            "previewable": true
+          },
+          {
+            "path": "support/game.py",
+            "size": 1883,
+            "sha256": "7700ca1b103442c3dfbf2253e32712fd80ad2bad0ece5b2cbcdaf47f5a73ea38",
+            "previewable": true
+          },
+          {
+            "path": "support/runtime.py",
+            "size": 3989,
+            "sha256": "d24e651438d2a83c3c392056f366e562412439a5e53af7cdb19ada9bc6a00e2d",
+            "previewable": true
+          },
+          {
+            "path": "support/tactics.py",
+            "size": 7165,
+            "sha256": "77a7d57e3186524981458ce4103b707600ac27f471f472103d175c6727d884a5",
+            "previewable": true
+          }
+        ]
+      },
+      "models": {
+        "id": "b5175ed0-929e-43f9-b954-3b6df280dfb2",
+        "filename": "model.pt",
+        "size": 733730,
+        "sha256": "4a2f7e8e85ffe0e27aa0b3bab547dddda7b35bd0cb8de108e7efc68fa0047a0d",
+        "download_url": "/api/v1/files/b5175ed0-929e-43f9-b954-3b6df280dfb2",
+        "files": [
+          {
+            "path": "model.pt",
+            "size": 733730,
+            "sha256": "4a2f7e8e85ffe0e27aa0b3bab547dddda7b35bd0cb8de108e7efc68fa0047a0d",
+            "previewable": false
+          }
+        ]
+      },
+      "image_digest": "sha256:689b9d0f915eaa5df9e6c77a6bff5f3c3fa63d67b5a3b578cc4314129c8d37b1",
+      "rules_version": "connect4-v1",
+      "validation_stage": "验证通过",
+      "validation_error": {},
+      "can_play": true,
+      "is_system": false,
+      "provenance": null,
+      "competition_status": "SELECTED",
+      "revision": 5,
+      "created_at": "2026-10-30T19:40:25.279255+08:00"
+    },
+    {
+      "id": "b02fab85-7b32-4545-85bb-c55e3ec04ef8",
+      "bot": "168ea6a8-bee6-4c21-8358-ddc93f9b151c",
+      "name": "姜小萍",
+      "game": "connect4",
+      "board_size": 7,
+      "board_rows": 6,
+      "board_cols": 7,
+      "action_count": 7,
+      "pass_action": null,
+      "number": 1,
+      "note": "v0.1.0",
+      "status": "READY",
+      "is_disabled": false,
+      "code": {
+        "id": "6c7736f7-ae5e-435d-9cc3-0192b272430b",
+        "filename": "code.zip",
+        "size": 6242,
+        "sha256": "2300115403a58a840ed394c557166940334b619b2abbb6c21ba4883a56219d5e",
+        "download_url": "/api/v1/files/6c7736f7-ae5e-435d-9cc3-0192b272430b",
+        "files": [
+          {
+            "path": "mcts.py",
+            "size": 3093,
+            "sha256": "1effecf189a48dbb7c392f0893e9eccaae6e67321b28ce792630f4ac4791b570",
+            "previewable": true
+          },
+          {
+            "path": "model.py",
+            "size": 615,
+            "sha256": "1611374d234ebd941dcee204812c67022be4f2e7896597a7cd2fd0dee9c5d1eb",
+            "previewable": true
+          },
+          {
+            "path": "strategy.py",
+            "size": 28,
+            "sha256": "7b9525db5e1d0a8e31476cecd075148a726c8210cbb0ba7c1bf5a30406ffc16d",
+            "previewable": true
+          },
+          {
+            "path": "support/__init__.py",
+            "size": 49,
+            "sha256": "6ca68b0bf2d60f8805a692b94790a0f020ef18550df0943394a6e46aaed22d37",
+            "previewable": true
+          },
+          {
+            "path": "support/bot.py",
+            "size": 1719,
+            "sha256": "50aebd4200f3731c7ec86ff438207e97da80c79bcc5f981c32520f3c56842a07",
+            "previewable": true
+          },
+          {
+            "path": "support/game.py",
+            "size": 1883,
+            "sha256": "7700ca1b103442c3dfbf2253e32712fd80ad2bad0ece5b2cbcdaf47f5a73ea38",
+            "previewable": true
+          },
+          {
+            "path": "support/runtime.py",
+            "size": 3989,
+            "sha256": "d24e651438d2a83c3c392056f366e562412439a5e53af7cdb19ada9bc6a00e2d",
+            "previewable": true
+          }
+        ]
+      },
+      "models": {
+        "id": "3451f47e-8d84-428d-b0a9-0de209601313",
+        "filename": "model.pt",
+        "size": 137768,
+        "sha256": "97aedc7f200043a763e0da27990629b607a22a37b5a60257edcb335a1afee050",
+        "download_url": "/api/v1/files/3451f47e-8d84-428d-b0a9-0de209601313",
+        "files": [
+          {
+            "path": "model.pt",
+            "size": 137768,
+            "sha256": "97aedc7f200043a763e0da27990629b607a22a37b5a60257edcb335a1afee050",
+            "previewable": false
+          }
+        ]
+      },
+      "image_digest": "sha256:689b9d0f915eaa5df9e6c77a6bff5f3c3fa63d67b5a3b578cc4314129c8d37b1",
+      "rules_version": "connect4-v1",
+      "validation_stage": "验证通过",
+      "validation_error": {},
+      "can_play": true,
+      "is_system": false,
+      "provenance": null,
+      "competition_status": null,
+      "revision": 5,
+      "created_at": "2026-10-30T18:58:23.358298+08:00"
+    }
+  ]
+}

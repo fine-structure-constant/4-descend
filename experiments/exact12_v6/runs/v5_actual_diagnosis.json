@@ -1,0 +1,47 @@
+{
+  "analysed_turns": 99,
+  "narrow_turns": 41,
+  "avoidable_downgrades_in_narrow_turns": [],
+  "first_avoidable_downgrades": {
+    "5975f646-11c6-4d6c-8922-6081d689361a": {
+      "match": "5975f646-11c6-4d6c-8922-6081d689361a",
+      "step": 17,
+      "action": 1,
+      "best": 1,
+      "played_value": 0,
+      "avoidable_downgrade": true,
+      "spaces": [
+        4,
+        4,
+        1,
+        5,
+        2,
+        6,
+        4
+      ],
+      "main_columns": 6,
+      "tempo_columns": 1,
+      "empty": 26
+    },
+    "9bc088af-8b60-42f0-8ff4-3739b36ffe53": {
+      "match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53",
+      "step": 17,
+      "action": 0,
+      "best": 0,
+      "played_value": -1,
+      "avoidable_downgrade": true,
+      "spaces": [
+        4,
+        6,
+        1,
+        1,
+        2,
+        6,
+        6
+      ],
+      "main_columns": 5,
+      "tempo_columns": 2,
+      "empty": 26
+    }
+  }
+}

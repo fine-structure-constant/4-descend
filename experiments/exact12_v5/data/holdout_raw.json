@@ -1,0 +1,18 @@
+{
+  "positions": 6498,
+  "attempted": 6500,
+  "seconds": 11.66074514389038,
+  "outcomes": {
+    "1": 3642,
+    "-1": 2238,
+    "0": 618
+  },
+  "validation": 661,
+  "seed": 2026103199,
+  "teacher": "Pascal Pons reference solver with per-position deadline; unknowns excluded",
+  "source_counts": {
+    "diverse": 5399,
+    "replay": 955,
+    "flash": 144
+  }
+}

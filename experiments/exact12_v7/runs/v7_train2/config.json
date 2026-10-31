@@ -1,0 +1,36 @@
+{
+  "model": "runs/midbook_v3/model.pt",
+  "out": "runs/v7_train2",
+  "channels": 48,
+  "data": "data/refinement_v8.npz",
+  "steps": 1500,
+  "finetune_steps": 0,
+  "rounds": 0,
+  "games": 24,
+  "workers": 6,
+  "simulations": 64,
+  "teacher_seconds": 0.5,
+  "batch": 256,
+  "lr": 5e-05,
+  "validate_every": 200,
+  "seed": 2026103301,
+  "baseline_validation": {
+    "policy_optimal_rate": 0.8448236371965185,
+    "value_mse": 0.4215736459058411,
+    "winning_position_blunder_rate": 0.1765873015873016,
+    "positions": 8732
+  },
+  "lookup_sha256": {
+    "opening12": "3d4b1b5682f67f360e67c61f2faa6db98a94f4647577ec9bf19131a8d00f7956",
+    "movebook_keys": "2939aec88be227abbb48e098cc10949903fe69ee2880720f6c34d450478895cd",
+    "movebook_data": "184a1b5cc1b0cf1d70d9312e007f0d740a53508ac7d5be8e48fe855bd4d68265",
+    "deepbook": "f346cd449626fb81da93be0958e017ee854e5f74d85b6d38062357f5403aec53",
+    "midbook_count": "f2785a1b0cd29dca072bd1f72cee470a90bf33a233b428fdb1f33fc58d44d1ef",
+    "midbook_own": "382a6e5f5464b2b7fec3953fae7b92978b4ffdef2aa4e54b0ae3fa51a473d640",
+    "midbook_mask": "11ef468222a3cd3e88d2217b13ed75f85704c828832229aba3f762b18d7b13a8",
+    "midbook_wdl": "72c496edb32cf1084bcdaefa04245bbcb61da8283ba77ed2467eb21953eb9d16",
+    "odd_rows": "e69c98fe8340a371108a1e671dbb88d247f4057fdbc3f0811504a3d3f67ac8ea"
+  },
+  "train_positions": 78456,
+  "validation_positions": 8732
+}

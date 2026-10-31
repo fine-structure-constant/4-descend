@@ -1,0 +1,32 @@
+{
+  "model": "../../upload-v5/model.pt",
+  "out": "runs/wide",
+  "channels": 48,
+  "data": "data/proofs.npz",
+  "steps": 1800,
+  "finetune_steps": 400,
+  "rounds": 1,
+  "games": 12,
+  "workers": 4,
+  "simulations": 64,
+  "teacher_seconds": 0.5,
+  "batch": 256,
+  "lr": 0.00012,
+  "validate_every": 300,
+  "seed": 2026103117,
+  "baseline_validation": {
+    "policy_optimal_rate": 0.8889623265036352,
+    "value_mse": 0.5732850290967861,
+    "winning_position_blunder_rate": 0.1506849315068493,
+    "positions": 4539
+  },
+  "lookup_sha256": {
+    "opening12": "3d4b1b5682f67f360e67c61f2faa6db98a94f4647577ec9bf19131a8d00f7956",
+    "movebook_keys": "2939aec88be227abbb48e098cc10949903fe69ee2880720f6c34d450478895cd",
+    "movebook_data": "184a1b5cc1b0cf1d70d9312e007f0d740a53508ac7d5be8e48fe855bd4d68265",
+    "deepbook": "f346cd449626fb81da93be0958e017ee854e5f74d85b6d38062357f5403aec53",
+    "odd_rows": "e69c98fe8340a371108a1e671dbb88d247f4057fdbc3f0811504a3d3f67ac8ea"
+  },
+  "train_positions": 40304,
+  "validation_positions": 4539
+}

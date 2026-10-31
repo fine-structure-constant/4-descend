@@ -1,0 +1,165 @@
+{
+  "session": {
+    "id": "138fff8f-e2d3-46f0-8d16-dcae23b16a00",
+    "bot": "1e619e88-82a0-42d6-88f2-66199e68b402",
+    "state": "OPEN",
+    "code_size": 852203,
+    "models_size": 97503563,
+    "base_version": "65a6ca5f-a365-4f8d-a03a-31e02c33062e",
+    "remove_models": false,
+    "receipts": {},
+    "expires_at": "2026-11-01T23:01:18.455255+08:00",
+    "version": null,
+    "revision": 1
+  },
+  "receipts": {
+    "code": {
+      "id": "95db67b4-95c3-400b-9444-d06d0ddcbbf9",
+      "filename": "code.zip",
+      "size": 852203,
+      "sha256": "d5ff1abcfb19859d707fcb5ab59de1ca9605591094ad3521806cac1284482380",
+      "download_url": "/api/v1/files/95db67b4-95c3-400b-9444-d06d0ddcbbf9",
+      "files": [
+        {
+          "path": "AGPL-3.0.txt",
+          "size": 34520,
+          "sha256": "76a97c878c9c7a8321bb395c2b44d3fe2f8d81314d219b20138ed0e2dddd5182",
+          "previewable": true
+        },
+        {
+          "path": "REFERENCES.md",
+          "size": 4294,
+          "sha256": "f74f005c3ffb47e3e927a4e702bf7f30c8f9108e92adafcd68fc1ea9c36d3535",
+          "previewable": true
+        },
+        {
+          "path": "mcts.py",
+          "size": 24529,
+          "sha256": "e1a1e250c6bcb1f4b8e2a8b1eda82b56f959c39172b3e7ca8b6c2f2c74519de8",
+          "previewable": true
+        },
+        {
+          "path": "model.py",
+          "size": 3091,
+          "sha256": "d677bfbd3262aa2a2e754943cd04845bdd23d5cb7d06add0a72302121c51e6ac",
+          "previewable": true
+        },
+        {
+          "path": "strategy.py",
+          "size": 28,
+          "sha256": "7b9525db5e1d0a8e31476cecd075148a726c8210cbb0ba7c1bf5a30406ffc16d",
+          "previewable": true
+        },
+        {
+          "path": "support/__init__.py",
+          "size": 49,
+          "sha256": "6ca68b0bf2d60f8805a692b94790a0f020ef18550df0943394a6e46aaed22d37",
+          "previewable": true
+        },
+        {
+          "path": "support/bot.py",
+          "size": 1840,
+          "sha256": "3644f63639644e637b5cf2f99710247d8674f666d86ab2e6900b4de08fcbb432",
+          "previewable": true
+        },
+        {
+          "path": "support/constrained.py",
+          "size": 7216,
+          "sha256": "340b7ad3880d2a19d6d59af2b0bf3b45fad77c91a310b2cf4881a159f32d1561",
+          "previewable": true
+        },
+        {
+          "path": "support/corrections.py",
+          "size": 27221,
+          "sha256": "5a6113e596cbeeef5d4fd026bd591466bb12b240c648aa20c527d5c1beb43aa6",
+          "previewable": true
+        },
+        {
+          "path": "support/deep_opening.py",
+          "size": 4347,
+          "sha256": "cf7223f5d5ec2f25e896c29184a7b1e58bf472c8644a1f51cb6b4834f51ebfd5",
+          "previewable": true
+        },
+        {
+          "path": "support/endgame.py",
+          "size": 10245,
+          "sha256": "fd4d1d72613e812656f77fac81b9f342b48a2b96e7fa831f2ce20a7233a06544",
+          "previewable": true
+        },
+        {
+          "path": "support/game.py",
+          "size": 1883,
+          "sha256": "7700ca1b103442c3dfbf2253e32712fd80ad2bad0ece5b2cbcdaf47f5a73ea38",
+          "previewable": true
+        },
+        {
+          "path": "support/midbook.py",
+          "size": 2663,
+          "sha256": "c6e21731b1093e832838b4439ffecabfea85a35ff1b743ee71389ca4e85440a6",
+          "previewable": true
+        },
+        {
+          "path": "support/movebook.py",
+          "size": 3698,
+          "sha256": "273b1d2b78784235d86d7f40961ff8bb24662512e63688e7ff80cdfc327e68b8",
+          "previewable": true
+        },
+        {
+          "path": "support/native.py",
+          "size": 6400,
+          "sha256": "35a2f2e72db0e74b79ffb07e8f58dedea8e2011750ee40f0032b5b4b01212ed7",
+          "previewable": true
+        },
+        {
+          "path": "support/native_payload.py",
+          "size": 693833,
+          "sha256": "0833b212dab3ae201bf7df9061fe751c5be13f5d61f60ef74e5387db61bb53a4",
+          "previewable": true
+        },
+        {
+          "path": "support/opening.py",
+          "size": 357625,
+          "sha256": "334c0699d65706e114691c12b79e375e0fb5656aa840548e0fdfa4c058ecdc8c",
+          "previewable": true
+        },
+        {
+          "path": "support/pons_book.py",
+          "size": 2663,
+          "sha256": "a6d9fcc6ffbda7293e45b4645adf1d936d777e59a8d834a0eb69bcaa74308cb7",
+          "previewable": true
+        },
+        {
+          "path": "support/runtime.py",
+          "size": 4062,
+          "sha256": "f3d89e43c9ff7215923f411ec60e5c126deaa1f228b86cbd48b729b7dde9a868",
+          "previewable": true
+        },
+        {
+          "path": "support/tactics.py",
+          "size": 7475,
+          "sha256": "114856ee1059702e4ec089ed21c360f738d218ca44b787d7747d56a1cbe25b83",
+          "previewable": true
+        }
+      ]
+    },
+    "models": {
+      "id": "5a0820c5-77e0-40da-88f4-256b5fe7f6f0",
+      "filename": "model.pt",
+      "size": 97503563,
+      "sha256": "2a98dbb2d08d6c6c4b341e3d0746f3c8193541622e422c4ce05293a0228472ec",
+      "download_url": "/api/v1/files/5a0820c5-77e0-40da-88f4-256b5fe7f6f0",
+      "files": [
+        {
+          "path": "model.pt",
+          "size": 97503563,
+          "sha256": "2a98dbb2d08d6c6c4b341e3d0746f3c8193541622e422c4ce05293a0228472ec",
+          "previewable": false
+        }
+      ]
+    }
+  },
+  "commit": {
+    "id": "36082cc2-9689-4b59-8f84-6cf86d4b5699",
+    "url": "/api/v1/versions/36082cc2-9689-4b59-8f84-6cf86d4b5699"
+  }
+}

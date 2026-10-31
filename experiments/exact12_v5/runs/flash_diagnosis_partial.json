@@ -1,0 +1,989 @@
+[
+  {
+    "match": "5975f646-11c6-4d6c-8922-6081d689361a",
+    "step": 13,
+    "played": 6,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "5975f646-11c6-4d6c-8922-6081d689361a",
+    "step": 15,
+    "played": 4,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "5975f646-11c6-4d6c-8922-6081d689361a",
+    "step": 17,
+    "played": 1,
+    "best": 1,
+    "played_value": 0,
+    "optimal": [
+      4
+    ],
+    "history": null
+  },
+  {
+    "match": "5975f646-11c6-4d6c-8922-6081d689361a",
+    "step": 19,
+    "played": 3,
+    "best": 0,
+    "played_value": 0,
+    "optimal": [
+      3
+    ],
+    "history": null
+  },
+  {
+    "match": "5975f646-11c6-4d6c-8922-6081d689361a",
+    "step": 21,
+    "played": 3,
+    "best": 0,
+    "played_value": 0,
+    "optimal": [
+      3
+    ],
+    "history": null
+  },
+  {
+    "match": "5975f646-11c6-4d6c-8922-6081d689361a",
+    "step": 23,
+    "played": 1,
+    "best": 0,
+    "played_value": 0,
+    "optimal": [
+      0,
+      1,
+      3,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "5975f646-11c6-4d6c-8922-6081d689361a",
+    "step": 25,
+    "played": 0,
+    "best": 0,
+    "played_value": 0,
+    "optimal": [
+      0,
+      3,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "5975f646-11c6-4d6c-8922-6081d689361a",
+    "step": 27,
+    "played": 3,
+    "best": 0,
+    "played_value": 0,
+    "optimal": [
+      3,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "5975f646-11c6-4d6c-8922-6081d689361a",
+    "step": 29,
+    "played": 6,
+    "best": 0,
+    "played_value": 0,
+    "optimal": [
+      0,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "5975f646-11c6-4d6c-8922-6081d689361a",
+    "step": 31,
+    "played": 6,
+    "best": 0,
+    "played_value": 0,
+    "optimal": [
+      0,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "c6add757-5a0a-456f-b26c-067dc0370efa",
+    "step": 14,
+    "played": 1,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "c6add757-5a0a-456f-b26c-067dc0370efa",
+    "step": 16,
+    "played": 3,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "c6add757-5a0a-456f-b26c-067dc0370efa",
+    "step": 18,
+    "played": 0,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "c6add757-5a0a-456f-b26c-067dc0370efa",
+    "step": 20,
+    "played": 0,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "c6add757-5a0a-456f-b26c-067dc0370efa",
+    "step": 22,
+    "played": 0,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "c6add757-5a0a-456f-b26c-067dc0370efa",
+    "step": 24,
+    "played": 0,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "c6add757-5a0a-456f-b26c-067dc0370efa",
+    "step": 26,
+    "played": 6,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      2,
+      4,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "c6add757-5a0a-456f-b26c-067dc0370efa",
+    "step": 28,
+    "played": 2,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      2,
+      4,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "c6add757-5a0a-456f-b26c-067dc0370efa",
+    "step": 30,
+    "played": 6,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      2,
+      4,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53",
+    "step": 13,
+    "played": 0,
+    "best": 0,
+    "played_value": 0,
+    "optimal": [
+      0,
+      1
+    ],
+    "history": null
+  },
+  {
+    "match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53",
+    "step": 15,
+    "played": 3,
+    "best": 0,
+    "played_value": 0,
+    "optimal": [
+      3,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53",
+    "step": 17,
+    "played": 0,
+    "best": 0,
+    "played_value": -1,
+    "optimal": [
+      3
+    ],
+    "history": null
+  },
+  {
+    "match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53",
+    "step": 19,
+    "played": 6,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53",
+    "step": 21,
+    "played": 0,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53",
+    "step": 23,
+    "played": 0,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53",
+    "step": 25,
+    "played": 6,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53",
+    "step": 27,
+    "played": 6,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53",
+    "step": 29,
+    "played": 6,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "9bc088af-8b60-42f0-8ff4-3739b36ffe53",
+    "step": 31,
+    "played": 5,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      1,
+      4,
+      5
+    ],
+    "history": null
+  },
+  {
+    "match": "cfe7b82e-8a82-4437-89b6-59f95108a058",
+    "step": 14,
+    "played": 4,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "cfe7b82e-8a82-4437-89b6-59f95108a058",
+    "step": 16,
+    "played": 4,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "cfe7b82e-8a82-4437-89b6-59f95108a058",
+    "step": 18,
+    "played": 2,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "cfe7b82e-8a82-4437-89b6-59f95108a058",
+    "step": 20,
+    "played": 2,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "cfe7b82e-8a82-4437-89b6-59f95108a058",
+    "step": 22,
+    "played": 2,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "cfe7b82e-8a82-4437-89b6-59f95108a058",
+    "step": 24,
+    "played": 0,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "cfe7b82e-8a82-4437-89b6-59f95108a058",
+    "step": 26,
+    "played": 2,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "cfe7b82e-8a82-4437-89b6-59f95108a058",
+    "step": 28,
+    "played": 6,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "cfe7b82e-8a82-4437-89b6-59f95108a058",
+    "step": 30,
+    "played": 0,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      5
+    ],
+    "history": null
+  },
+  {
+    "match": "353bb800-c228-4f93-969f-5ef3f60e5275",
+    "step": 13,
+    "played": 1,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "353bb800-c228-4f93-969f-5ef3f60e5275",
+    "step": 15,
+    "played": 4,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "353bb800-c228-4f93-969f-5ef3f60e5275",
+    "step": 17,
+    "played": 1,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "353bb800-c228-4f93-969f-5ef3f60e5275",
+    "step": 19,
+    "played": 1,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "353bb800-c228-4f93-969f-5ef3f60e5275",
+    "step": 21,
+    "played": 5,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "353bb800-c228-4f93-969f-5ef3f60e5275",
+    "step": 23,
+    "played": 4,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "353bb800-c228-4f93-969f-5ef3f60e5275",
+    "step": 25,
+    "played": 2,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      2,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "353bb800-c228-4f93-969f-5ef3f60e5275",
+    "step": 27,
+    "played": 6,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "353bb800-c228-4f93-969f-5ef3f60e5275",
+    "step": 29,
+    "played": 0,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "353bb800-c228-4f93-969f-5ef3f60e5275",
+    "step": 31,
+    "played": 0,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3",
+    "step": 14,
+    "played": 5,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3",
+    "step": 16,
+    "played": 1,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3",
+    "step": 18,
+    "played": 1,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3",
+    "step": 20,
+    "played": 3,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3",
+    "step": 22,
+    "played": 0,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3",
+    "step": 24,
+    "played": 0,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3",
+    "step": 26,
+    "played": 5,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3",
+    "step": 28,
+    "played": 5,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "59210cfa-8a0b-4455-bce5-e46b7b7321f3",
+    "step": 30,
+    "played": 6,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      2,
+      4,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "86a87102-1c6a-449e-adb6-bb2456c44453",
+    "step": 13,
+    "played": 1,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      1,
+      2,
+      4,
+      5
+    ],
+    "history": null
+  },
+  {
+    "match": "86a87102-1c6a-449e-adb6-bb2456c44453",
+    "step": 15,
+    "played": 3,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      3
+    ],
+    "history": null
+  },
+  {
+    "match": "86a87102-1c6a-449e-adb6-bb2456c44453",
+    "step": 17,
+    "played": 1,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "history": null
+  },
+  {
+    "match": "86a87102-1c6a-449e-adb6-bb2456c44453",
+    "step": 19,
+    "played": 4,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      1,
+      4
+    ],
+    "history": null
+  },
+  {
+    "match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20",
+    "step": 14,
+    "played": 4,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20",
+    "step": 16,
+    "played": 6,
+    "best": -1,
+    "played_value": -1,
+    "optimal": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "history": null
+  },
+  {
+    "match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20",
+    "step": 18,
+    "played": 4,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      3,
+      4
+    ],
+    "history": null
+  },
+  {
+    "match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20",
+    "step": 20,
+    "played": 3,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      3,
+      4,
+      5
+    ],
+    "history": null
+  },
+  {
+    "match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20",
+    "step": 22,
+    "played": 3,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      3,
+      4
+    ],
+    "history": null
+  },
+  {
+    "match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20",
+    "step": 24,
+    "played": 0,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0
+    ],
+    "history": null
+  },
+  {
+    "match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20",
+    "step": 26,
+    "played": 5,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      5
+    ],
+    "history": null
+  },
+  {
+    "match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20",
+    "step": 28,
+    "played": 5,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      4,
+      5
+    ],
+    "history": null
+  },
+  {
+    "match": "831b94ef-534c-4faf-8ebd-f0c9dac47d20",
+    "step": 30,
+    "played": 4,
+    "best": 1,
+    "played_value": 1,
+    "optimal": [
+      0,
+      4,
+      5
+    ],
+    "history": null
+  }
+]

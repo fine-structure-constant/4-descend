@@ -1,0 +1,65 @@
+{
+  "id": "91b8bb1c-60f8-42b4-a335-223ba791cd39",
+  "evaluation": "547740c9-e529-42b0-b015-0cbf7863eeb2",
+  "competition": null,
+  "rated_series": null,
+  "game": "connect4",
+  "rules_version": "connect4-v1",
+  "board_size": 7,
+  "board_rows": 6,
+  "board_cols": 7,
+  "action_count": 7,
+  "pass_action": null,
+  "komi": 0,
+  "sequence": 1,
+  "owner": "2400011444",
+  "owner_id": 74,
+  "cancel_requested": false,
+  "black": {
+    "id": "34b95b93-3588-4bd8-baf9-25d7170a8aef",
+    "name": "flash",
+    "number": 1,
+    "is_system": false,
+    "owner": "2400011461"
+  },
+  "white": {
+    "id": "418cae24-b542-427a-ac9b-1572359f1ae8",
+    "name": "张景天在打表",
+    "number": 4,
+    "is_system": false,
+    "owner": "2400011444"
+  },
+  "black_slot": "b",
+  "black_seed": 1333448928,
+  "white_seed": 1252974365,
+  "opening_pairs": 3,
+  "opening_seed": 801536359,
+  "opening_actions": [
+    1,
+    5,
+    6,
+    0,
+    1,
+    5
+  ],
+  "phase": "COMPLETED",
+  "step": 28,
+  "end_reason": "TIMEOUT",
+  "winner": -1,
+  "scores": {},
+  "error": {
+    "step": 29,
+    "phase": "act",
+    "detail": "第 29 步 · 红方：决策超时（最多 2 秒）",
+    "reason": "TIMEOUT",
+    "fault_colors": [
+      1
+    ]
+  },
+  "replay_available": true,
+  "can_view_logs": true,
+  "revision": 33,
+  "started_at": "2026-10-31T16:41:54.379893+08:00",
+  "finished_at": "2026-10-31T16:42:14.833500+08:00",
+  "created_at": "2026-10-31T16:41:27.092261+08:00"
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "proofs",
+  "round": 0,
+  "step": 1200,
+  "loss": 1.0467138290405273,
+  "validation": {
+    "policy_optimal_rate": 0.850383631713555,
+    "value_mse": 0.39164313798467015,
+    "winning_position_blunder_rate": 0.16728144596090003,
+    "positions": 9384
+  },
+  "seconds": 242.2
+}

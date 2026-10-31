@@ -1,0 +1,29 @@
+{
+  "small": {
+    "channels": 32,
+    "learned_parameters": 97549,
+    "validation": {
+      "policy_optimal_rate": 0.896452963207755,
+      "value_mse": 0.47770774288307755,
+      "winning_position_blunder_rate": 0.1432129514321295,
+      "positions": 4539
+    },
+    "selection_metric": 0.22297397251301437,
+    "forward_cpu_seconds": 0.0012281642366666675
+  },
+  "wide": {
+    "channels": 48,
+    "learned_parameters": 195517,
+    "validation": {
+      "policy_optimal_rate": 0.8984357788059044,
+      "value_mse": 0.4717620694970843,
+      "winning_position_blunder_rate": 0.13947696139476962,
+      "positions": 4539
+    },
+    "selection_metric": 0.21950473856836666,
+    "forward_cpu_seconds": 0.001506855043333332
+  },
+  "selected": "small",
+  "wide_metric_gain": 0.0034692339446477094,
+  "reason": "Wider model must improve the validation metric by at least 0.005 within latency limits."
+}

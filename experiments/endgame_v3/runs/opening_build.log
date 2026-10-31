@@ -1,0 +1,9 @@
+{'ply': 1, 'states': 4}
+{'ply': 2, 'states': 25}
+{'ply': 3, 'states': 121}
+{'ply': 4, 'states': 568}
+{'ply': 5, 'states': 2144}
+{'ply': 6, 'states': 8231}
+{'ply': 7, 'states': 27109}
+{'ply': 8, 'states': 91295}
+{'raw_rows': 67557, 'exact_positions': 116010, 'root_bounds': (1, 1), 'encoded_bytes': 333550, 'unknown': 13488}

@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "occupied": 0,
+      "action": 3,
+      "cpu_seconds": 0.1154
+    },
+    {
+      "occupied": 16,
+      "action": 6,
+      "cpu_seconds": 0.8013
+    },
+    {
+      "occupied": 34,
+      "action": 6,
+      "cpu_seconds": 0.0103
+    }
+  ],
+  "zip_files_match_source": true,
+  "model_matches_checkpoint": true
+}

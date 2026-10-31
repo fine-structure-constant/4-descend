@@ -1,0 +1,9 @@
+{
+  "unseen_closed_positions": 2789,
+  "correct": 2789,
+  "reference_unknown_actions": 0,
+  "mean_cpu_seconds": 0.004572117078522765,
+  "max_cpu_seconds": 0.6411602109999999,
+  "cold_transposition_table_each_position": true,
+  "no_correction_book_hits": true
+}

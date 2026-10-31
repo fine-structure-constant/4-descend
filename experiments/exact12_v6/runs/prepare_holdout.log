@@ -1,0 +1,4 @@
+{"attempted": 2000, "selected": 4500, "proved": 2000, "seconds": 1.3965039253234863}
+{"attempted": 4000, "selected": 4500, "proved": 4000, "seconds": 2.5851588249206543}
+{"attempted": 4500, "selected": 4500, "proved": 4500, "seconds": 2.853713035583496}
+{"focused_positions": 4500, "merged_positions": 34346, "sources": {"closed3": 3000, "boundary4": 1500, "diverse": 28044, "replay": 1740, "flash": 62}, "seed": 2026103198, "mirror_equivalent_states_deduplicated": true}

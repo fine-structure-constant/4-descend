@@ -1,0 +1,608 @@
+{
+  "before_bytes": 5304471552,
+  "after_bytes": 620097536,
+  "freed_bytes": 4684374016,
+  "packed_checkpoints": [
+    {
+      "original": "cnn_endgame_v4/runs/cnn_hard/best.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_hard/best.pt.pack",
+      "original_bytes": 7303638,
+      "archive_bytes": 331452,
+      "sha256": "c8abef599af39e9c57e7d2ce94cc6d77d4818870039978319444982ed9371885"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_hard/initial.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_hard/initial.pt.pack",
+      "original_bytes": 7304764,
+      "archive_bytes": 331438,
+      "sha256": "dca34ddc29681d15216fa7be794e3e5861639ff10f5f423d286a70692ad0bd95"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_hard/model.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_hard/model.pt.pack",
+      "original_bytes": 7303672,
+      "archive_bytes": 331343,
+      "sha256": "0f2b341aa0e65bb5ac1d657aec780a53cd44cfdd5626d44420d19410a71ac015"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_hard/step_1000.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_hard/step_1000.pt.pack",
+      "original_bytes": 7305280,
+      "archive_bytes": 331522,
+      "sha256": "821f6787acf4bb390d59df45767e08dce0777de01f042e5f55a0b0e79bf4cc06"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_hard/step_1250.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_hard/step_1250.pt.pack",
+      "original_bytes": 7305280,
+      "archive_bytes": 331561,
+      "sha256": "54d69f7870d983e689b611091ef8da8024c308f41006d6b8b3d9d35b45789f36"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_hard/step_1500.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_hard/step_1500.pt.pack",
+      "original_bytes": 7305280,
+      "archive_bytes": 331554,
+      "sha256": "69a992b30638ba934453a4c643951a824f36aeb2536945bbde810ff2a7424ba0"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_hard/step_1750.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_hard/step_1750.pt.pack",
+      "original_bytes": 7305280,
+      "archive_bytes": 331520,
+      "sha256": "f199fe60492eb91bcdf5d680cd65c93ec9b926d2ebcd92a7edbf7b0d8a56718f"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_hard/step_2000.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_hard/step_2000.pt.pack",
+      "original_bytes": 7305280,
+      "archive_bytes": 331426,
+      "sha256": "edb2ab2705e08632d52e90a1c7ce7f5a59cf40d0d1b705a2d6ad2161a634cab2"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_hard/step_250.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_hard/step_250.pt.pack",
+      "original_bytes": 7305246,
+      "archive_bytes": 331521,
+      "sha256": "0998ccea6a806eeaa6db480fc7f49eb60fdceff9dce17dd0b27ac12f745ac4b9"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_hard/step_500.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_hard/step_500.pt.pack",
+      "original_bytes": 7305246,
+      "archive_bytes": 331541,
+      "sha256": "96e899c16393a0b1b5ae7da41ce3bb58df3d81d34c35bb99b3a161c43b83eb2a"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_hard/step_750.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_hard/step_750.pt.pack",
+      "original_bytes": 7305246,
+      "archive_bytes": 331447,
+      "sha256": "f499227df08eabbc5d97475b50b9b5654bb396a7a295e67fdeaaf50a6c736cbd"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_proofs/candidate_book.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_proofs/candidate_book.pt.pack",
+      "original_bytes": 7305450,
+      "archive_bytes": 331312,
+      "sha256": "cd48a345a1096ca51f53f5c9cca57060261f3328627051cd0eec9cac11ba53db"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_proofs/selected_book.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_proofs/selected_book.pt.pack",
+      "original_bytes": 7305416,
+      "archive_bytes": 331550,
+      "sha256": "b84de0e24db84fd844798bef3a98f7be0089446ca866fdeadfdd726adf14f2a0"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_replay/model.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_replay/model.pt.pack",
+      "original_bytes": 7303672,
+      "archive_bytes": 331452,
+      "sha256": "1ecec1bd751dc3bdbefdf3f800b618ec0dc51ce1c766c6d9be8b5a3e15f0c03b"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_replay/model_v4.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_replay/model_v4.pt.pack",
+      "original_bytes": 62438682,
+      "archive_bytes": 331849,
+      "sha256": "9d5f91124bb8849aa71f85e935cec73e903966e2439fe41f3552db3aadfc6fbf"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_replay/step_1000.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_replay/step_1000.pt.pack",
+      "original_bytes": 7305280,
+      "archive_bytes": 331572,
+      "sha256": "a923724c91d8c4532799f4ca3b828e00acfb5a18fc4a29ac4008fbdff3d88e21"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_replay/step_1250.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_replay/step_1250.pt.pack",
+      "original_bytes": 7305280,
+      "archive_bytes": 331580,
+      "sha256": "34b85cdaffdb253f0ada02e6a75023a487870dc7e75895724d01e6124c05e0e7"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_replay/step_1500.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_replay/step_1500.pt.pack",
+      "original_bytes": 7305280,
+      "archive_bytes": 331531,
+      "sha256": "f41e0edbc29958b3d514b011661259030fa9e045418a6b6ea6301b6412b9044f"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_replay/step_250.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_replay/step_250.pt.pack",
+      "original_bytes": 7305246,
+      "archive_bytes": 331519,
+      "sha256": "92df20394638b5b28c5005e8017032ba13f70ee5d41341a0202ab203e6dd9b54"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_replay/step_500.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_replay/step_500.pt.pack",
+      "original_bytes": 7305246,
+      "archive_bytes": 331497,
+      "sha256": "e4dd50706a6e1f61e4e441c5ab41e644aaa1aa3e210dfb9de63fef109f067757"
+    },
+    {
+      "original": "cnn_endgame_v4/runs/cnn_replay/step_750.pt",
+      "archive": "cnn_endgame_v4/runs/cnn_replay/step_750.pt.pack",
+      "original_bytes": 7305246,
+      "archive_bytes": 331554,
+      "sha256": "50779c4b076197b78a2af0f0e40c90c11f03dfab4941b413a50831095bfbd201"
+    },
+    {
+      "original": "exact12_v5/runs/provisional.pt",
+      "archive": "exact12_v5/runs/provisional.pt.pack",
+      "original_bytes": 96029944,
+      "archive_bytes": 367385,
+      "sha256": "d99044b17b56d065bd9460559628d802fa3d409a19c127a5635f6e710a814943"
+    },
+    {
+      "original": "exact12_v5/runs/v5/best.pt",
+      "archive": "exact12_v5/runs/v5/best.pt.pack",
+      "original_bytes": 96029944,
+      "archive_bytes": 367433,
+      "sha256": "7bdeb700f4b7fdb864bc03814317e64f72663ff131d776c5ab3a8d1fe279682b"
+    },
+    {
+      "original": "exact12_v5/runs/v5/generation_1.pt",
+      "archive": "exact12_v5/runs/v5/generation_1.pt.pack",
+      "original_bytes": 96031856,
+      "archive_bytes": 367574,
+      "sha256": "4758f2193733d5c15c16db89d54b865dcb57e23977dd294f815b322eee2af8e2"
+    },
+    {
+      "original": "exact12_v5/runs/v5/generation_2.pt",
+      "archive": "exact12_v5/runs/v5/generation_2.pt.pack",
+      "original_bytes": 96031856,
+      "archive_bytes": 367638,
+      "sha256": "5e0fd1f54d009c6bd23e76e45fab6bedbe343e05d46cc33fa5bbf8175f748c71"
+    },
+    {
+      "original": "exact12_v5/runs/v5/initial.pt",
+      "archive": "exact12_v5/runs/v5/initial.pt.pack",
+      "original_bytes": 96031277,
+      "archive_bytes": 366836,
+      "sha256": "d570fa5c38a96b581eb0b33f6b0c330b4dc5fd01607e4774ba95365a84ab7dc4"
+    },
+    {
+      "original": "exact12_v5/runs/v5/last.pt",
+      "archive": "exact12_v5/runs/v5/last.pt.pack",
+      "original_bytes": 96029944,
+      "archive_bytes": 367509,
+      "sha256": "55eddac937b181483951fd6fc05e0650004cf71de61c86e5372836529e72ca4e"
+    },
+    {
+      "original": "exact12_v6/runs/pre_guidance_export/model.pt",
+      "archive": "exact12_v6/runs/pre_guidance_export/model.pt.pack",
+      "original_bytes": 96029983,
+      "archive_bytes": 367439,
+      "sha256": "69641c9e5b57950bf5930f491a040d6ae490f879f950c327c91db884944634bb"
+    },
+    {
+      "original": "exact12_v6/runs/refined/best.pt",
+      "archive": "exact12_v6/runs/refined/best.pt.pack",
+      "original_bytes": 96029944,
+      "archive_bytes": 367447,
+      "sha256": "b3323ab55610391cac964cd661fd70515f795a475fcd25f226735bb108eb9222"
+    },
+    {
+      "original": "exact12_v6/runs/refined/initial.pt",
+      "archive": "exact12_v6/runs/refined/initial.pt.pack",
+      "original_bytes": 96031277,
+      "archive_bytes": 367537,
+      "sha256": "1687b8a2a2cab33180fd12aca264ba97092b3784868e4a47da19b7472f94ff77"
+    },
+    {
+      "original": "exact12_v6/runs/refined/last.pt",
+      "archive": "exact12_v6/runs/refined/last.pt.pack",
+      "original_bytes": 96029944,
+      "archive_bytes": 367485,
+      "sha256": "431b8ac47edbb67a358a3b0d2178ddfe9766206892a585c31547bf287cffc2aa"
+    },
+    {
+      "original": "exact12_v6/runs/small/best.pt",
+      "archive": "exact12_v6/runs/small/best.pt.pack",
+      "original_bytes": 96029944,
+      "archive_bytes": 367497,
+      "sha256": "8c088c4f95583b5f44d2612cfcbefd4ee2c052f2b1f600ee6a0ced1274f56cb7"
+    },
+    {
+      "original": "exact12_v6/runs/small/generation_1.pt",
+      "archive": "exact12_v6/runs/small/generation_1.pt.pack",
+      "original_bytes": 96031856,
+      "archive_bytes": 367599,
+      "sha256": "1fc39eb6c9f157785fd97cbf13d72b3bafaafd70134228e13de71a01a1679f82"
+    },
+    {
+      "original": "exact12_v6/runs/small/initial.pt",
+      "archive": "exact12_v6/runs/small/initial.pt.pack",
+      "original_bytes": 96031277,
+      "archive_bytes": 367493,
+      "sha256": "75a2b34f033530b72dd05252ed5871850cd84dda93dc9c4da997c10a1dd1c782"
+    },
+    {
+      "original": "exact12_v6/runs/small/last.pt",
+      "archive": "exact12_v6/runs/small/last.pt.pack",
+      "original_bytes": 96029944,
+      "archive_bytes": 367490,
+      "sha256": "526ea5be76cd34dcd1d1c4ab875ed26e21aa115f5219e5fc77d0fe1450d63efc"
+    },
+    {
+      "original": "exact12_v6/runs/small/model.pt",
+      "archive": "exact12_v6/runs/small/model.pt.pack",
+      "original_bytes": 96029983,
+      "archive_bytes": 367478,
+      "sha256": "3a25196589a2a79a14a08b56719c171c184e75c3adc6cf0b28a66e64b0154538"
+    },
+    {
+      "original": "exact12_v6/runs/wide/best.pt",
+      "archive": "exact12_v6/runs/wide/best.pt.pack",
+      "original_bytes": 96421816,
+      "archive_bytes": 734190,
+      "sha256": "4841e09f6a28dc69e59602b54d1a8a5c8614b11d67f127da85052283c889fc05"
+    },
+    {
+      "original": "exact12_v6/runs/wide/generation_1.pt",
+      "archive": "exact12_v6/runs/wide/generation_1.pt.pack",
+      "original_bytes": 96423728,
+      "archive_bytes": 734326,
+      "sha256": "7c9c2098038a8539b568e76d8624c226e007ae7a78834cad875352ac994eed52"
+    },
+    {
+      "original": "exact12_v6/runs/wide/initial.pt",
+      "archive": "exact12_v6/runs/wide/initial.pt.pack",
+      "original_bytes": 96423149,
+      "archive_bytes": 716503,
+      "sha256": "acf122fec449508c83d207ce987f270f637d79f89ebd06b4ac9309ae4f9d9194"
+    },
+    {
+      "original": "exact12_v6/runs/wide/last.pt",
+      "archive": "exact12_v6/runs/wide/last.pt.pack",
+      "original_bytes": 96421816,
+      "archive_bytes": 733976,
+      "sha256": "69f0d16cffc356f327e7ccda445ad5fce07287d57425bb5a4538d34ae7a43f03"
+    },
+    {
+      "original": "exact12_v6/runs/wide/model.pt",
+      "archive": "exact12_v6/runs/wide/model.pt.pack",
+      "original_bytes": 96421855,
+      "archive_bytes": 734181,
+      "sha256": "9f1bbf1216b83adcf402c7b74e5be10faa5540b750b661d94b20fc3d449e472c"
+    },
+    {
+      "original": "exact12_v7/runs/midbook_base/model.pt",
+      "archive": "exact12_v7/runs/midbook_base/model.pt.pack",
+      "original_bytes": 97111691,
+      "archive_bytes": 463736,
+      "sha256": "ca5488c49fb83a049f9c50f13f27d33a8ccbb0eddb764ce6f1da1244b9188ccd"
+    },
+    {
+      "original": "exact12_v7/runs/midbook_v2/model.pt",
+      "archive": "exact12_v7/runs/midbook_v2/model.pt.pack",
+      "original_bytes": 97111691,
+      "archive_bytes": 530332,
+      "sha256": "121d841dbc3519421120a717d44350a138528c74025f45460016d6da437f5a99"
+    },
+    {
+      "original": "exact12_v7/runs/midbook_v3/model.pt",
+      "archive": "exact12_v7/runs/midbook_v3/model.pt.pack",
+      "original_bytes": 97503563,
+      "archive_bytes": 937381,
+      "sha256": "e938d684e7bad8cf7b5a86b9a3d6073fc9672c8da587c93109010c7c0a83ece2"
+    },
+    {
+      "original": "exact12_v7/runs/midbook_v4/model.pt",
+      "archive": "exact12_v7/runs/midbook_v4/model.pt.pack",
+      "original_bytes": 97503563,
+      "archive_bytes": 966063,
+      "sha256": "c00233a2ba486ccf3284f83ae2fbc9931f65bd32965dd30e346e8d7edfa9081b"
+    },
+    {
+      "original": "exact12_v7/runs/midbook_v5/model.pt",
+      "archive": "exact12_v7/runs/midbook_v5/model.pt.pack",
+      "original_bytes": 97503563,
+      "archive_bytes": 963507,
+      "sha256": "a7789ba8bb6612077d0dd9d2092c56c543fbd430905874d5a3950c6835eeafec"
+    },
+    {
+      "original": "exact12_v7/runs/midbook_v5_nn2/model.pt",
+      "archive": "exact12_v7/runs/midbook_v5_nn2/model.pt.pack",
+      "original_bytes": 97503563,
+      "archive_bytes": 934392,
+      "sha256": "2a98dbb2d08d6c6c4b341e3d0746f3c8193541622e422c4ce05293a0228472ec"
+    },
+    {
+      "original": "exact12_v7/runs/midbook_v5_nn3/model.pt",
+      "archive": "exact12_v7/runs/midbook_v5_nn3/model.pt.pack",
+      "original_bytes": 97503563,
+      "archive_bytes": 963695,
+      "sha256": "d9799f9cae6a5d13ad4a930e15c9bb39ce4fe9cf13b36d611aa90b58fc298612"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train/best.pt",
+      "archive": "exact12_v7/runs/v7_train/best.pt.pack",
+      "original_bytes": 97502752,
+      "archive_bytes": 897021,
+      "sha256": "2fc55543b25e06ec69ccc36a8d26402a285aa6533dc16a505caaaae8328f01e2"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train/initial.pt",
+      "archive": "exact12_v7/runs/v7_train/initial.pt.pack",
+      "original_bytes": 97504417,
+      "archive_bytes": 879424,
+      "sha256": "246cfb32af804ce38f6c31e8de6202212ad0fd76afecb371a16c28ab1fcea3d2"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train/last.pt",
+      "archive": "exact12_v7/runs/v7_train/last.pt.pack",
+      "original_bytes": 97502752,
+      "archive_bytes": 897020,
+      "sha256": "99d73e732b06db265e306c36e36682d6e7a25080766e70cb82d76a03f1f8cd09"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train/model.pt",
+      "archive": "exact12_v7/runs/v7_train/model.pt.pack",
+      "original_bytes": 97502795,
+      "archive_bytes": 897014,
+      "sha256": "b97520da26b10374980adb5e174c31986482cc93a450e8c7ffd57ed19613a983"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train2/best.pt",
+      "archive": "exact12_v7/runs/v7_train2/best.pt.pack",
+      "original_bytes": 97502752,
+      "archive_bytes": 937041,
+      "sha256": "8597ec062995e1001513ab9f11fbf12cf69854a66e20fba1ff22165ce900fdac"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train2/initial.pt",
+      "archive": "exact12_v7/runs/v7_train2/initial.pt.pack",
+      "original_bytes": 97504417,
+      "archive_bytes": 937169,
+      "sha256": "0e90ffce01169f31841044e097989224eb33a145dfb494dd452fb022dddd88b1"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train2/last.pt",
+      "archive": "exact12_v7/runs/v7_train2/last.pt.pack",
+      "original_bytes": 97502752,
+      "archive_bytes": 937046,
+      "sha256": "17dd3eb08ab58d33665d21fbedbff32de6e8381546308b3b0375f453e7676159"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train2/model.pt",
+      "archive": "exact12_v7/runs/v7_train2/model.pt.pack",
+      "original_bytes": 97502795,
+      "archive_bytes": 937031,
+      "sha256": "3574181b9ba8297cca6d451f188740e16e49fefeb7126ced45e304456e153366"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train3/best.pt",
+      "archive": "exact12_v7/runs/v7_train3/best.pt.pack",
+      "original_bytes": 97502752,
+      "archive_bytes": 965937,
+      "sha256": "21201ca506ac29f63e7849ddd045140d0b2a5433b6b02515c1a817d854f0322b"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train3/initial.pt",
+      "archive": "exact12_v7/runs/v7_train3/initial.pt.pack",
+      "original_bytes": 97504417,
+      "archive_bytes": 965875,
+      "sha256": "96839939408cb21574d96be83d523d7cb06d3f41f022d2588a601f20a4532b6e"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train3/last.pt",
+      "archive": "exact12_v7/runs/v7_train3/last.pt.pack",
+      "original_bytes": 97502752,
+      "archive_bytes": 965732,
+      "sha256": "efecf25666048a4167ef85328d04faf2756af5d3a298eeff583aeee1d0f555d0"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train3/model.pt",
+      "archive": "exact12_v7/runs/v7_train3/model.pt.pack",
+      "original_bytes": 97502795,
+      "archive_bytes": 965927,
+      "sha256": "0fa03418ce96f93e308a1ab228c3a6027fdcd01aff9cc70525f75cd1e23559d9"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train4/best.pt",
+      "archive": "exact12_v7/runs/v7_train4/best.pt.pack",
+      "original_bytes": 97502752,
+      "archive_bytes": 965731,
+      "sha256": "c53107352367d17c0f0852b1a00c22e7e6d1242bb738ea9ee5d7af9f858a6b5d"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train4/initial.pt",
+      "archive": "exact12_v7/runs/v7_train4/initial.pt.pack",
+      "original_bytes": 97504417,
+      "archive_bytes": 966044,
+      "sha256": "f084229af7fd15862ea225a197ee6395db8471386fa98e1ecb73580b495f4e0a"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train4/last.pt",
+      "archive": "exact12_v7/runs/v7_train4/last.pt.pack",
+      "original_bytes": 97502752,
+      "archive_bytes": 965666,
+      "sha256": "07c0f08780824fde3a15c87d152f16683c450a6dcfd16a819aa6df0eb7589dd7"
+    },
+    {
+      "original": "exact12_v7/runs/v7_train4/model.pt",
+      "archive": "exact12_v7/runs/v7_train4/model.pt.pack",
+      "original_bytes": 97502795,
+      "archive_bytes": 965727,
+      "sha256": "3c954d4a0b5ab2c3a5d92eb86766c5fddcf18fdf57690c9a1d072bdf4a38efc2"
+    },
+    {
+      "original": "v4_release/runs/final_export_candidate/model.pt",
+      "archive": "v4_release/runs/final_export_candidate/model.pt.pack",
+      "original_bytes": 61000246,
+      "archive_bytes": 332080,
+      "sha256": "4e9355b37496ef316b9baa81c7398c7f7cb6b6b11091e91eedb8daf91b7b943d"
+    },
+    {
+      "original": "v4_release/runs/model_v4.pt",
+      "archive": "v4_release/runs/model_v4.pt.pack",
+      "original_bytes": 27445274,
+      "archive_bytes": 331850,
+      "sha256": "c27a53966f66d23a1ccdcddd33ce817ab359181cab6e1729ea7961891ec81f03"
+    },
+    {
+      "original": "v4_release/runs/model_v4_final.pt",
+      "archive": "v4_release/runs/model_v4_final.pt.pack",
+      "original_bytes": 61000246,
+      "archive_bytes": 332069,
+      "sha256": "4e9355b37496ef316b9baa81c7398c7f7cb6b6b11091e91eedb8daf91b7b943d"
+    },
+    {
+      "original": "v4_release/runs/pre_validation_draft/model.pt",
+      "archive": "v4_release/runs/pre_validation_draft/model.pt.pack",
+      "original_bytes": 27445274,
+      "archive_bytes": 331866,
+      "sha256": "c27a53966f66d23a1ccdcddd33ce817ab359181cab6e1729ea7961891ec81f03"
+    },
+    {
+      "original": "v4_release/runs/preview_without_full_book.pt",
+      "archive": "v4_release/runs/preview_without_full_book.pt.pack",
+      "original_bytes": 62439358,
+      "archive_bytes": 332044,
+      "sha256": "0e40f6176ea03d54d6f65a1d390a30b74fc30ddefe8901e88cb7f94730ca144c"
+    },
+    {
+      "original": "v4_release/runs/validated_export/model.pt",
+      "archive": "v4_release/runs/validated_export/model.pt.pack",
+      "original_bytes": 61000246,
+      "archive_bytes": 332077,
+      "sha256": "4e9355b37496ef316b9baa81c7398c7f7cb6b6b11091e91eedb8daf91b7b943d"
+    }
+  ],
+  "removed_regenerable_files": [
+    {
+      "path": "cnn_endgame_v4/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "cnn_endgame_v4/support/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "cnn_endgame_v4/tools/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "endgame_v3/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "endgame_v3/support/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "exact12_v5/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "exact12_v5/support/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "exact12_v5/tools/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "exact12_v6/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "exact12_v6/support/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "exact12_v6/tools/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "exact12_v7/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "exact12_v7/support/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "exact12_v7/tools/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "standard_v2/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "standard_v2/support/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "standard_v3/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "standard_v3/support/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "v4_release/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "v4_release/support/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "v4_release/tools/__pycache__",
+      "type": "regenerable_python_cache"
+    },
+    {
+      "path": "cnn_endgame_v4/data/public/downloads/7x6.book",
+      "type": "byte_identical_download",
+      "canonical": "cnn_endgame_v4/data/public/7x6.book"
+    },
+    {
+      "path": "cnn_endgame_v4/data/public/movebook12_raw.bin",
+      "type": "unsorted_intermediate",
+      "canonical": "cnn_endgame_v4/data/public/movebook12.bin"
+    },
+    {
+      "path": "v4_release/runs/movebook_first12_wdl.raw.bin",
+      "type": "unsorted_intermediate",
+      "canonical": "v4_release/runs/movebook_first12_wdl.sorted.bin"
+    }
+  ],
+  "byte_exact_restore_test_passed": true,
+  "kept_full_checkpoints": [
+    "exact12_v5/runs/v5/model.pt",
+    "exact12_v6/runs/refined/model.pt",
+    "exact12_v7/runs/release_v7/model.pt"
+  ],
+  "delivered_upload_folders_untouched": true,
+  "shared_store": ".checkpoint_store",
+  "selected_v7_restore_sha256": "2a98dbb2d08d6c6c4b341e3d0746f3c8193541622e422c4ce05293a0228472ec",
+  "selected_v7_restored_and_torch_loaded": true
+}

@@ -1,0 +1,42 @@
+{
+  "baseline": {
+    "all": {
+      "policy_optimal_rate": 0.8038924930491196,
+      "value_mse": 0.6662293300681693,
+      "winning_position_blunder_rate": 0.2678741658722593,
+      "positions": 5395
+    },
+    "middle": {
+      "policy_optimal_rate": 0.8064876957494407,
+      "value_mse": 0.6317726066981919,
+      "winning_position_blunder_rate": 0.26563234602726843,
+      "positions": 3576
+    },
+    "ending": {
+      "policy_optimal_rate": 0.7942955920484011,
+      "value_mse": 0.9103385773628254,
+      "winning_position_blunder_rate": 0.28929765886287623,
+      "positions": 1157
+    }
+  },
+  "provisional": {
+    "all": {
+      "policy_optimal_rate": 0.8611677479147358,
+      "value_mse": 0.5550696343818785,
+      "winning_position_blunder_rate": 0.18303145853193517,
+      "positions": 5395
+    },
+    "middle": {
+      "policy_optimal_rate": 0.8680089485458613,
+      "value_mse": 0.5162199562294638,
+      "winning_position_blunder_rate": 0.1758345086976963,
+      "positions": 3576
+    },
+    "ending": {
+      "policy_optimal_rate": 0.8340535868625756,
+      "value_mse": 0.7722744822193037,
+      "winning_position_blunder_rate": 0.225752508361204,
+      "positions": 1157
+    }
+  }
+}

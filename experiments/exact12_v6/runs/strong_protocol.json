@@ -1,0 +1,12 @@
+{
+  "seed": 2026103131,
+  "groups": 20,
+  "games": 40,
+  "plies": 8,
+  "all_opening_values": 0,
+  "excluded_prior_report_opening_states": true,
+  "attempted": 275,
+  "minimum_score_rate": 0.7,
+  "minimum_pair_win_rate": 0.7,
+  "minimum_bootstrap_lower_bound": 0.5
+}

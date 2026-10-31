@@ -1,0 +1,12 @@
+[
+  {
+    "case": "avoidable",
+    "illegal_action_gradients_zero": true,
+    "passed": true
+  },
+  {
+    "case": "forced_loss",
+    "illegal_action_gradients_zero": true,
+    "passed": true
+  }
+]

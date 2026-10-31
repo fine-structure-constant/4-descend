@@ -1,0 +1,10 @@
+{
+  "platform_acceptance": false,
+  "artifact": "upload-v4/code.zip",
+  "http_status": 400,
+  "platform_code": "INVALID_PACKAGE",
+  "detail": "代码包需要 Python 或文本文件",
+  "cause": "Archive includes native .so and C++ source files; local loading and size tests do not establish platform acceptance.",
+  "compatible_existing_artifact": "upload-v4-exact12",
+  "note": "Its code and model hashes match platform version 95236ab0-16da-4220-89f8-6d4b4bd34daf. It is a different artifact from upload-v4."
+}

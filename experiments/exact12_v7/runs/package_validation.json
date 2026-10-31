@@ -1,0 +1,84 @@
+{
+  "files": {
+    "code.zip": {
+      "bytes": 324286,
+      "sha256": "9539999708ec298d32c304b270b17973ad4411843e3b5359405b51628b086656"
+    },
+    "model.pt": {
+      "bytes": 97503563,
+      "sha256": "2a98dbb2d08d6c6c4b341e3d0746f3c8193541622e422c4ce05293a0228472ec"
+    }
+  },
+  "init_cpu_seconds": 8.762171761,
+  "init_wall_seconds": 1.548578747548163,
+  "peak_memory_mib": 417.05859375,
+  "checks": [
+    {
+      "occupied": 0,
+      "action": 3,
+      "cpu_seconds": 0.030445392999999044,
+      "wall_seconds": 0.03045709989964962
+    },
+    {
+      "occupied": 11,
+      "action": 5,
+      "cpu_seconds": 0.0054086010000009566,
+      "wall_seconds": 0.005426366813480854
+    },
+    {
+      "occupied": 12,
+      "action": 4,
+      "cpu_seconds": 0.0033871940000000933,
+      "wall_seconds": 0.0034012910909950733
+    },
+    {
+      "occupied": 13,
+      "action": 5,
+      "cpu_seconds": 0.800240389999999,
+      "wall_seconds": 0.8005020902492106
+    },
+    {
+      "occupied": 14,
+      "action": 1,
+      "cpu_seconds": 0.00021391499999978691,
+      "wall_seconds": 0.00021386286243796349
+    },
+    {
+      "occupied": 39,
+      "action": 4,
+      "cpu_seconds": 0.00033098599999981104,
+      "wall_seconds": 0.00033087097108364105
+    },
+    {
+      "occupied": 35,
+      "action": 6,
+      "cpu_seconds": 0.00041448099999996657,
+      "wall_seconds": 0.00041415588930249214
+    },
+    {
+      "occupied": 35,
+      "action": 2,
+      "cpu_seconds": 0.00027776199999962614,
+      "wall_seconds": 0.00027752621099352837
+    },
+    {
+      "occupied": 23,
+      "action": 3,
+      "cpu_seconds": 0.02006764599999933,
+      "wall_seconds": 0.0200765086337924
+    },
+    {
+      "occupied": 35,
+      "action": 1,
+      "cpu_seconds": 0.0004056569999999482,
+      "wall_seconds": 0.0004101218655705452
+    },
+    {
+      "occupied": 35,
+      "action": 1,
+      "cpu_seconds": 0.0002738829999984205,
+      "wall_seconds": 0.0002737990580499172
+    }
+  ],
+  "passed": true
+}

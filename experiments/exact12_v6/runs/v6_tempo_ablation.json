@@ -1,0 +1,7 @@
+{
+  "positions": 120,
+  "correct": 120,
+  "mean_cpu_seconds": 0.0018030454083333666,
+  "max_cpu_seconds": 0.10289913799999972,
+  "all_top_spare_moves_preserved": true
+}

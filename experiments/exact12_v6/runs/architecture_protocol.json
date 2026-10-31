@@ -1,0 +1,14 @@
+{
+  "candidates": [
+    32,
+    48
+  ],
+  "same_supervised_steps": 1800,
+  "same_selfplay_games": 12,
+  "same_finetune_steps": 400,
+  "selection_metric": "(1 - internal validation policy optimal rate) + 0.25 * value MSE",
+  "wide_minimum_metric_gain": 0.005,
+  "maximum_move_cpu_seconds": 0.95,
+  "maximum_forward_latency_ratio": 2.2,
+  "note": "Use the wider model only for a material validation gain within inference limits. External test and flash results do not select between widths."
+}

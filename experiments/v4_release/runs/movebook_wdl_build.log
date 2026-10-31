@@ -1,0 +1,35 @@
+[enumerate] 3.9s
+[enumerate] depth  0:         1
+[enumerate] depth  1:         4
+[enumerate] depth  2:        25
+[enumerate] depth  3:       121
+[enumerate] depth  4:       568
+[enumerate] depth  5:      2144
+[enumerate] depth  6:      8231
+[enumerate] depth  7:     27109
+[enumerate] depth  8:     91295
+[enumerate] depth  9:    269531
+[enumerate] depth 10:    809464
+[enumerate] depth 11:   2148087
+[enumerate] depth 12:   5832236
+[enumerate] total 9188816 non-terminal positions <= 12 discs
+[enumerate] keys unique across depths
+[frontier] 5832236 complete exact WDL values
+Loading opening book from file: ../cnn_endgame_v4/data/public/7x6.book. done
+[frontier] 10000 independent solver checks passed
+[derive] depth 11 done
+[derive] depth 10 done
+[derive] depth  9 done
+[derive] depth  8 done
+[derive] depth  7 done
+[derive] depth  6 done
+[derive] depth  5 done
+[derive] depth  4 done
+[derive] depth  3 done
+[derive] depth  2 done
+[derive] depth  1 done
+[derive] depth  0 done
+[derive] 4.9s
+Loading opening book from file: ../cnn_endgame_v4/data/public/7x6.book. done
+[check] derived vs solver: 19992 checked, 0 mismatches
+[write] runs/movebook_first12_wdl.raw.bin: 3356580 records, 19.2 MiB, total 36.9s

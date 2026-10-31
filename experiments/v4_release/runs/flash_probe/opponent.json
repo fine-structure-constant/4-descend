@@ -1,0 +1,46 @@
+{
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": "f5a510e8-6c66-42ec-9e7d-7ab09100eba8",
+      "bot": "1ede85db-f7fb-445f-96c8-2b5f4f85b7d6",
+      "name": "Lorensia flash_v2（褒贬不一）",
+      "number": 1,
+      "owner": "2400011311",
+      "game": "connect4",
+      "image_digest": "sha256:689b9d0f915eaa5df9e6c77a6bff5f3c3fa63d67b5a3b578cc4314129c8d37b1",
+      "rules_version": "connect4-v1"
+    },
+    {
+      "id": "15c0b0d7-6dbf-4268-8437-fe2ad2f48794",
+      "bot": "d46f6dbf-915c-4de7-9bcb-a3fbaa7f840b",
+      "name": "Lorensia flash_v1（有待开发）",
+      "number": 1,
+      "owner": "2400011311",
+      "game": "connect4",
+      "image_digest": "sha256:689b9d0f915eaa5df9e6c77a6bff5f3c3fa63d67b5a3b578cc4314129c8d37b1",
+      "rules_version": "connect4-v1"
+    },
+    {
+      "id": "272c9171-ed67-419f-af31-1687c42e3150",
+      "bot": "d251643b-aacf-4652-bc7a-336d4660d97d",
+      "name": "Lorensia flash_v0（小杯基座）",
+      "number": 1,
+      "owner": "2400011311",
+      "game": "connect4",
+      "image_digest": "sha256:689b9d0f915eaa5df9e6c77a6bff5f3c3fa63d67b5a3b578cc4314129c8d37b1",
+      "rules_version": "connect4-v1"
+    },
+    {
+      "id": "34b95b93-3588-4bd8-baf9-25d7170a8aef",
+      "bot": "f2820fd5-e365-4683-b336-ed4b2cf28071",
+      "name": "flash",
+      "number": 1,
+      "owner": "2400011461",
+      "game": "connect4",
+      "image_digest": "sha256:689b9d0f915eaa5df9e6c77a6bff5f3c3fa63d67b5a3b578cc4314129c8d37b1",
+      "rules_version": "connect4-v1"
+    }
+  ]
+}

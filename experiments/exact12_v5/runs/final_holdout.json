@@ -1,0 +1,42 @@
+{
+  "baseline": {
+    "all": {
+      "policy_optimal_rate": 0.8038924930491196,
+      "value_mse": 0.6662293300681693,
+      "winning_position_blunder_rate": 0.2678741658722593,
+      "positions": 5395
+    },
+    "middle": {
+      "policy_optimal_rate": 0.8064876957494407,
+      "value_mse": 0.6317726066981919,
+      "winning_position_blunder_rate": 0.26563234602726843,
+      "positions": 3576
+    },
+    "ending": {
+      "policy_optimal_rate": 0.7942955920484011,
+      "value_mse": 0.9103385773628254,
+      "winning_position_blunder_rate": 0.28929765886287623,
+      "positions": 1157
+    }
+  },
+  "candidate": {
+    "all": {
+      "policy_optimal_rate": 0.8659870250231696,
+      "value_mse": 0.5826804768276833,
+      "winning_position_blunder_rate": 0.17890054019701304,
+      "positions": 5395
+    },
+    "middle": {
+      "policy_optimal_rate": 0.8733221476510067,
+      "value_mse": 0.5366545768925541,
+      "winning_position_blunder_rate": 0.16972261401034322,
+      "positions": 3576
+    },
+    "ending": {
+      "policy_optimal_rate": 0.8375108038029386,
+      "value_mse": 0.8249563152870435,
+      "winning_position_blunder_rate": 0.22073578595317725,
+      "positions": 1157
+    }
+  }
+}

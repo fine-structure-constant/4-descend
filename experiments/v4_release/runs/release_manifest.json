@@ -1,0 +1,94 @@
+{
+  "output": "/home/stu2026/stu2400011444/homework4/upload-v4",
+  "artifacts": {
+    "model.pt": {
+      "bytes": 61000246,
+      "sha256": "4e9355b37496ef316b9baa81c7398c7f7cb6b6b11091e91eedb8daf91b7b943d"
+    },
+    "code.zip": {
+      "bytes": 845488,
+      "sha256": "399165c3b835deea890e5053a7f7d143ad58b6362cc644f6d084690361efe518"
+    }
+  },
+  "limits_bytes": {
+    "code.zip": 5000000,
+    "model.pt": 100000000
+  },
+  "opening": {
+    "total_plies": 12,
+    "canonical_positions": 3356580,
+    "objective": "win_draw_loss_optimal",
+    "exhaustive_independent_verification": true
+  },
+  "stability": {
+    "games": 40,
+    "opening_groups": 20,
+    "total": {
+      "win": 30,
+      "draw": 9,
+      "loss": 1
+    },
+    "by_side": {
+      "1": {
+        "win": 18,
+        "draw": 2,
+        "loss": 0
+      },
+      "-1": {
+        "win": 12,
+        "draw": 7,
+        "loss": 1
+      }
+    },
+    "score_rate": 0.8625,
+    "paired_matches": {
+      "win": 18,
+      "draw": 2,
+      "loss": 0
+    },
+    "paired_bootstrap_95_interval": [
+      0.7875,
+      0.9253125000000182
+    ],
+    "max_cpu_seconds": 0.5210280330000003,
+    "criterion": {
+      "minimum_games": 40,
+      "minimum_score_rate": 0.7,
+      "minimum_pair_win_rate": 0.7,
+      "lower_95_bound_must_exceed": 0.5,
+      "max_move_cpu_seconds": 1.0
+    },
+    "stable_criterion_passed": true,
+    "sha256": {
+      "runs/model_v4_final.pt": "4e9355b37496ef316b9baa81c7398c7f7cb6b6b11091e91eedb8daf91b7b943d",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/mcts.py": "d6eaf64285d18bf7a949b9acc60156b94ecbacf45c4849cfca645496042ee617",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/model.py": "7438302c4b94bb1b4a6e4f77f67efec0fae3e0e9167cdc923e2e4e145003e632",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/endgame.py": "60ac4a28ff426f041f403aae32ea1846fbd31b1ed34b5ecd15cd57cc3c216f3d",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/tactics.py": "77a7d57e3186524981458ce4103b707600ac27f471f472103d175c6727d884a5",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/opening.py": "334c0699d65706e114691c12b79e375e0fb5656aa840548e0fdfa4c058ecdc8c",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/deep_opening.py": "644dfd64b3d751583b8adedbc51f470fa05e658a8b253f6698d2842c4f04e395",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/movebook.py": "5dad1ed5371fcaca5b6b8e74c68558e5335f95fc03630fd2e421ef23b84ff967",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/_endgame_native.abi3.so": "5946265401feb4bda3fbf7478779bb60d8a3c0118e884f80516519afdc8bdf6a",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/__init__.py": "6ca68b0bf2d60f8805a692b94790a0f020ef18550df0943394a6e46aaed22d37",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/bot.py": "eb8ff31641269dbe8e3c960740233c9222a25c21bdb0a3c71981e8cf67acc952",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/game.py": "7700ca1b103442c3dfbf2253e32712fd80ad2bad0ece5b2cbcdaf47f5a73ea38",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/pons_book.py": "a6d9fcc6ffbda7293e45b4645adf1d936d777e59a8d834a0eb69bcaa74308cb7",
+      "/home/stu2026/stu2400011444/homework4/experiments/v4_release/support/runtime.py": "d24e651438d2a83c3c392056f366e562412439a5e53af7cdb19ada9bc6a00e2d"
+    },
+    "reports": [
+      "runs/strong_stability_batch1.json",
+      "runs/strong_stability_batch2.json"
+    ]
+  },
+  "package_validation": "runs/release_package_validation.json",
+  "platform_compatibility": {
+    "platform_acceptance": false,
+    "artifact": "upload-v4/code.zip",
+    "http_status": 400,
+    "platform_code": "INVALID_PACKAGE",
+    "detail": "代码包需要 Python 或文本文件",
+    "cause": "Archive includes native .so and C++ source files; local loading and size tests do not establish platform acceptance.",
+    "compatible_existing_artifact": "upload-v4-exact12",
+    "note": "Its code and model hashes match platform version 95236ab0-16da-4220-89f8-6d4b4bd34daf. It is a different artifact from upload-v4."
+  }
+}
