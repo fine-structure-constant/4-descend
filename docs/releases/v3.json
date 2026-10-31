@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "local_version": "v3",
+  "tag": "v3",
+  "directory": "upload-v3",
+  "summary": "32 通道、4 残差块 CNN，重力/奇偶特征，残局搜索及开局参考数据",
+  "description": "改用 32 通道、4 个残差块的 CNN，加入可落子、奇偶行与先后手特征，结合限时精确残局搜索和开局参考数据。",
+  "source": "experiments/cnn_endgame_v4（standard_v3 是更早候选，不等同于本交付）",
+  "platform_version": {
+    "number": 1,
+    "id": "cfe7de9b-2193-4c69-9972-86307923f8c6",
+    "status": "READY",
+    "note": "CNN 01"
+  },
+  "artifacts": {
+    "code": {
+      "path": "code.zip",
+      "bytes": 291934,
+      "sha256": "92b0cdb0eb69c762b04c4994e16de01654a2e5c231eb878c6a4627b3513c5c5e",
+      "tracked_in_git": true
+    },
+    "model": {
+      "path": "model.pt",
+      "bytes": 7303672,
+      "sha256": "1ecec1bd751dc3bdbefdf3f800b618ec0dc51ce1c766c6d9be8b5a3e15f0c03b",
+      "tracked_in_git": false
+    }
+  },
+  "records": [
+    "experiments/cnn_endgame_v4/ITERATION.md",
+    "experiments/cnn_endgame_v4/REFERENCES.md",
+    "experiments/cnn_endgame_v4/runs/cnn_strong_dev.json",
+    "experiments/cnn_endgame_v4/runs/final_v3_strong.json",
+    "experiments/cnn_endgame_v4/runs/final_v3_standard.json"
+  ],
+  "caveats": [
+    "平台状态为历史快照，使用前应重新查询。",
+    "standard_v3 目录是更早候选，不能直接等同 upload-v3。"
+  ]
+}
