@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "local_version": "v8",
+  "tag": "v8",
+  "directory": "upload-v8",
+  "summary": "v7 原权重 + Rust 离线精确求解常驻进程，失败回退 Python",
+  "description": "不重新训练网络，在 v7 权重与搜索上增加嵌入式 Rust 精确求解器（Pons 移植），以文本载荷分发、运行时解码校验的常驻子进程调用；失败、超时或沙箱禁止时回退 v7 纯 Python 管线。",
+  "source": "experiments/exact12_v7（当前源码即 v8）；原生源码在 native/c4core",
+  "platform_version": {
+    "number": null,
+    "id": null,
+    "status": null,
+    "note": "本地已完成打包与验证，未找到 v8 上传提交/READY 记录"
+  },
+  "artifacts": {
+    "code": {
+      "path": "code.zip",
+      "bytes": 852203,
+      "sha256": "d5ff1abcfb19859d707fcb5ab59de1ca9605591094ad3521806cac1284482380",
+      "tracked_in_git": true
+    },
+    "model": {
+      "path": "model.pt",
+      "bytes": 97503563,
+      "sha256": "2a98dbb2d08d6c6c4b341e3d0746f3c8193541622e422c4ce05293a0228472ec",
+      "tracked_in_git": false
+    }
+  },
+  "records": [
+    "experiments/exact12_v7/runs/release_manifest.json",
+    "experiments/exact12_v7/runs/package_validation_v8.json",
+    "experiments/exact12_v7/runs/selfplay_v8_unpacked.json",
+    "experiments/exact12_v7/native/validate_vs_cpp.py",
+    "experiments/exact12_v7/README.md"
+  ],
+  "caveats": [
+    "与 C++ 求解器对拍 24/24 一致、27 手完整自对弈通过，单局最高墙钟约 0.803 秒；不能证明平台兼容或对 flash 的实战强度。",
+    "发布包为文本载荷，但会在平台解出原生可执行文件；平台实际执行能力仍需验证。"
+  ]
+}
