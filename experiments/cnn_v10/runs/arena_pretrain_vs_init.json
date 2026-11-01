@@ -1,0 +1,398 @@
+{
+  "model_a": "/tmp/cnn_v10_runs/pretrain_v1.pt",
+  "model_b": "/tmp/cnn_v10_runs/init.pt",
+  "games": 32,
+  "wins": 27,
+  "draws": 0,
+  "losses": 5,
+  "score": 0.8438,
+  "sims": 32,
+  "opening_plies": 4,
+  "seconds": 7.92,
+  "results": [
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 7,
+      "opening": [
+        3,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": false,
+      "score_a": 0.0,
+      "plies": 7,
+      "opening": [
+        3,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 9,
+      "opening": [
+        6,
+        4,
+        1,
+        5
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 9,
+      "opening": [
+        5,
+        5,
+        3,
+        2
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 13,
+      "opening": [
+        3,
+        3,
+        0,
+        6
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 13,
+      "opening": [
+        2,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 13,
+      "opening": [
+        3,
+        6,
+        0,
+        4
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 14,
+      "opening": [
+        2,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 14,
+      "opening": [
+        0,
+        5,
+        2,
+        2
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 16,
+      "opening": [
+        3,
+        3,
+        0,
+        6
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 16,
+      "opening": [
+        1,
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 16,
+      "opening": [
+        2,
+        4,
+        6,
+        5
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 16,
+      "opening": [
+        0,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 17,
+      "opening": [
+        4,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 18,
+      "opening": [
+        4,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 18,
+      "opening": [
+        3,
+        6,
+        0,
+        4
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 19,
+      "opening": [
+        3,
+        4,
+        5,
+        2
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 19,
+      "opening": [
+        2,
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": false,
+      "score_a": 0.0,
+      "plies": 21,
+      "opening": [
+        3,
+        4,
+        5,
+        2
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 21,
+      "opening": [
+        3,
+        5,
+        5,
+        0
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 22,
+      "opening": [
+        5,
+        5,
+        3,
+        2
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 23,
+      "opening": [
+        2,
+        4,
+        6,
+        5
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 25,
+      "opening": [
+        6,
+        5,
+        3,
+        3
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 26,
+      "opening": [
+        3,
+        5,
+        5,
+        0
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": true,
+      "score_a": 0.0,
+      "plies": 26,
+      "opening": [
+        0,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 30,
+      "opening": [
+        2,
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": true,
+      "score_a": 0.0,
+      "plies": 32,
+      "opening": [
+        2,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 33,
+      "opening": [
+        1,
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": true,
+      "score_a": 1.0,
+      "plies": 35,
+      "opening": [
+        0,
+        5,
+        2,
+        2
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 36,
+      "opening": [
+        2,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "winner": -1,
+      "a_black": false,
+      "score_a": 1.0,
+      "plies": 36,
+      "opening": [
+        6,
+        5,
+        3,
+        3
+      ]
+    },
+    {
+      "winner": 1,
+      "a_black": false,
+      "score_a": 0.0,
+      "plies": 39,
+      "opening": [
+        6,
+        4,
+        1,
+        5
+      ]
+    }
+  ]
+}

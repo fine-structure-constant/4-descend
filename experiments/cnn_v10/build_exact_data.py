@@ -102,11 +102,16 @@ def main():
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     np.savez_compressed(out, x=x, policy=policy, value=value, validation=validation)
+    train = ~validation
+    train_out = out.with_name(out.stem.replace("_labels", "") + "_train.npz")
+    np.savez_compressed(train_out, x=x[train], policy=policy[train], value=value[train],
+                        validation=validation[train])
     summary = {
         "out": str(out), "positions": len(rows), "skipped": skipped,
+        "train_out": str(train_out), "train_positions": int(train.sum()),
         "value_counts": {str(v): int((value == v).sum()) for v in (-1, 0, 1)},
         "validation": int(validation.sum()),
-        "bytes": out.stat().st_size,
+        "bytes": out.stat().st_size, "train_bytes": train_out.stat().st_size,
     }
     print(json.dumps(summary, ensure_ascii=False), flush=True)
     out.with_suffix(".json").write_text(json.dumps(summary, indent=2))

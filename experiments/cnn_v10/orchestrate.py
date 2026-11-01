@@ -43,6 +43,8 @@ def main():
                         help="optional exact WDL shard (x/policy/value npz)")
     parser.add_argument("--arena-games", type=int, default=64)
     parser.add_argument("--arena-sims", type=int, default=32)
+    parser.add_argument("--arena-openings", default=None,
+                        help="optional fixed opening move lists for the arena")
     parser.add_argument("--devices", type=int, default=10)
     parser.add_argument("--max-hours", type=float, default=3.0)
     parser.add_argument("--python", default=sys.executable)
@@ -118,12 +120,15 @@ def main():
             raise SystemExit(f"training did not produce {checkpoint}")
 
         if not arena_out.is_file():
-            run([args.python, "arena.py",
-                 "--model-a", checkpoint, "--model-b", previous,
-                 "--games", args.arena_games, "--sims", args.arena_sims,
-                 "--concurrency", min(args.arena_games, 64),
-                 "--device", "cuda:0", "--seed", 20261101 + round_index,
-                 "--out", arena_out], root)
+            arena_cmd = [args.python, "arena.py",
+                         "--model-a", checkpoint, "--model-b", previous,
+                         "--games", args.arena_games, "--sims", args.arena_sims,
+                         "--concurrency", min(args.arena_games, 64),
+                         "--device", "cuda:0", "--seed", 20261101 + round_index,
+                         "--out", arena_out]
+            if args.arena_openings:
+                arena_cmd.extend(["--openings-file", args.arena_openings])
+            run(arena_cmd, root)
 
         arena = json.loads(arena_out.read_text())
         selfplay_totals = {

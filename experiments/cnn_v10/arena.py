@@ -49,6 +49,8 @@ def main():
     parser.add_argument("--sims", type=int, default=32)
     parser.add_argument("--concurrency", type=int, default=64)
     parser.add_argument("--opening-plies", type=int, default=4)
+    parser.add_argument("--openings-file", default=None,
+                        help="optional JSON list of fixed opening move lists")
     parser.add_argument("--seed", type=int, default=20261101)
     parser.add_argument("--device", default="cuda:0")
     parser.add_argument("--out", default=None)
@@ -65,12 +67,25 @@ def main():
     rng = np.random.default_rng(args.seed)
 
     openings = []
-    for _ in range(args.games // 2):
-        openings.append(random_opening(rng, args.opening_plies))
+    if args.openings_file:
+        for moves in json.loads(Path(args.openings_file).read_text()):
+            position = initial_position()
+            for move in moves:
+                if move not in legal_columns(position[2]):
+                    raise SystemExit(f"illegal opening move {move} in {moves}")
+                position, terminal = make_move(position, move)
+                if terminal is not None:
+                    raise SystemExit(f"terminal opening {moves}")
+            openings.append((list(moves), position))
+        if not openings:
+            raise SystemExit("openings file is empty")
+    else:
+        for _ in range(args.games // 2):
+            openings.append(random_opening(rng, args.opening_plies))
 
     pending = []
     for index in range(args.games):
-        moves, position = openings[index // 2]
+        moves, position = openings[(index // 2) % len(openings)]
         pending.append(Game(position, moves, a_black=(index % 2 == 0)))
 
     active = []

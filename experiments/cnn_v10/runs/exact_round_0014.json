@@ -1,0 +1,23 @@
+{
+  "model": "/tmp/cnn_v10_runs/ckpt_round_0014.pt",
+  "config": {
+    "channels": 192,
+    "blocks": 12
+  },
+  "positions": 12930,
+  "value_mse": 0.15642,
+  "value_class_accuracy": 0.878,
+  "value_accuracy_by_true": {
+    "-1": 0.8231,
+    "0": 0.818,
+    "1": 0.9173
+  },
+  "value_mse_by_true": {
+    "-1": 0.31575,
+    "0": 0.13883,
+    "1": 0.11313
+  },
+  "policy_top1_optimal": 0.9486,
+  "policy_cross_entropy": 1.4219,
+  "policy_best_mass_mean": 0.4976
+}

@@ -1,0 +1,16 @@
+{"step": 50, "epoch": 0, "lr": 0.001275, "policy_loss": 1.18651, "value_loss": 0.42046, "loss": 1.60698, "examples_per_second": 24610.3}
+{"step": 100, "epoch": 0, "lr": 0.001996, "policy_loss": 0.97902, "value_loss": 0.39358, "loss": 1.3726, "examples_per_second": 29957.7}
+{"step": 150, "epoch": 1, "lr": 0.001957, "policy_loss": 0.959, "value_loss": 0.32415, "loss": 1.28314, "examples_per_second": 32493.3}
+{"step": 200, "epoch": 1, "lr": 0.001874, "policy_loss": 0.90259, "value_loss": 0.33121, "loss": 1.23379, "examples_per_second": 33979.4}
+{"step": 250, "epoch": 1, "lr": 0.001753, "policy_loss": 0.86861, "value_loss": 0.32066, "loss": 1.18927, "examples_per_second": 34759.8}
+{"step": 300, "epoch": 2, "lr": 0.001599, "policy_loss": 0.80622, "value_loss": 0.28934, "loss": 1.09556, "examples_per_second": 35364.0}
+{"step": 350, "epoch": 2, "lr": 0.001419, "policy_loss": 0.7949, "value_loss": 0.28781, "loss": 1.08272, "examples_per_second": 35900.4}
+{"step": 400, "epoch": 2, "lr": 0.001222, "policy_loss": 0.77652, "value_loss": 0.26269, "loss": 1.03921, "examples_per_second": 36189.5}
+{"step": 450, "epoch": 3, "lr": 0.001017, "policy_loss": 0.71208, "value_loss": 0.2535, "loss": 0.96558, "examples_per_second": 36512.4}
+{"step": 500, "epoch": 3, "lr": 0.000813, "policy_loss": 0.74094, "value_loss": 0.26113, "loss": 1.00207, "examples_per_second": 36714.6}
+{"step": 550, "epoch": 4, "lr": 0.000621, "policy_loss": 0.68191, "value_loss": 0.23092, "loss": 0.91283, "examples_per_second": 36919.0}
+{"step": 600, "epoch": 4, "lr": 0.000449, "policy_loss": 0.66365, "value_loss": 0.23997, "loss": 0.90363, "examples_per_second": 37033.2}
+{"step": 650, "epoch": 4, "lr": 0.000304, "policy_loss": 0.6407, "value_loss": 0.25378, "loss": 0.89448, "examples_per_second": 37163.1}
+{"step": 700, "epoch": 5, "lr": 0.000195, "policy_loss": 0.58953, "value_loss": 0.23678, "loss": 0.82631, "examples_per_second": 37278.2}
+{"step": 750, "epoch": 5, "lr": 0.000126, "policy_loss": 0.58012, "value_loss": 0.22759, "loss": 0.80771, "examples_per_second": 37366.3}
+{"step": 800, "epoch": 5, "lr": 0.0001, "policy_loss": 0.61173, "value_loss": 0.23654, "loss": 0.84826, "examples_per_second": 37446.5}

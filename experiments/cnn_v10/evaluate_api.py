@@ -29,6 +29,10 @@ def request_move(history, side, opponent, action):
     cookie = os.environ.get("BOTLAB_COOKIE", "")
     csrf = next((item.strip().split("=", 1)[1] for item in cookie.split(";")
                  if item.strip().startswith("csrftoken=")), "")
+    # The play endpoint expects the client's latest move as `action`; when the
+    # AI moves first after an opening, resend the human's last opening move.
+    if action is None and history:
+        history, action = history[:-1], history[-1]
     payload = {"history": history, "human_player": side, "model_id": opponent}
     if action is not None:
         payload["action"] = action
@@ -217,9 +221,10 @@ def main():
                 }
                 output.parent.mkdir(parents=True, exist_ok=True)
                 output.write_text(json.dumps(report, indent=2))
-                print(json.dumps({key: record[key] for key in
-                                  ("game", "side", "result", "winner")} |
-                                 {"worst_cpu": max(move_cpu) if move_cpu else 0}), flush=True)
+                summary = {key: record[key] for key in
+                           ("game", "side", "result", "winner")}
+                summary["worst_cpu"] = max(move_cpu) if move_cpu else 0
+                print(json.dumps(summary), flush=True)
                 break
             history = returned
             ai_moves.append(response.get("ai_action"))

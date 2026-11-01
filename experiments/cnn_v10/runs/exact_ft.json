@@ -1,0 +1,23 @@
+{
+  "model": "/tmp/cnn_v10_runs/ckpt_exact_ft.pt",
+  "config": {
+    "channels": 192,
+    "blocks": 12
+  },
+  "positions": 12930,
+  "value_mse": 0.18973,
+  "value_class_accuracy": 0.8432,
+  "value_accuracy_by_true": {
+    "-1": 0.7728,
+    "0": 0.7996,
+    "1": 0.8812
+  },
+  "value_mse_by_true": {
+    "-1": 0.37619,
+    "0": 0.14522,
+    "1": 0.14788
+  },
+  "policy_top1_optimal": 0.9351,
+  "policy_cross_entropy": 1.459,
+  "policy_best_mass_mean": 0.4976
+}

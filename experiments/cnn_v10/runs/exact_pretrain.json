@@ -1,0 +1,23 @@
+{
+  "model": "/tmp/cnn_v10_runs/pretrain_v1.pt",
+  "config": {
+    "channels": 192,
+    "blocks": 12
+  },
+  "positions": 12930,
+  "value_mse": 0.75822,
+  "value_class_accuracy": 0.5178,
+  "value_accuracy_by_true": {
+    "-1": 0.4836,
+    "0": 0.8039,
+    "1": 0.423
+  },
+  "value_mse_by_true": {
+    "-1": 0.89485,
+    "0": 0.14975,
+    "1": 0.9398
+  },
+  "policy_top1_optimal": 0.8426,
+  "policy_cross_entropy": 2.2018,
+  "policy_best_mass_mean": 0.4976
+}

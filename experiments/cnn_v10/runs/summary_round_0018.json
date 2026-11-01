@@ -1,0 +1,25 @@
+{
+  "round": 18,
+  "previous": "/tmp/cnn_v10_runs/ckpt_round_0017.pt",
+  "checkpoint": "/tmp/cnn_v10_runs/ckpt_round_0018.pt",
+  "selfplay": {
+    "games": 6400,
+    "examples": 124949,
+    "seconds": 193.43
+  },
+  "train": {
+    "out": "/tmp/cnn_v10_runs/ckpt_round_0018.pt",
+    "steps": 2508,
+    "examples": 803312,
+    "seconds": 97.2
+  },
+  "arena": {
+    "games": 128,
+    "wins": 3,
+    "draws": 125,
+    "losses": 0,
+    "score": 0.5117,
+    "seconds": 51.82
+  },
+  "stage_seconds": 367.54
+}

@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "local_version": "v10",
+  "tag": "v10",
+  "directory": "upload-v10",
+  "summary": "纯 CNN（6 平面、192 通道、12 残差块）+ PUCT，全程单一网络",
+  "description": "不依赖开局表、中盘表、残局求解器、原生二进制或联网调用：从空棋盘到终局全部由同一张 7,989,402 参数的残差 CNN 加 64 次 PUCT 模拟评估。用 10 张 RTX 4080 完成 18 轮自对弈与 DDP 训练；用 v7 历史棋谱预热，并用其精确 WDL/策略标签做微调与持续监督。",
+  "source": "experiments/cnn_v10",
+  "platform_version": {
+    "number": null,
+    "id": null,
+    "status": null,
+    "note": "本地已完成打包与验证，未上传"
+  },
+  "artifacts": {
+    "code": {
+      "path": "code.zip",
+      "bytes": 5008,
+      "sha256": "9edf958d54f1bcc16416051444959174385acdabf04c9452a6aea891d4962c5b",
+      "tracked_in_git": true
+    },
+    "model": {
+      "path": "model.pt",
+      "bytes": 31954402,
+      "sha256": "d96b1f0afe1b41e4c6f73ad20b6452e8065776d5a10ed9ac630fcd1f9c0cc0c6",
+      "tracked_in_git": false
+    }
+  },
+  "model": {
+    "format": "v10-deploy-fp32",
+    "learned_parameters": 7989402,
+    "config": {"channels": 192, "blocks": 12},
+    "simulations": 64,
+    "batch_norm_fold_max_error": 3.337860107421875e-06,
+    "cpu_probe_worst_seconds": 0.7278
+  },
+  "training": {
+    "seed_positions": 172310,
+    "exact_positions": 129038,
+    "exact_train_positions": 116108,
+    "exact_validation_positions": 12930,
+    "selfplay_rounds": 18,
+    "selfplay_games": 99840,
+    "selfplay_positions": 2621852,
+    "release_checkpoint": "ckpt_round_0016.pt"
+  },
+  "evaluation": {
+    "exact_validation": {
+      "value_mse": 0.15127,
+      "value_class_accuracy": 0.8837,
+      "policy_top1_optimal": 0.9482
+    },
+    "arena": {
+      "round16_vs_round15_random_512_at_64_sims": 0.5078,
+      "round16_vs_round15_random_128_at_128_sims": 0.5273
+    },
+    "api_play": {
+      "round15_candidate": {
+        "standard": {"win": 39, "draw": 1, "loss": 0, "score": 0.9875},
+        "strong": {"win": 27, "draw": 12, "loss": 1, "score": 0.825}
+      },
+      "round16_release": {
+        "standard": {"win": 36, "draw": 2, "loss": 2, "score": 0.925},
+        "strong": {"win": 28, "draw": 11, "loss": 1, "score": 0.8375}
+      },
+      "games_per_match": 40,
+      "simulations": 64,
+      "device": "cpu"
+    }
+  },
+  "records": [
+    "experiments/cnn_v10/README.md",
+    "experiments/cnn_v10/runs/package_validation.json",
+    "experiments/cnn_v10/runs/pipeline_log.jsonl",
+    "experiments/cnn_v10/runs/exact_*.json",
+    "experiments/cnn_v10/runs/arena_*.json",
+    "experiments/cnn_v10/runs/summary_round_*.json",
+    "experiments/cnn_v10/runs/train_round_*.jsonl",
+    "experiments/cnn_v10/runs/api_standard_round16.json",
+    "experiments/cnn_v10/runs/api_strong_round16.json"
+  ],
+  "caveats": [
+    "官方 play 接口评测使用固定开局序列和温度 0，与平台比赛的随机性、时限及对手分布不同；40 局的抽样误差约 ±0.04，不能直接当作平台排名。",
+    "CPU 用时来自本机探针，平台硬件与限时可能不同；代码包与权重分别满足 <5,000,000 与 <100,000,000 字节的本地约束。",
+    "纯 CNN 没有精确求解器兜底，强度受训练分布与搜索预算限制，不能与 v7 的精确表强度直接类比。",
+    "没有创建平台比赛、上传版本或修改参赛设置。"
+  ]
+}
