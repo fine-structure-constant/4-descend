@@ -1,0 +1,4 @@
+{
+  "black": "{\"baseline\": \"v9-pyo3\", \"native_backend\": \"rust-pyo3-abi3\", \"native_ready\": true, \"native_error\": null, \"initial_ponder\": [{\"ponder_calls\": 32, \"ponder_solved\": 32, \"ponder_cached\": 32}, {\"ponder_calls\": 32, \"ponder_solved\": 31, \"ponder_cached\": 63}]}\n",
+  "white": ""
+}

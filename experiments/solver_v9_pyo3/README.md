@@ -41,7 +41,26 @@ python play.py --model ../../upload-v9-rust-native/model.pt --history 444444
 
 `validate_package.py` 对实际解压包执行独立数组残局穷举、C++ 教师对拍、
 完整自对弈和无神经网络前向调用检查。更大规模的求解器性能和未知状态
-核验记录于 `runs/`。胜负最优指 WDL，不保证最快获胜或最慢落败。
+核验记录于 `runs/`。胜负最优指 WDL，不保证最快获胜。
+
+确认必败后改用 Rust 迭代加深搜索：先尽可能延后对手最快的强制获胜，
+相同距离时优先减少对手容易应对的走法、制造威胁。即使下一手无法避免
+失败，也尽量封住更多立即获胜列。棋谱、预搜索缓存和现场求解的必败结果
+统一走这条路径；胜局、和局及未知局面保留原策略。
+
+抵抗搜索与 WDL 置换表隔离，只使用完整完成的搜索层。日志中的
+`resistance_complete` 为真且 `resistance_plies` 非空时，才证明了双方最优
+下的终局距离（半回合，含本次落子）。超时只提供最后完成层的启发选择，
+不会宣称全局最慢落败。额外搜索使用本手剩余时间，总目标仍为 900 ms。
+
+```bash
+python validate_resistance.py --release ../../upload-v9-rust-resistance
+python validate_package.py --release ../../upload-v9-rust-resistance \
+  --output runs/resistance_package_validation.json
+```
+
+独立距离核验使用数组棋盘穷举（含镜像）和 C++ 教师完整分值；教师源码
+依赖现有 `/tmp/mbwork` 与 `/tmp/7x6.book`。旧发布包和平台 number 4 保留。
 
 原先独立 Rust 程序在平台临时目录执行失败，不能推断 Python 扩展也不能
 加载。此修订专门验证进程内扩展的兼容性。

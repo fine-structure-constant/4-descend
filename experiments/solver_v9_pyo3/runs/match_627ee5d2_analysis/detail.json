@@ -1,0 +1,56 @@
+{
+  "id": "627ee5d2-ece5-4df4-9678-94266aa5ec06",
+  "evaluation": "ee4e1b16-9b38-49af-9a60-8d2804d8d597",
+  "competition": null,
+  "rated_series": "31f94597-8fe5-4a46-827d-9584b8834bab",
+  "game": "connect4",
+  "rules_version": "connect4-v1",
+  "board_size": 7,
+  "board_rows": 6,
+  "board_cols": 7,
+  "action_count": 7,
+  "pass_action": null,
+  "komi": 0,
+  "sequence": 2,
+  "owner": "2400011444",
+  "owner_id": 74,
+  "cancel_requested": false,
+  "black": {
+    "id": "b022226f-6d77-420e-a206-16189e27b3db",
+    "name": "Everything in its right place",
+    "number": 1,
+    "is_system": false,
+    "owner": "2400011411"
+  },
+  "white": {
+    "id": "414ab6a5-a6c3-45dd-a48c-74ed152469c7",
+    "name": "v9  Baseline",
+    "number": 4,
+    "is_system": false,
+    "owner": "2400011444"
+  },
+  "black_slot": "b",
+  "black_seed": 454886102,
+  "white_seed": 2129882440,
+  "opening_pairs": 1,
+  "opening_seed": 306633824,
+  "opening_actions": [
+    1,
+    5
+  ],
+  "phase": "COMPLETED",
+  "step": 21,
+  "end_reason": "NORMAL",
+  "winner": 1,
+  "scores": {
+    "black": 1,
+    "white": 0
+  },
+  "error": {},
+  "replay_available": true,
+  "can_view_logs": true,
+  "revision": 26,
+  "started_at": "2026-11-02T10:27:00.371729+08:00",
+  "finished_at": "2026-11-02T10:27:14.397938+08:00",
+  "created_at": "2026-11-02T10:26:47.975644+08:00"
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "game": "v6_04_white",
+    "match": "6e1d7a7b-cd97-465d-88b8-4d884c59b468",
+    "opponent_wdl_drops": [
+      {
+        "step": 15,
+        "action_0_based": 4,
+        "before_wdl": 0,
+        "after_wdl": -1,
+        "optimal_columns_0_based": [
+          3
+        ],
+        "history_0_based": [
+          2,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3
+        ]
+      }
+    ]
+  }
+]

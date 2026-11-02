@@ -5,6 +5,9 @@ use std::env;
 use std::io::{self, BufRead, Write};
 use std::time::{Duration, Instant};
 
+#[cfg(feature = "python-extension")]
+mod resistance;
+
 const WIDTH: usize = 7;
 const HEIGHT: usize = 6;
 const STRIDE: usize = HEIGHT + 1;

@@ -1,0 +1,3 @@
+# Authenticated response snapshots stay local and are not distributed.
+*
+!.gitignore

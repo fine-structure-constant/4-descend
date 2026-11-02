@@ -1,0 +1,37 @@
+{
+  "label": "v6_05_white",
+  "opponent": "v6",
+  "match": "9bf22051-6d5a-4406-82d6-a6cad4486e3d",
+  "phase": "COMPLETED",
+  "end_reason": "NORMAL",
+  "winner": 1,
+  "result": "loss",
+  "opening_actions": [
+    6,
+    0
+  ],
+  "opening_seed": 1454861345,
+  "initial_v9_wdl": -1,
+  "v9_color": "white",
+  "history": [
+    6,
+    0,
+    3,
+    3,
+    3,
+    3,
+    6,
+    3,
+    4,
+    5,
+    6,
+    6,
+    1,
+    1,
+    2
+  ],
+  "v9_max_cpu_ms": 467.07,
+  "v9_max_wall_ms": 488.5,
+  "native_verified": true,
+  "rules_verified": true
+}

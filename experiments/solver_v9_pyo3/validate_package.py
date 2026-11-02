@@ -71,6 +71,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--release", default=str(PROJECT / "upload-v9-rust-native"))
     parser.add_argument("--disable-native", action="store_true")
+    parser.add_argument("--output", type=Path, help="Save a new audit without replacing historical evidence")
     args = parser.parse_args()
     release = Path(args.release).resolve()
     report = {"release": str(release), "learned_parameters": 0, "checks": {}}
@@ -202,9 +203,11 @@ def main():
         native.close()
     report["passed"] = True
     name = "package_validation_python.json" if args.disable_native else "package_validation.json"
-    (ROOT / "runs" / name).write_text(json.dumps(report, indent=2))
+    output = args.output or ROOT / "runs" / name
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(report, indent=2))
     print(json.dumps({"passed": True, "max_wall": max_wall,
-                      "report": str(ROOT / "runs" / name)}), flush=True)
+                      "report": str(output)}), flush=True)
 
 
 if __name__ == "__main__":

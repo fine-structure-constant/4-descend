@@ -5,6 +5,8 @@ import importlib.util
 from pathlib import Path
 import sys
 
+from support.tactics import popcount, possible, COLUMNS
+
 _SOLVER = None
 _FAILED = False
 _LOCK = threading.Lock()
@@ -70,3 +72,23 @@ def close():
     global _SOLVER
     with _LOCK:
         _SOLVER = None
+
+
+def resist(own, mask, budget_ms):
+    """Choose a longer defence; horizon scores are never WDL certificates."""
+    global _SOLVER
+    if not available():
+        raise RuntimeError("Rust Python extension unavailable: " + str(LAST_ERROR))
+    with _LOCK:
+        if _SOLVER is None:
+            _SOLVER = _c4solver.Solver()
+        col, depth, score, nodes, elapsed_ms, complete = _SOLVER.resist(
+            own, mask, max(1, min(int(budget_ms), 5000)))
+    if not 0 <= col < 7 or not (possible(mask) & COLUMNS[col]):
+        raise RuntimeError("Invalid Rust resistance action")
+    remaining = 42 - popcount(mask)
+    plies = (remaining + 1 - (abs(score) - 10000)
+             if complete and abs(score) >= 10000 else None)
+    return col, {"resistance_depth": depth, "resistance_complete": complete,
+                 "resistance_plies": plies, "resistance_nodes": nodes,
+                 "resistance_elapsed_ms": elapsed_ms}

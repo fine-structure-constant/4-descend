@@ -44,7 +44,8 @@ def main():
     assert artifacts["model.pt"]["bytes"] < 100_000_000
     report = {"output": str(out), "artifacts": artifacts, "learned_parameters": 0,
               "book_tensors": sorted(books), "native_budget_ms": 820,
-              "description": "v9 exact books + in-process Rust PyO3 solver; no CNN or MCTS",
+              "description": "v9 exact books + Rust PyO3 solver; distance-sensitive defence in proven losses; no CNN or MCTS",
+              "losing_policy": "Iterative deepening with terminal distances, only after a proven WDL loss; incomplete iterations discarded",
               "native_extension": {"filename": "support/_c4solver_native.py",
                                    "sha256": hashlib.sha256(extension.read_bytes()).hexdigest(),
                                    "abi": "CPython abi3 >= 3.8", "required": True,
@@ -54,7 +55,7 @@ def main():
             relative = path.relative_to(ROOT)
             if not path.is_file() or any(p in {"runs", "target", "__pycache__"} for p in relative.parts):
                 continue
-            if path.suffix in {".py", ".rs", ".toml", ".lock", ".md", ".txt"}:
+            if path.suffix in {".py", ".rs", ".cpp", ".toml", ".lock", ".md", ".txt"}:
                 archive.write(path, str(Path("solver_v9") / relative))
     report["source_archive"] = {"bytes": (out / "source.zip").stat().st_size,
                                 "sha256": hashlib.sha256((out / "source.zip").read_bytes()).hexdigest()}

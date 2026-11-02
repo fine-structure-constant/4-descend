@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "chrome": "Chrome/147.0.7727.101",
+  "extensionId": "mencdedhmhldeamobjildhdmnfodendp",
+  "checks": [
+    "MV3 auto injection and full pagination",
+    "Current fingerprint filters 37 legacy-model series",
+    "Already-played status",
+    "Live-data scenario matches independent calculation",
+    "Only allowed read-only ladder endpoints",
+    "Rating changes recalculate without requests",
+    "Head-to-head uncertainty uses its actual sample count",
+    "Collapse control",
+    "Expand control",
+    "SPA departure removes panel",
+    "SPA target switch clears the prior recommendation",
+    "Model/player text is HTML-escaped",
+    "Cached revisit survives target/my concurrent cache writes",
+    "Authentication errors do not produce forecasts",
+    "Recovery after authentication error",
+    "Popup disables existing tabs",
+    "Popup re-enables existing tabs"
+  ],
+  "writes": 0,
+  "interceptedRequests": 23,
+  "network": "All Botlab requests fulfilled from local snapshots; no actual matches or site changes"
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Botlab 天梯侦察",
+  "version": "1.0.0",
+  "description": "在 Botlab 战绩页自动分析当前模型的可避免失分、先后手表现及 Elo 收益情景。只读，不发起对战。",
+  "permissions": ["storage"],
+  "content_scripts": [{
+    "matches": ["https://botlab.aiphys.cn/*"],
+    "js": ["core.js", "content.js"],
+    "run_at": "document_idle"
+  }],
+  "action": {
+    "default_title": "Botlab 天梯侦察",
+    "default_popup": "popup.html"
+  }
+}

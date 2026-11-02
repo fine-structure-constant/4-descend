@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 import shutil
 import subprocess
+import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -20,7 +21,12 @@ def main():
                     "--manifest-path", str(ROOT / "native/c4core/Cargo.toml")], env=env, check=True)
     binary = ROOT / "native/c4core/target/release/lib_c4solver.so"
     target = ROOT / "support/_c4solver.abi3.so"
-    shutil.copy2(binary, target)
+    # A running bot may still map the previous extension. Replace the inode
+    # atomically rather than truncating that process's loaded shared object.
+    with tempfile.TemporaryDirectory(prefix=".native-build-", dir=target.parent) as stage:
+        replacement = Path(stage) / target.name
+        shutil.copy2(binary, replacement)
+        os.replace(replacement, target)
     metadata = json.loads(subprocess.check_output([
         "cargo", "metadata", "--offline", "--format-version", "1", "--features", "python-extension",
         "--filter-platform", "x86_64-unknown-linux-gnu",

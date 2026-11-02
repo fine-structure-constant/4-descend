@@ -52,8 +52,14 @@ class Bot:
                           "initial_ponder": self.initial_ponder}), file=sys.stderr, flush=True)
 
     def _done(self, action, phase, started, proven=False, outcome=None):
+        resistance = {}
+        if outcome == -1:
+            own, mask = self.current_bits
+            remaining_ms = int(max(0, MOVE_SECONDS - (time.monotonic() - started) - .02) * 1000)
+            if remaining_ms > 0:
+                action, resistance = native.resist(own, mask, min(NATIVE_MS, remaining_ms))
         ponder = {}
-        if phase in {"movebook12", "exact_scorebook", "forced_move"}:
+        if outcome != -1 and phase in {"movebook12", "exact_scorebook", "forced_move"}:
             own, mask = self.current_bits
             if popcount(mask) <= 13:
                 ponder = self._ponder(own, mask, action, started)
@@ -72,6 +78,7 @@ class Bot:
                           "native_ready": self.native_ready,
                           "wall_seconds": time.monotonic() - started}
         self.last_info.update(ponder)
+        self.last_info.update(resistance)
         return int(action)
 
     def _ponder(self, own, mask, action, started, seconds=.80):

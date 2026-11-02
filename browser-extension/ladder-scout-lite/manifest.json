@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Botlab 战绩简析（简版）",
+  "version": "1.0.0",
+  "description": "进入战绩页快速查看当前模型的可避免失分和 Elo 门槛。只查7种开局表，不读取回放、不逐手求解。",
+  "content_scripts": [{
+    "matches": ["https://botlab.aiphys.cn/*"],
+    "js": ["core.js", "content.js"],
+    "run_at": "document_idle"
+  }]
+}

@@ -1,0 +1,42 @@
+{
+  "output": "/home/stu2026/stu2400011444/homework4/upload-v9-rust-resistance",
+  "artifacts": {
+    "code.zip": {
+      "bytes": 236609,
+      "sha256": "c47e9d7a50f198c3bddb9206cc8c12fe5c88405a8986a45a3924c368798453f9"
+    },
+    "model.pt": {
+      "bytes": 89769902,
+      "sha256": "f258d43368bf7055577f927d79832f5f8e535d2946a3ecd908045cf060d1e345"
+    }
+  },
+  "learned_parameters": 0,
+  "book_tensors": [
+    "deepbook",
+    "midbook_count",
+    "midbook_mask",
+    "midbook_own",
+    "midbook_wdl",
+    "movebook_data",
+    "movebook_keys"
+  ],
+  "native_budget_ms": 820,
+  "description": "v9 exact books + Rust PyO3 solver; distance-sensitive defence in proven losses; no CNN or MCTS",
+  "losing_policy": "Iterative deepening with terminal distances, only after a proven WDL loss; incomplete iterations discarded",
+  "native_extension": {
+    "filename": "support/_c4solver_native.py",
+    "sha256": "8c4ae9143712fa5bd045871612c672affdb189ed89b4c27fdedb803774591670",
+    "abi": "CPython abi3 >= 3.8",
+    "required": true,
+    "packaging": "ELF Python extension under .py filename; explicitly loaded"
+  },
+  "source_archive": {
+    "bytes": 71385,
+    "sha256": "7a98718b08233cdce03c0f8459997f8647635c0b64e5cd5e329b8a96df5a4616"
+  },
+  "platform_uploaded": false,
+  "validation": {
+    "distance_audit": "experiments/solver_v9_pyo3/runs/resistance_validation.json",
+    "package_audit": "experiments/solver_v9_pyo3/runs/resistance_package_validation.json"
+  }
+}
