@@ -59,11 +59,12 @@ Manifest V3，不需要服务器或额外账号。
 ## 开发和测试
 
 ```bash
-node --test tests/core.test.cjs
+node tests/core.test.cjs
 ```
 
 `core.js` 为无网络、无 DOM 的纯分析函数；`content.js` 负责 GET 分页、缓存、
 SPA 路由和 Shadow DOM 面板；`popup.js` 负责本机开关和清缓存。
-浏览器测试脚本和验证结果见 `tests/`、`docs/`。
+浏览器测试脚本和验证结果见 `tests/`、`docs/`。浏览器快照测试需要开发机
+`experiments/ladder_scout_research/` 的只读样本；这些用户原始数据不随插件分发。
 
 Chrome 扩展机制参考：[Content scripts](https://developer.chrome.com/docs/extensions/develop/concepts/content-scripts)。

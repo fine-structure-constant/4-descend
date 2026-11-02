@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "rawDataDistributed": false,
+  "profiles": {
+    "target": {
+      "historicalNormalSeries": 60,
+      "formulaChecks": 60,
+      "formulaMismatches": 0,
+      "currentNormalSeries": 24,
+      "oldModelSeries": 37,
+      "avoidableMatches": 1
+    },
+    "me": {
+      "historicalNormalSeries": 65,
+      "formulaChecks": 65,
+      "formulaMismatches": 0,
+      "currentNormalSeries": 35,
+      "oldModelSeries": 30,
+      "avoidableMatches": 0
+    }
+  }
+}

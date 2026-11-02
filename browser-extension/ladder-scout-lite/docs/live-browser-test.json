@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "chrome": "Chrome/147.0.7727.101",
+  "checks": [
+    "Extension works on authenticated live Botlab SPA"
+  ],
+  "panel": {
+    "width": 345,
+    "height": 566.796875,
+    "x": 1062,
+    "y": 455.203125
+  },
+  "apiReads": 8,
+  "siteWrites": 0,
+  "credentials": "Read only from environment, temporary browser profile deleted"
+}

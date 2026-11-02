@@ -5,6 +5,20 @@
 
 ## 0. v9 纯求解器 Baseline（后续实测更新）
 
+### 浏览器插件：天梯战绩简析（2026-11-02）
+
+- 用户要进入 `/ladder/history?player=<id>` 自动判断对手是否值得挑战，并明确要求一个简化版。两版均已完成，推荐简版。
+- 简版源码 `browser-extension/ladder-scout-lite/`，下载 `browser-extension/releases/botlab-ladder-scout-lite-1.0.0.zip`。Chrome / Edge MV3，解压后在扩展页开启开发人员模式并加载含 manifest.json 的文件夹。
+- 简版只 GET `/api/v1/ladder` 和目标用户分页 `/api/v1/ladder/series`；不读取我方历史、不读取逐局详情/回放、不运行求解器、不发起对战、不需要填写 Cookie。仅查已由本地 C++ 求解器核对的7种镜像首手 WDL 表，和最终结果比较。
+- 显示当前模型的正常组数、先后手胜和负、可避免失分、必败后正常输、平手/全胜积分及涨分最低要求，附最近3条失分证据的回放链接（手动点开才读取）。按代码+模型 SHA 筛当前模型，剔除旧版本、异常局和未结算系列；支持SPA换人、收起、刷新、2分钟页内内存缓存。无额外扩展权限。
+- 详细版源码 `browser-extension/ladder-scout/`，下载 `browser-extension/releases/botlab-ladder-scout-1.0.0.zip`。额外读取我方历史，提供“我方近似最优”情景收益、我方模型诊断、Elo误差带和版本/样本筛选，或仅用双方当前模型的历史交手。收益是有条件情景，不是实际胜率保证。
+- 两版共用 core.js，7种初始镜像开局先手值为 `[1,1,0,1,0,1,1]`（列0–6，已预置两手后）。只判断终局是否低于开局应守值；不能据“未见失分”宣称逐手完美，也可能漏掉双方相互抵消的中途错误。
+- 平台 K 来自 `/ladder.k_factor`，当前32；系列得分是同开局换色两局的平均分。Elo整数采用 ties-to-even，与125条正常历史结算全部相符。详细版收益先逐组取整再平均，不能将平均得分代入取整冒充整数期望。
+- 已通过21项分析规则单测；真实 Chrome147 详细版17项浏览器回归、简版12项回归；简版还通过真实已登录 Botlab 页只读验证（0站点写入）。证据和演示截图在各源码目录 docs/；简版不读取回放/我方历史已实测。
+- 调研样本 `experiments/ladder_scout_research/` 仅本地保存，已加目录 .gitignore；不随ZIP分发。插件不嵌入/读取/保存Cookie；浏览器真实站点测试仅从环境读取到临时Chrome配置，测试后删除。
+- 构建：`python browser-extension/package_extensions.py`；验证 `node browser-extension/ladder-scout/tests/core.test.cjs`。浏览器快照回归需要本地调研数据：`node .../tests/browser-smoke.cjs` / `--lite`；实站只读加 `--live` 并在环境注入Cookie，禁止任何非GET请求。服务器Chrome需basic密码存储/mocked keychain标志，避免桌面密钥环阻塞。
+- 两版二选一安装，避免面板重叠。没有修改对战版本、天梯设置或发起新对局。
+
 ### 本地修订：必败局面延缓失败（2026-11-02）
 
 - 当前修改源码为 `experiments/solver_v9_pyo3/`，新发布目录为 `upload-v9-rust-resistance/`。**仅完成本地打包验证，未上传、未修改平台默认或参赛版本**；原 `upload-v9-rust-native/` 与平台 number 4 的发布文件保留。

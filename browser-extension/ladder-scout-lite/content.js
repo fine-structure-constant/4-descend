@@ -47,6 +47,7 @@
       let title, description, color = "neutral";
       if (data.loading) { title = "正在补齐分页"; description = "当前结论待全部已读战绩核对后再判断。"; }
       else if (!p.normalSeries) { title = "当前模型样本不足"; description = "旧模型、异常局或未结算记录不能代替当前模型的表现。"; }
+      else if (!p.knownOpeningSeries) { title = "这些开局暂不能查表"; description = "可以统计胜负，但不能据此标记可避免失分。"; }
       else if (p.avoidableMatches > 0) { title = "有可避免失分，值得核对"; description = "出现过本来可胜或可和却未守住的结果；能否利用仍需看具体对手和回放。"; color = "opportunity"; }
       else if (p.knownOpeningSeries < 8) { title = "暂未见破绽，样本较少"; description = "不能仅凭少量正常胜负判定模型强弱。"; }
       else { title = e?.draw.rounded < 0 ? "未见明显破绽，平手会掉分" : "暂未见可避免失分"; description = "预置开局已必败的后手负局不算破绽；不要仅凭败局多就挑战。"; color = "skip"; }
@@ -60,7 +61,7 @@
         '<p class="model">' + escape(player.model?.name || "当前模型未知") + ' · v' + escape(player.model?.number ?? "?") + '</p>' +
         (availability ? '<div class="availability">' + escape(availability) + '</div>' : '') +
         '<div class="verdict ' + color + '"><strong>' + title + '</strong><p>' + description + '</p></div>' +
-        '<div class="stats"><div><b>' + p.normalSeries + '</b><span>当前模型正常组</span></div><div><b>' + p.avoidableMatches + '</b><span>可避免失分局</span></div><div><b>' + p.expectedLosses + '</b><span>必败后正常输</span></div></div>' +
+        '<div class="stats"><div><b>' + p.normalSeries + '</b><span>当前模型正常组</span></div><div><b>' + p.avoidableMatches + '</b><span>可避免失分 / ' + p.knownMatches + '局</span></div><div><b>' + p.expectedLosses + '</b><span>必败后正常输</span></div></div>' +
         '<div class="colors"><span>先手</span>' + counts(p.colors.black) + '<br><span>后手</span>' + counts(p.colors.white) + '</div>' +
         (e ? '<div class="elo"><span>你 ' + e.myRating + ' → 对方 ' + e.theirRating + '</span><div><span>两局打平 <b class="' + (e.draw.rounded < 0 ? 'negative' : '') + '">' + sign(e.draw.rounded) + '</b></span><span>两战全胜 <b>' + sign(e.sweep.rounded) + '</b></span></div><p>单组要涨分，至少需 <b>' + minWin + '</b>（K=' + e.k + '）</p></div>' : '<p class="muted">无我方积分，暂不能计算涨分门槛。</p>') +
         (evidence ? '<div class="evidence">' + evidence + '</div>' : '') +

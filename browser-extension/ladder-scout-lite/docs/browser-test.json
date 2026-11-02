@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "chrome": "Chrome/147.0.7727.101",
+  "edition": "lite",
+  "checks": [
+    "Lite MV3 injection and all target pages",
+    "Lite ignores outdated models",
+    "Lite does not fetch my history",
+    "Lite never fetches replay or per-match data",
+    "Lite Elo uses current ratings",
+    "Lite collapse",
+    "Lite expand",
+    "Lite SPA departure",
+    "Lite target switch",
+    "Lite escapes untrusted player text",
+    "Lite in-memory cached revisit",
+    "Lite authentication handling"
+  ],
+  "siteWrites": 0,
+  "interceptedRequests": 16,
+  "network": "All requests from local snapshots; no replay or my-history requests"
+}

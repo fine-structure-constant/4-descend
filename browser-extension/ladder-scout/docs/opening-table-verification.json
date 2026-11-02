@@ -1,0 +1,120 @@
+{
+  "verified": true,
+  "date": "2026-11-02",
+  "source": "Local independent C++ exact solver with public 7x6.book",
+  "runtime_solver_in_browser": false,
+  "openings": [
+    {
+      "opening_1_based": [
+        1,
+        7
+      ],
+      "black_wdl": 1,
+      "per_column_wdl": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "opening_1_based": [
+        2,
+        6
+      ],
+      "black_wdl": 1,
+      "per_column_wdl": [
+        -1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        -1
+      ]
+    },
+    {
+      "opening_1_based": [
+        3,
+        5
+      ],
+      "black_wdl": 0,
+      "per_column_wdl": [
+        -1,
+        -1,
+        0,
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "opening_1_based": [
+        4,
+        4
+      ],
+      "black_wdl": 1,
+      "per_column_wdl": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "opening_1_based": [
+        5,
+        3
+      ],
+      "black_wdl": 0,
+      "per_column_wdl": [
+        -1,
+        -1,
+        0,
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "opening_1_based": [
+        6,
+        2
+      ],
+      "black_wdl": 1,
+      "per_column_wdl": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "opening_1_based": [
+        7,
+        1
+      ],
+      "black_wdl": 1,
+      "per_column_wdl": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@
     "MV3 auto injection and full pagination",
     "Current fingerprint filters 37 legacy-model series",
     "Already-played status",
-    "Live-data scenario matches independent calculation",
+    "Rounded-per-series scenario matches independent calculation",
     "Only allowed read-only ladder endpoints",
     "Rating changes recalculate without requests",
     "Head-to-head uncertainty uses its actual sample count",

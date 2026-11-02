@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-02",
+  "edition": "ladder-scout-lite",
+  "unit_tests_passed": 21,
+  "shared_core_sha256": "fc48d5eacb702dbd3a6ab1d9c2e69e816ad976359d08fbe059a9bddfdb0785db",
+  "browser_checks_passed": 12,
+  "opening_classes_verified": 7,
+  "fetches_replays": false,
+  "automatic_challenges": false,
+  "live_site_checked": true
+}

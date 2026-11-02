@@ -5,7 +5,8 @@ const fs = require("node:fs");
 const path = require("node:path");
 const os = require("node:os");
 const { spawn } = require("node:child_process");
-const EXT = path.resolve(__dirname, "..");
+const LITE = process.argv.includes("--lite");
+const EXT = LITE ? path.resolve(__dirname, "../../ladder-scout-lite") : path.resolve(__dirname, "..");
 const LIVE = process.argv.includes("--live");
 const RESEARCH = path.resolve(EXT, "../../experiments/ladder_scout_research");
 const PROFILE = fs.mkdtempSync(path.join(os.tmpdir(), "botlab-scout-chrome-"));
@@ -19,6 +20,7 @@ const chrome = spawn(process.env.CHROME_BINARY || "/opt/google/chrome/chrome", [
   "--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu",
   "--remote-debugging-pipe", "--enable-unsafe-extension-debugging",
   "--disable-background-networking", "--disable-component-update", "--no-first-run",
+  "--password-store=basic", "--use-mock-keychain", "--disable-features=MediaRouter,OptimizationHints",
   "--no-default-browser-check", "--disable-sync", "--user-data-dir=" + PROFILE, "about:blank"
 ], { stdio: ["ignore", "pipe", "pipe", "pipe", "pipe"] });
 let stderr = "", pendingBuffer = Buffer.alloc(0), nextId = 1;
@@ -58,7 +60,8 @@ async function evaluate(expression, sid = session) {
   if (value.exceptionDetails) throw new Error(JSON.stringify(value.exceptionDetails));
   return value.result.value;
 }
-const shadow = 'document.querySelector("botlab-ladder-scout")?.shadowRoot';
+const hostTag = LITE ? "botlab-ladder-scout-lite" : "botlab-ladder-scout";
+const shadow = 'document.querySelector("' + hostTag + '")?.shadowRoot';
 const text = `(${shadow})?.textContent || ""`;
 async function until(expression, note, timeout = 16000) {
   const end = Date.now() + timeout;
@@ -122,13 +125,13 @@ async function main() {
     const cookies = raw.split(";").map((part) => part.trim()).filter((part) => /^(sessionid|csrftoken)=/.test(part))
       .map((part) => { const at = part.indexOf("="); return { name: part.slice(0, at), value: part.slice(at + 1),
         domain: "botlab.aiphys.cn", path: "/", secure: true, httpOnly: part.startsWith("sessionid=") }; });
-    await call("Network.setCookies", { cookies }, session);
+    await call("Storage.setCookies", { cookies });
   }
   await call("Emulation.setDeviceMetricsOverride", { width: 1440, height: 1040, deviceScaleFactor: 1, mobile: false }, session);
   await call("Fetch.enable", { patterns: [{ urlPattern: "https://botlab.aiphys.cn/*" }] }, session);
   await call("Page.navigate", { url: "https://botlab.aiphys.cn/ladder/history?player=" + targetId }, session);
   if (LIVE) {
-    await until(`(${text}).includes("正常系列样本") && !(${text}).includes("数据尚未读完") && !(${text}).includes("正在核对我方")`,
+    await until(`(${text}).includes("${LITE ? '当前模型正常组' : '正常系列样本'}") && !(${text}).includes("数据尚未读完") && !(${text}).includes("正在核对我方") && !(${text}).includes("正在补齐分页")`,
       "Extension works on authenticated live Botlab SPA", 30000);
     const rectangle = await evaluate(`{const r=(${shadow}).querySelector('.panel').getBoundingClientRect();({width:r.width,height:r.height,x:r.x,y:r.y})}`);
     assert.ok(rectangle.width > 300 && rectangle.width < 500 && rectangle.y >= 0);
@@ -138,6 +141,41 @@ async function main() {
       apiReads: requests.filter((r) => r.path.startsWith("/api/")).length,
       siteWrites: 0, credentials: "Read only from environment, temporary browser profile deleted" };
     fs.writeFileSync(path.join(EXT, "docs/live-browser-test.json"), JSON.stringify(report, null, 2));
+    console.log(JSON.stringify(report, null, 2)); return;
+  }
+  if (LITE) {
+    await until(`(${text}).includes("已读 61 组") && (${text}).includes("有可避免失分")`, "Lite MV3 injection and all target pages");
+    assert.ok((await evaluate(text)).includes("旧模型 37 组")); checks.push("Lite ignores outdated models");
+    assert.equal(requests.filter((r) => r.path.includes("/series?") && r.path.includes(myId)).length, 0);
+    checks.push("Lite does not fetch my history");
+    assert.equal(requests.filter((r) => r.path.includes("/replay") || r.path.includes("/matches/")).length, 0);
+    checks.push("Lite never fetches replay or per-match data");
+    assert.ok((await evaluate(text)).includes("两局打平 -1")); checks.push("Lite Elo uses current ratings");
+    const screenshot = await call("Page.captureScreenshot", { format: "png", captureBeyondViewport: false,
+      clip: { x: 1040, y: 360, width: 400, height: 680, scale: 1 } }, session);
+    fs.writeFileSync(path.join(EXT, "docs/preview.png"), Buffer.from(screenshot.data, "base64"));
+    await evaluate(`(${shadow}).querySelector('[data-action="collapse"]').click()`);
+    await until(`Boolean((${shadow})?.querySelector('.chip'))`, "Lite collapse");
+    await evaluate(`(${shadow}).querySelector('[data-action="expand"]').click()`);
+    await until(`Boolean((${shadow})?.querySelector('.panel'))`, "Lite expand");
+    await evaluate(`history.pushState({},'', '/ladder');`);
+    await until(`!document.querySelector('${hostTag}')`, "Lite SPA departure");
+    await evaluate(`history.pushState({},'', '/ladder/history?player=${secondId}');`);
+    await until(`(${text}).includes("当前模型样本不足")`, "Lite target switch");
+    assert.equal(await evaluate(`(${shadow}).querySelectorAll('img').length`), 0);
+    checks.push("Lite escapes untrusted player text");
+    const count = requests.filter((r) => r.path.includes("/series?") && r.path.includes(targetId)).length;
+    await evaluate(`history.pushState({},'', '/ladder/history?player=${targetId}');`);
+    await until(`(${text}).includes("有可避免失分") && (${text}).includes("已读 61 组")`, "Lite in-memory cached revisit");
+    assert.equal(requests.filter((r) => r.path.includes("/series?") && r.path.includes(targetId)).length, count);
+    await evaluate(`history.pushState({},'', '/ladder/history?player=${unauthId}');`);
+    await until(`(${text}).includes("请先登录 Botlab")`, "Lite authentication handling");
+    assert.deepEqual(failures, []);
+    assert.equal(JSON.parse(fs.readFileSync(path.join(EXT, "manifest.json"))).permissions, undefined);
+    const report = { passed: true, chrome: version.product, edition: "lite", checks,
+      siteWrites: 0, interceptedRequests: requests.length,
+      network: "All requests from local snapshots; no replay or my-history requests" };
+    fs.writeFileSync(path.join(EXT, "docs/browser-test.json"), JSON.stringify(report, null, 2));
     console.log(JSON.stringify(report, null, 2)); return;
   }
   await until(`(${text}).includes("偏向跳过") && (${text}).includes("24 组") && !(${text}).includes("正在核对我方")`, "MV3 auto injection and full pagination");

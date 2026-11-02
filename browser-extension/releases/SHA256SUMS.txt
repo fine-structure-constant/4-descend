@@ -1,0 +1,2 @@
+1490571bc34f86a29c70ac3967365963f6775a5abb42444779c45d97aaddfa57  botlab-ladder-scout-lite-1.0.0.zip
+bb27907380fcba73cf443c3c2a6bde945240dc761b9016e9ac148159178448f1  botlab-ladder-scout-1.0.0.zip
